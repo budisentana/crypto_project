@@ -40,9 +40,9 @@ def delete(data):
 
 SERVER = "http://127.0.0.1:8000"
 APIKEY = '0e714b825e40876307cb27e0e48d0daf3606209d3d5aba53c39fdf6b16260a37'
-apk_path = '/home/budi/OTP_project/apk_list/'
+apk_path = '/home/budi/crypto_project/apps_list/'
 # apk_path = '/home/budi/OTP_project/apk_test/'
-result_path = '/home/budi/OTP_project/OTP_code/mobsf_analysis/mobsf_result/'
+result_path = '/home/budi/crypto_project/crypto_code/mobsf_analysis/mobsf_result/'
 
 for root, dirs, files  in os.walk(apk_path):
     for file in files:
