@@ -10,7 +10,8 @@ console.log(filename)
 var path_x = path+'/'+filename
 gplay.search({
     term: filename,
-    num: 249
+    num: 249,
+    fullDetail:true
     }) .then(function(result){
             // console.log(result);
             fs.writeFile(path_x+'.txt', JSON.stringify(result) , 'utf-8', err => {
