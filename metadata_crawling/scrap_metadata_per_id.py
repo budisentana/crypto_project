@@ -8,7 +8,7 @@ import pandas as pd
 import csv
 
 node_js_path = '/home/budi/crypto_project/crypto_code/apps_screening/'
-selected_app_id = '/home/budi/crypto_project/crypto_code/apps_screening/all_downloaded_310_appIDs.csv'
+selected_app_id = '/home/budi/crypto_project/crypto_code/apps_screening/wallet_apps_refined_list.csv'
 selected_metadata = '/home/budi/crypto_project/crypto_code/apps_screening/selected_metadata/'
 crypto_metadata_file = '/home/budi/crypto_project/crypto_code/apps_screening/crypto_metadata.csv'
 apps_not_found = '/home/budi/crypto_project/crypto_code/apps_screening/app_not_found.csv'
@@ -37,10 +37,16 @@ def encode_metadata(app_id,res_path):
             rating =  json_data['ratings']if 'ratings' in json_data else None
             review = json_data['reviews'] if 'reviews' in json_data else None
             comment = json_data['comments'] if 'comments' in json_data else None
+            priceT = json_data['priceText'] if 'priceText' in json_data else None
+            install = json_data['minInstalls'] if 'minInstalls' in json_data else None
+            genre = json_data['genreId'] if 'genreId' in json_data else None
+            developer = json_data['developer'] if 'developer' in json_data else None
+            release = json_data['released'] if 'released' in json_data else None
 
             item_dict = {'appId':app_id, 'title':app_title,
-            'score': score,'rating': rating,'review': review,#}
-            'comment':comment}
+            'score': score,'rating': rating,'review': review,'comment':comment,
+            'priceT':priceT,'install':install,'genre':genre,'developer':developer,
+            'release':release}
             # print(item_dict)
 
             # item_dict = {'appId':json_data['appId'],'install':json_data['installs'],'score': json_data['score'],
@@ -49,25 +55,30 @@ def encode_metadata(app_id,res_path):
             # print(item_dict)
     except IOError:
         item_dict={'appId':app_id,'title':'error',
-            'score': 'error','rating': 'error','review': 'error',#}
-            'comment':'error'}        
+            'score': 'error','rating': 'error','review': 'error','comment':'error',
+            'priceT':'error','install':'error','genre':'error','developer':'error',
+            'release':'error'}
     return item_dict
 
-# paid_df = pd.DataFrame(paid_app)
-# metadata_df = pd.DataFrame(metadata)
-# print(paid_df)
-# paid_df.to_csv(paid_csv,sep=';')
-# metadata_df.to_csv(add_blocker_metadata,sep=';')
+def check_existing_result(result_path):
+    file_list=[]
+    for root,dirs,files in os.walk(result_path):
+        for file in files:
+            file_list.append(file.rstrip('.txt'))
+
+    return(file_list)
 
 
 def main():
+    existing_list = check_existing_result(selected_metadata)
     aps_list=[]
     error_list = []
     with open(selected_app_id,'r') as app_id:
         for item in app_id:           
             item_id = item.strip('\n')
             print(item_id)
-            # scrap_metadata_js(item_id,node_js_path,selected_metadata)
+            if item_id not in existing_list:
+                scrap_metadata_js(item_id,node_js_path,selected_metadata)
             res_metadata=encode_metadata(item_id,selected_metadata)
             # print(res_metadata)
             aps_list.append(res_metadata)

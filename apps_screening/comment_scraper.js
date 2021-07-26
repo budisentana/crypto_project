@@ -9,7 +9,7 @@ var result_path = process.argv[3];
 console.log(filename)
 var path = result_path+filename
 
-gplay.reviews({appId: filename,country:'au',num: 999999}) 
+gplay.reviews({appId: filename,country:'au',num: 99999}) 
     .then(function(result){
             // console.log(result);
             fs.writeFile(path+'.txt', JSON.stringify(result) , 'utf-8', err => {
