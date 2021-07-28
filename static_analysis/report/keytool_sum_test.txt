@@ -1,0 +1,7 @@
+       signature  sig_count
+0   SHA256 + RSA          2
+1          error          1
+          key_length  key_count
+0   2048-bit RSA key          1
+1   4096-bit RSA key          1
+2              error          1

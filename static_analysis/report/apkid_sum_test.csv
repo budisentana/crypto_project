@@ -1,0 +1,4 @@
+,app_name,anti_vm,obfuscator,anti_debug,anti_disassembly,manipulator,packer
+0,africa.bundle.mobile.app,True,False,True,False,False,False
+1,africa.buycoins.buycoinsx.basic,True,False,False,False,False,False
+2,app.bitcoin.wallet,False,False,False,False,False,False

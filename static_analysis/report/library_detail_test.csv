@@ -1,0 +1,9 @@
+app_id,lib_name,lib_type,TargetedAds,MobileAnalytics,Analytics,AnyTrackingLibrary
+africa.bundle.mobile.app,Appsflyer,Targeted ads,True,False,False,True
+africa.bundle.mobile.app,Bumptech,Utility,False,False,False,False
+africa.bundle.mobile.app,Google Ads,Targeted ads,True,False,False,True
+africa.bundle.mobile.app,Jakewharton,Ui component,False,False,False,False
+africa.bundle.mobile.app,Squareup,Payment,False,False,False,False
+africa.bundle.mobile.app,Facebook,Social networking service,False,False,False,False
+africa.buycoins.buycoinsx.basic,Facebook,Social networking service,False,False,False,False
+africa.buycoins.buycoinsx.basic,Adobe,Utility,False,False,False,False

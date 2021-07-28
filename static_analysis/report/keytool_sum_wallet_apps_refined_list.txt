@@ -1,0 +1,10 @@
+            signature  sig_count
+0   SHA1 + RSA (weak)         16
+1        SHA256 + RSA        360
+2        SHA384 + RSA          2
+3               error          6
+                 key_length  key_count
+0   1024-bit RSA key (weak)          6
+1          2048-bit RSA key        140
+2          4096-bit RSA key        232
+3                     error          6
