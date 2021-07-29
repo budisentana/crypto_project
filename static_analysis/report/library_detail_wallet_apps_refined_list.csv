@@ -1,0 +1,1640 @@
+app_id,lib_name,lib_type,TargetedAds,MobileAnalytics,Analytics,AnyTrackingLibrary
+africa.bundle.mobile.app,Appsflyer,Targeted ads,True,False,False,True
+africa.bundle.mobile.app,Bumptech,Utility,False,False,False,False
+africa.bundle.mobile.app,Google Ads,Targeted ads,True,False,False,True
+africa.bundle.mobile.app,Jakewharton,Ui component,False,False,False,False
+africa.bundle.mobile.app,Squareup,Payment,False,False,False,False
+africa.bundle.mobile.app,Facebook,Social networking service,False,False,False,False
+africa.buycoins.buycoinsx.basic,Facebook,Social networking service,False,False,False,False
+africa.buycoins.buycoinsx.basic,Adobe,Utility,False,False,False,False
+app.goodcrypto,Squareup,Payment,False,False,False,False
+app.goodcrypto,Twitter,Social networking service,False,False,False,False
+app.goodcrypto,Phonegap,Utility,False,False,False,False
+app.goodcrypto,Facebook,Social networking service,False,False,False,False
+app.goodcrypto,Google Ads,Targeted ads,True,False,False,True
+app.hodlify,Fasterxml,Utility,False,False,False,False
+app.odapplications.bitstashwallet,Squareup,Payment,False,False,False,False
+app.odapplications.bitstashwallet,Fasterxml,Utility,False,False,False,False
+app.odapplications.bitstashwallet,Eclipse,Utility,False,False,False,False
+bitcoin.twenty.twenty,Squareup,Payment,False,False,False,False
+bitcoin.twenty.twenty,Jcraft,Utility,False,False,False,False
+bitcoin.twenty.twenty,Github,Utility,False,False,False,False
+bitcoin.twenty.twenty,Jakewharton,Ui component,False,False,False,False
+cash.usdx.wallet,Squareup,Payment,False,False,False,False
+cash.usdx.wallet,Facebook,Social networking service,False,False,False,False
+cash.usdx.wallet,Adobe,Utility,False,False,False,False
+cash.usdx.wallet,Google Ads,Targeted ads,True,False,False,True
+co.bitx.android.wallet,Fasterxml,Utility,False,False,False,False
+co.bitx.android.wallet,Github,Utility,False,False,False,False
+co.bitx.android.wallet,Facebook,Social networking service,False,False,False,False
+co.bitx.android.wallet,Bumptech,Utility,False,False,False,False
+co.bitx.android.wallet,Google Analytics,Mobile analytics,False,True,False,True
+co.bitx.android.wallet,Squareup,Payment,False,False,False,False
+co.hodlwallet,Squareup,Payment,False,False,False,False
+co.id.dompet.btc.indonesia,Github,Utility,False,False,False,False
+co.id.dompet.btc.indonesia,Crashlytics,Utilities,False,False,False,False
+co.id.dompet.btc.indonesia,Google Ads,Targeted ads,True,False,False,True
+com.adb.adbcoin,Squareup,Payment,False,False,False,False
+com.adb.adbcoin,Github,Utility,False,False,False,False
+com.adb.adbcoin,Facebook,Social networking service,False,False,False,False
+com.adb.adbcoin,Bumptech,Utility,False,False,False,False
+com.anxbtc.android,Fasterxml,Utility,False,False,False,False
+com.anxbtc.android,Jakewharton,Ui component,False,False,False,False
+com.anxbtc.android,Squareup,Payment,False,False,False,False
+com.app.asbazar59,Bumptech,Utility,False,False,False,False
+com.app.asbazar59,Google Ads,Targeted ads,True,False,False,True
+com.app.belfrics,Jakewharton,Ui component,False,False,False,False
+com.app.belfrics,Squareup,Payment,False,False,False,False
+com.app.belfrics,Fasterxml,Utility,False,False,False,False
+com.app.belfrics,Github,Utility,False,False,False,False
+com.app.belfrics,Crashlytics,Utilities,False,False,False,False
+com.app.belfrics,Google Ads,Targeted ads,True,False,False,True
+com.app.belfrics,Google Analytics,Mobile analytics,False,True,False,True
+com.application.bitcoiva,Github,Utility,False,False,False,False
+com.application.blocdesk,Crashlytics,Utilities,False,False,False,False
+com.application.blocdesk,Google Ads,Targeted ads,True,False,False,True
+com.apptrack.coinom,Squareup,Payment,False,False,False,False
+com.apptrack.coinom,Fasterxml,Utility,False,False,False,False
+com.apptrack.coinom,Google Ads,Targeted ads,True,False,False,True
+com.bcoiner.webviewapp,Google Ads,Targeted ads,True,False,False,True
+com.bcoiner.webviewapp,Google Analytics,Mobile analytics,False,True,False,True
+com.bitbns,Github,Utility,False,False,False,False
+com.bitbns,Facebook,Social networking service,False,False,False,False
+com.bitbns,Appsflyer,Targeted ads,True,False,False,True
+com.bitbns,Adobe,Utility,False,False,False,False
+com.bitbns,Google Ads,Targeted ads,True,False,False,True
+com.bitbns,Squareup,Payment,False,False,False,False
+com.bitcoinglobal,Github,Utility,False,False,False,False
+com.bitcoinglobal,Facebook,Social networking service,False,False,False,False
+com.bitcoinglobal,Bumptech,Utility,False,False,False,False
+com.bitcoinglobal,Google Ads,Targeted ads,True,False,False,True
+com.bitcoininc.bitcoinpay,Squareup,Payment,False,False,False,False
+com.bitcoininc.bitcoinpay,Google Ads,Targeted ads,True,False,False,True
+com.bitcoininc.bitcoinpay,Google Analytics,Mobile analytics,False,True,False,True
+com.bitcoininc.bitcoinpay,HOCKETAPP,Utility,False,False,False,False
+com.bitexuae,Facebook,Social networking service,False,False,False,False
+com.bitexuae,Adobe,Utility,False,False,False,False
+com.bitexuae,Google Ads,Targeted ads,True,False,False,True
+com.bitkub,Jakewharton,Ui component,False,False,False,False
+com.bitkub,Github,Utility,False,False,False,False
+com.bitkub,Facebook,Social networking service,False,False,False,False
+com.bitkub,Appsflyer,Targeted ads,True,False,False,True
+com.bitkub,Adobe,Utility,False,False,False,False
+com.bitkub,Google Ads,Targeted ads,True,False,False,True
+com.bitkub,Squareup,Payment,False,False,False,False
+com.bitmart.bitmarket,Weibo,Social networking service,False,False,False,False
+com.bitmart.bitmarket,Facebook,Social networking service,False,False,False,False
+com.bitmart.bitmarket,Squareup,Payment,False,False,False,False
+com.bitmart.bitmarket,Twitter,Social networking service,False,False,False,False
+com.bitmart.bitmarket,Tencent,Targeted ads,True,False,False,True
+com.bitmart.bitmarket,Bumptech,Utility,False,False,False,False
+com.bitpay.wallet,Google Ads,Targeted ads,True,False,False,True
+com.bitpay.wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.bitso.wallet,Urbanairship,Payment,False,False,False,False
+com.bitso.wallet,Urban Ariship,Targeted ads,True,False,False,True
+com.bitso.wallet,Facebook,Social networking service,False,False,False,False
+com.bitso.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.bitso.wallet,Apptimize,Mobile analytics,False,True,False,True
+com.bitso.wallet,Google Ads,Targeted ads,True,False,False,True
+com.bitvirya.app,Github,Utility,False,False,False,False
+com.bitvirya.app,Intuit,Payment,False,False,False,False
+com.bitvirya.app,Push,Utility,False,False,False,False
+com.bitvirya.app,Bumptech,Utility,False,False,False,False
+com.bityard.us2,adjust,Mobile analytics,False,True,False,True
+com.bityard.us2,Google Ads,Targeted ads,True,False,False,True
+com.blockcloud,Facebook,Social networking service,False,False,False,False
+com.blockcloud,Adobe,Utility,False,False,False,False
+com.blockfi.mobile,Fasterxml,Utility,False,False,False,False
+com.blockfi.mobile,Facebook,Social networking service,False,False,False,False
+com.blockfi.mobile,Squareup,Payment,False,False,False,False
+com.blockfolio.blockfolio,Jakewharton,Ui component,False,False,False,False
+com.blockfolio.blockfolio,Squareup,Payment,False,False,False,False
+com.blockfolio.blockfolio,Github,Utility,False,False,False,False
+com.blockfolio.blockfolio,Facebook,Social networking service,False,False,False,False
+com.blockfolio.blockfolio,Appsflyer,Targeted ads,True,False,False,True
+com.blockfolio.blockfolio,Adobe,Utility,False,False,False,False
+com.blockfolio.blockfolio,Bumptech,Utility,False,False,False,False
+com.blockfolio.blockfolio,Google Ads,Targeted ads,True,False,False,True
+com.bokucoin.app,Github,Utility,False,False,False,False
+com.bokucoin.app,Push,Utility,False,False,False,False
+com.bokucoin.app,Bumptech,Utility,False,False,False,False
+com.btcontract.wallettest,Github,Utility,False,False,False,False
+com.btcturk.pro,Squareup,Payment,False,False,False,False
+com.btcturk.pro,adjust,Mobile analytics,False,True,False,True
+com.btcturk.pro,Github,Utility,False,False,False,False
+com.btcturk.pro,Facebook,Social networking service,False,False,False,False
+com.btcturk.pro,Google Ads,Targeted ads,True,False,False,True
+com.btuprotocol.btu_wallet,adjust,Mobile analytics,False,True,False,True
+com.btuprotocol.btu_wallet,Facebook,Social networking service,False,False,False,False
+com.btuprotocol.btu_wallet,Google Ads,Targeted ads,True,False,False,True
+com.btuprotocol.btu_wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.buda.crypto,Fasterxml,Utility,False,False,False,False
+com.buda.crypto,Github,Utility,False,False,False,False
+com.buda.crypto,Crashlytics,Utilities,False,False,False,False
+com.buda.crypto,Phonegap,Utility,False,False,False,False
+com.buda.crypto,Google Ads,Targeted ads,True,False,False,True
+com.buda.crypto,Google Analytics,Mobile analytics,False,True,False,True
+com.burency.app,Jakewharton,Ui component,False,False,False,False
+com.burency.app,Nostra13,Utility,False,False,False,False
+com.burency.app,Squareup,Payment,False,False,False,False
+com.burency.app,Umeng,Mobile analytics,False,True,False,True
+com.burency.app,Tencent,Targeted ads,True,False,False,True
+com.burency.app,Github,Utility,False,False,False,False
+com.burency.app,Crashlytics,Utilities,False,False,False,False
+com.burency.app,Bumptech,Utility,False,False,False,False
+com.caramba.StellarWallet,Push,Utility,False,False,False,False
+com.caramba.StellarWallet,Phonegap,Utility,False,False,False,False
+com.caramba.StellarWallet,Google Ads,Targeted ads,True,False,False,True
+com.cobinhood.exchange,Github,Utility,False,False,False,False
+com.cobinhood.exchange,Crashlytics,Utilities,False,False,False,False
+com.cobinhood.exchange,Jakewharton,Ui component,False,False,False,False
+com.cobinhood.exchange,Facebook,Social networking service,False,False,False,False
+com.cobinhood.exchange,Squareup,Payment,False,False,False,False
+com.cobinhood.exchange,Appsflyer,Targeted ads,True,False,False,True
+com.cobinhood.exchange,Bumptech,Utility,False,False,False,False
+com.cobinhood.exchange,Google Ads,Targeted ads,True,False,False,True
+com.cobinhood.exchange,Google Analytics,Mobile analytics,False,True,False,True
+com.coinburp.mobile,Mixpanel,Mobile analytics,False,True,False,True
+com.coinburp.mobile,Github,Utility,False,False,False,False
+com.coinburp.mobile,Facebook,Social networking service,False,False,False,False
+com.coinburp.mobile,Appsflyer,Targeted ads,True,False,False,True
+com.coinburp.mobile,Adobe,Utility,False,False,False,False
+com.coinburp.mobile,Google Ads,Targeted ads,True,False,False,True
+com.coindcx,adjust,Mobile analytics,False,True,False,True
+com.coindcx,Google Ads,Targeted ads,True,False,False,True
+com.coindcx.btc,adjust,Mobile analytics,False,True,False,True
+com.coindcx.btc,Google Ads,Targeted ads,True,False,False,True
+com.coindcx.btc,Google Analytics,Mobile analytics,False,True,False,True
+com.coindeal,Github,Utility,False,False,False,False
+com.coindeal,Facebook,Social networking service,False,False,False,False
+com.coindeal,Bumptech,Utility,False,False,False,False
+com.coindeal,Google Ads,Targeted ads,True,False,False,True
+com.coinmarket.android,Github,Utility,False,False,False,False
+com.coinmarket.android,Facebook,Social networking service,False,False,False,False
+com.coinmarket.android,Twitter,Social networking service,False,False,False,False
+com.coinmarket.android,Google Ads,Targeted ads,True,False,False,True
+com.coinmarket.android,Appsflyer,Targeted ads,True,False,False,True
+com.coinmarket.android,Bumptech,Utility,False,False,False,False
+com.coinmarket.android,Nostra13,Utility,False,False,False,False
+com.coinmarket.android,Squareup,Payment,False,False,False,False
+com.coinmarket.android,Loopj,Utility,False,False,False,False
+com.coinmotion,Facebook,Social networking service,False,False,False,False
+com.coinmotion,Google Ads,Targeted ads,True,False,False,True
+com.coinpaprika.coins,Jakewharton,Ui component,False,False,False,False
+com.coinpaprika.coins,Squareup,Payment,False,False,False,False
+com.coinpaprika.coins,Appsflyer,Targeted ads,True,False,False,True
+com.coinpaprika.coins,Bumptech,Utility,False,False,False,False
+com.coinpay,Squareup,Payment,False,False,False,False
+com.coinpoket,Github,Utility,False,False,False,False
+com.coinpoket,Bumptech,Utility,False,False,False,False
+com.CoinsBank.CoinsBank,Github,Utility,False,False,False,False
+com.CoinsBank.CoinsBank,Bumptech,Utility,False,False,False,False
+com.colodax.colodax,Github,Utility,False,False,False,False
+com.colodax.colodax,Google Ads,Targeted ads,True,False,False,True
+com.coolbitx.cwsapp,Fasterxml,Utility,False,False,False,False
+com.coolbitx.cwsapp,Flurry,Analytics,False,False,True,True
+com.coolbitx.cwsapp,Google Ads,Targeted ads,True,False,False,True
+com.coolbitx.cwsapp,Facebook,Social networking service,False,False,False,False
+com.coolbitx.cwsapp,Adobe,Utility,False,False,False,False
+com.coolbitx.cwsapp,Bumptech,Utility,False,False,False,False
+com.coolbitx.cwsapp,Squareup,Payment,False,False,False,False
+com.coolbitx.cwsapp,Push,Utility,False,False,False,False
+com.crypter.cryptocyrrency,Unity3d,Game engine,False,False,False,False
+com.crypter.cryptocyrrency,AdColony (Jirbo),Targeted ads,True,False,False,True
+com.crypter.cryptocyrrency,Twitter,Social networking service,False,False,False,False
+com.crypter.cryptocyrrency,Unity Ads,Targeted ads,True,False,False,True
+com.crypter.cryptocyrrency,Github,Utility,False,False,False,False
+com.crypter.cryptocyrrency,Facebook,Social networking service,False,False,False,False
+com.crypter.cryptocyrrency,Bumptech,Utility,False,False,False,False
+com.crypter.cryptocyrrency,Google Ads,Targeted ads,True,False,False,True
+com.cryptocurrency.jtechtrade,Facebook,Social networking service,False,False,False,False
+com.cryptocurrency.jtechtrade,Bumptech,Utility,False,False,False,False
+com.cryptocurrency.jtechtrade,Google Ads,Targeted ads,True,False,False,True
+com.cryptocurrency.jtechtrade,Google Analytics,Mobile analytics,False,True,False,True
+com.cryptooriented.exchanges,Facebook,Social networking service,False,False,False,False
+com.cryptooriented.exchanges,Google Ads,Targeted ads,True,False,False,True
+com.currency.exchange.prod2,Appsflyer,Targeted ads,True,False,False,True
+com.currency.exchange.prod2,Google Ads,Targeted ads,True,False,False,True
+com.czprime,Googlecode,Development aid,False,False,False,False
+com.digifinex.app,Github,Utility,False,False,False,False
+com.digifinex.app,Jakewharton,Ui component,False,False,False,False
+com.digifinex.app,Squareup,Payment,False,False,False,False
+com.digifinex.app,Tencent,Targeted ads,True,False,False,True
+com.digifinex.app,Google Ads,Targeted ads,True,False,False,True
+com.digifinex.app,Bumptech,Utility,False,False,False,False
+com.dmaxwallet,Facebook,Social networking service,False,False,False,False
+com.dmaxwallet,Adobe,Utility,False,False,False,False
+com.dsdaq.mobiletrader,Github,Utility,False,False,False,False
+com.dsdaq.mobiletrader,Squareup,Payment,False,False,False,False
+com.dsdaq.mobiletrader,Bumptech,Utility,False,False,False,False
+com.dsdaq.mobiletrader,Google Ads,Targeted ads,True,False,False,True
+com.emberfund.ember,Mixpanel,Mobile analytics,False,True,False,True
+com.emberfund.ember,Crashlytics,Utilities,False,False,False,False
+com.emberfund.ember,Facebook,Social networking service,False,False,False,False
+com.emberfund.ember,Appsflyer,Targeted ads,True,False,False,True
+com.emberfund.ember,Bumptech,Utility,False,False,False,False
+com.emberfund.ember,Google Ads,Targeted ads,True,False,False,True
+com.escrowspace,Fasterxml,Utility,False,False,False,False
+com.escrowspace,Github,Utility,False,False,False,False
+com.escrowspace,Crashlytics,Utilities,False,False,False,False
+com.escrowspace,Squareup,Payment,False,False,False,False
+com.escrowspace,Google Ads,Targeted ads,True,False,False,True
+com.evercoin,Bumptech,Utility,False,False,False,False
+com.evercoin,Fasterxml,Utility,False,False,False,False
+com.evercoin,Github,Utility,False,False,False,False
+com.evercoin,Crashlytics,Utilities,False,False,False,False
+com.evercoin,Googlecode,Development aid,False,False,False,False
+com.evercoin,Squareup,Payment,False,False,False,False
+com.evercoin,Google Ads,Targeted ads,True,False,False,True
+com.evraon.trading,Github,Utility,False,False,False,False
+com.exmo,Appsflyer,Targeted ads,True,False,False,True
+com.exmo,Bumptech,Utility,False,False,False,False
+com.exmo,Google Ads,Targeted ads,True,False,False,True
+com.exmo,Squareup,Payment,False,False,False,False
+com.exmo,Push,Utility,False,False,False,False
+com.exmo,New Relic,Mobile analytics,False,True,False,True
+com.exmo,Fasterxml,Utility,False,False,False,False
+com.exmo,Facebook,Social networking service,False,False,False,False
+com.farhadmarket.app,Github,Utility,False,False,False,False
+com.farhadmarket.app,Bumptech,Utility,False,False,False,False
+com.farhadmarket.app,Google Ads,Targeted ads,True,False,False,True
+com.flashift.flashift,Jakewharton,Ui component,False,False,False,False
+com.flashift.flashift,Nostra13,Utility,False,False,False,False
+com.flashift.flashift,Squareup,Payment,False,False,False,False
+com.flashift.flashift,Google Ads,Targeted ads,True,False,False,True
+com.fluidcoins.fluidcoins,Facebook,Social networking service,False,False,False,False
+com.fluidcoins.fluidcoins,Adobe,Utility,False,False,False,False
+com.fluidcoins.fluidcoins,Google Ads,Targeted ads,True,False,False,True
+com.flutter.litebit,Jakewharton,Ui component,False,False,False,False
+com.flutter.litebit,Squareup,Payment,False,False,False,False
+com.flutter.litebit,Push,Utility,False,False,False,False
+com.flutter.litebit,Google Ads,Targeted ads,True,False,False,True
+com.friendst.strangr,Unity3d,Game engine,False,False,False,False
+com.friendst.strangr,StartApp,Targeted ads,True,False,False,True
+com.friendst.strangr,Unity Ads,Targeted ads,True,False,False,True
+com.friendst.strangr,Facebook,Social networking service,False,False,False,False
+com.friendst.strangr,Google Ads,Targeted ads,True,False,False,True
+com.g3shanappz.claimerbox,Fasterxml,Utility,False,False,False,False
+com.g3shanappz.claimerbox,Phonegap,Utility,False,False,False,False
+com.g3shanappz.claimerbox,Adobe,Utility,False,False,False,False
+com.g3shanappz.claimerbox,Google Ads,Targeted ads,True,False,False,True
+com.gemini.android.app,Mixpanel,Mobile analytics,False,True,False,True
+com.gemini.android.app,Facebook,Social networking service,False,False,False,False
+com.gemini.android.app,Bumptech,Utility,False,False,False,False
+com.gemini.android.app,Appboy,Targeted ads,True,False,False,True
+com.gemini.android.app,Google Ads,Targeted ads,True,False,False,True
+com.gemini.android.app,Squareup,Payment,False,False,False,False
+com.giottus.giottus_mobile,Crashlytics,Utilities,False,False,False,False
+com.giottus.giottus_mobile,Google Ads,Targeted ads,True,False,False,True
+com.holacoins.wallet,Github,Utility,False,False,False,False
+com.holacoins.wallet,Bumptech,Utility,False,False,False,False
+com.idbtec.otppaycrypto,Github,Utility,False,False,False,False
+com.idbtec.otppaycrypto,Crashlytics,Utilities,False,False,False,False
+com.idbtec.otppaycrypto,Google Ads,Targeted ads,True,False,False,True
+com.instantcoins,Google Ads,Targeted ads,True,False,False,True
+com.ixx_android,Jakewharton,Ui component,False,False,False,False
+com.ixx_android,Squareup,Payment,False,False,False,False
+com.ixx_android,Twitter,Social networking service,False,False,False,False
+com.ixx_android,Umeng,Mobile analytics,False,True,False,True
+com.ixx_android,Tencent,Targeted ads,True,False,False,True
+com.ixx_android,Github,Utility,False,False,False,False
+com.ixx_android,Bumptech,Utility,False,False,False,False
+com.kinesis.kinesisapp,Github,Utility,False,False,False,False
+com.kinesis.kinesisapp,Facebook,Social networking service,False,False,False,False
+com.kinesis.kinesisapp,Google Ads,Targeted ads,True,False,False,True
+com.kinesis.kinesisapp,Appsflyer,Targeted ads,True,False,False,True
+com.kinesis.kinesisapp,Bumptech,Utility,False,False,False,False
+com.kinesis.kinesisapp,Squareup,Payment,False,False,False,False
+com.kinesis.kinesisapp,Mixpanel,Mobile analytics,False,True,False,True
+com.koinkoin,Squareup,Payment,False,False,False,False
+com.koinkoin,Facebook,Social networking service,False,False,False,False
+com.koinkoin,Google Ads,Targeted ads,True,False,False,True
+com.koinstrap.koinstrap,Facebook,Social networking service,False,False,False,False
+com.koinstrap.koinstrap,Bumptech,Utility,False,False,False,False
+com.koinstrap.koinstrap,Google Ads,Targeted ads,True,False,False,True
+com.koinstrap.koinstrap,Google Analytics,Mobile analytics,False,True,False,True
+com.maicoin.max,Crashlytics,Utilities,False,False,False,False
+com.maicoin.max,Facebook,Social networking service,False,False,False,False
+com.maicoin.max,Bumptech,Utility,False,False,False,False
+com.maicoin.max,Google Ads,Targeted ads,True,False,False,True
+com.maicoin.max,Google Analytics,Mobile analytics,False,True,False,True
+com.matrixport.mark,adjust,Mobile analytics,False,True,False,True
+com.matrixport.mark,Github,Utility,False,False,False,False
+com.matrixport.mark,Bumptech,Utility,False,False,False,False
+com.matrixport.mark,Google Ads,Targeted ads,True,False,False,True
+com.matrixport.mark,Google Analytics,Mobile analytics,False,True,False,True
+com.matrixport.mark,Squareup,Payment,False,False,False,False
+com.monnos.android,Github,Utility,False,False,False,False
+com.monnos.android,Bumptech,Utility,False,False,False,False
+com.monnos.android,Google Ads,Targeted ads,True,False,False,True
+com.monnos.android,Jakewharton,Ui component,False,False,False,False
+com.monnos.android,Intuit,Payment,False,False,False,False
+com.monnos.android,Squareup,Payment,False,False,False,False
+com.mycontainer,Github,Utility,False,False,False,False
+com.mycontainer,Facebook,Social networking service,False,False,False,False
+com.mycontainer,Google Ads,Targeted ads,True,False,False,True
+com.nakitcoins.wallet,Github,Utility,False,False,False,False
+com.nakitcoins.wallet,Facebook,Social networking service,False,False,False,False
+com.nakitcoins.wallet,Adobe,Utility,False,False,False,False
+com.net_cents.netcents2,Facebook,Social networking service,False,False,False,False
+com.net_cents.netcents2,Bumptech,Utility,False,False,False,False
+com.newgo.coincola,Jakewharton,Ui component,False,False,False,False
+com.newgo.coincola,Fasterxml,Utility,False,False,False,False
+com.newgo.coincola,Facebook,Social networking service,False,False,False,False
+com.newgo.coincola,Bumptech,Utility,False,False,False,False
+com.newgo.coincola,Tencent,Targeted ads,True,False,False,True
+com.nexowallet,Github,Utility,False,False,False,False
+com.nexowallet,Facebook,Social networking service,False,False,False,False
+com.nexowallet,Adobe,Utility,False,False,False,False
+com.nexowallet,Google Ads,Targeted ads,True,False,False,True
+com.nobillio.coinbaazar,Jakewharton,Ui component,False,False,False,False
+com.nobillio.coinbaazar,Squareup,Payment,False,False,False,False
+com.nobillio.coinbaazar,Facebook,Social networking service,False,False,False,False
+com.nobillio.coinbaazar,Adobe,Utility,False,False,False,False
+com.nobillio.coinbaazar,Google Ads,Targeted ads,True,False,False,True
+com.node.coindirect,Facebook,Social networking service,False,False,False,False
+com.node.coindirect,Google Ads,Targeted ads,True,False,False,True
+com.nova.dax,Crashlytics,Utilities,False,False,False,False
+com.nova.dax,Facebook,Social networking service,False,False,False,False
+com.nova.dax,Appsflyer,Targeted ads,True,False,False,True
+com.nova.dax,Adobe,Utility,False,False,False,False
+com.nova.dax,Google Ads,Targeted ads,True,False,False,True
+com.okinc.okex.gp,Jakewharton,Ui component,False,False,False,False
+com.okinc.okex.gp,Github,Utility,False,False,False,False
+com.okinc.okex.gp,Facebook,Social networking service,False,False,False,False
+com.okinc.okex.gp,Appsflyer,Targeted ads,True,False,False,True
+com.okinc.okex.gp,Bumptech,Utility,False,False,False,False
+com.okinc.okex.gp,Squareup,Payment,False,False,False,False
+com.okinc.okex.gp,Umeng,Mobile analytics,False,True,False,True
+com.okinc.okex.gp,Tencent,Targeted ads,True,False,False,True
+com.panaeshacapital.pcex,Facebook,Social networking service,False,False,False,False
+com.panaeshacapital.pcex,Bumptech,Utility,False,False,False,False
+com.panaeshacapital.pcex,Google Ads,Targeted ads,True,False,False,True
+com.panaeshacapital.pcex,Google Analytics,Mobile analytics,False,True,False,True
+com.payperless.wallet,Squareup,Payment,False,False,False,False
+com.payperless.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.payperless.wallet,Bumptech,Utility,False,False,False,False
+com.payplux,Github,Utility,False,False,False,False
+com.payplux,Facebook,Social networking service,False,False,False,False
+com.payplux,Bumptech,Utility,False,False,False,False
+com.payplux,Google Ads,Targeted ads,True,False,False,True
+com.payplux,Squareup,Payment,False,False,False,False
+com.payscript,Github,Utility,False,False,False,False
+com.payscript,Intuit,Payment,False,False,False,False
+com.payscript,Squareup,Payment,False,False,False,False
+com.payscript,Bumptech,Utility,False,False,False,False
+com.phemex.app,Squareup,Payment,False,False,False,False
+com.phemex.app,Facebook,Social networking service,False,False,False,False
+com.phemex.app,Appsflyer,Targeted ads,True,False,False,True
+com.phemex.app,Bumptech,Utility,False,False,False,False
+com.phemex.app,Google Ads,Targeted ads,True,False,False,True
+com.plasmapay.androidapp,Fasterxml,Utility,False,False,False,False
+com.plasmapay.androidapp,Github,Utility,False,False,False,False
+com.plasmapay.androidapp,Facebook,Social networking service,False,False,False,False
+com.plasmapay.androidapp,Google Ads,Targeted ads,True,False,False,True
+com.plasmapay.androidapp,Jakewharton,Ui component,False,False,False,False
+com.plasmapay.androidapp,Kenai,Development aid,False,False,False,False
+com.plasmapay.androidapp,Squareup,Payment,False,False,False,False
+com.plunien.poloniex,Fasterxml,Utility,False,False,False,False
+com.plunien.poloniex,Github,Utility,False,False,False,False
+com.plunien.poloniex,Jakewharton,Ui component,False,False,False,False
+com.plunien.poloniex,Google Ads,Targeted ads,True,False,False,True
+com.plunien.poloniex,Bumptech,Utility,False,False,False,False
+com.plunien.poloniex,Squareup,Payment,False,False,False,False
+com.pointpay.bank,Facebook,Social networking service,False,False,False,False
+com.pointpay.bank,Squareup,Payment,False,False,False,False
+com.pointpay.bank,Bumptech,Utility,False,False,False,False
+com.pointpay.bank,Github,Utility,False,False,False,False
+com.pointpay.bank,Google Ads,Targeted ads,True,False,False,True
+com.polispay.copay,Phonegap,Utility,False,False,False,False
+com.polispay.copay,Google Ads,Targeted ads,True,False,False,True
+com.profittrading.forcoinbase,Github,Utility,False,False,False,False
+com.profittrading.forcoinbase,Crashlytics,Utilities,False,False,False,False
+com.profittrading.forcoinbase,Google Ads,Targeted ads,True,False,False,True
+com.qsoft.mybtc,Google Ads,Targeted ads,True,False,False,True
+com.qubris.freecryptofaucet,Google Ads,Targeted ads,True,False,False,True
+com.quidax.app,Facebook,Social networking service,False,False,False,False
+com.quidax.app,Bumptech,Utility,False,False,False,False
+com.quidax.app,Google Ads,Targeted ads,True,False,False,True
+com.quidax.app,Google Analytics,Mobile analytics,False,True,False,True
+com.remint.app,Facebook,Social networking service,False,False,False,False
+com.remint.app,Squareup,Payment,False,False,False,False
+com.remint.app,Google Ads,Targeted ads,True,False,False,True
+com.remitano.remitano,Squareup,Payment,False,False,False,False
+com.remitano.remitano,Bumptech,Utility,False,False,False,False
+com.remitano.remitano,Facebook,Social networking service,False,False,False,False
+com.remitano.remitano,Adobe,Utility,False,False,False,False
+com.remitano.remitano,Google Ads,Targeted ads,True,False,False,True
+com.saltlending.mobile,Jakewharton,Ui component,False,False,False,False
+com.saltlending.mobile,Github,Utility,False,False,False,False
+com.saltlending.mobile,Crashlytics,Utilities,False,False,False,False
+com.saltlending.mobile,Facebook,Social networking service,False,False,False,False
+com.saltlending.mobile,Amazonaws,Utility,False,False,False,False
+com.saltlending.mobile,Adobe,Utility,False,False,False,False
+com.saltlending.mobile,Google Ads,Targeted ads,True,False,False,True
+com.sculptech.dtrax,Crashlytics,Utilities,False,False,False,False
+com.sculptech.dtrax,Phonegap,Utility,False,False,False,False
+com.sculptech.dtrax,Google Ads,Targeted ads,True,False,False,True
+com.sencoinex.android,Github,Utility,False,False,False,False
+com.sencoinex.android,Crashlytics,Utilities,False,False,False,False
+com.sencoinex.android,Squareup,Payment,False,False,False,False
+com.sencoinex.android,Google Ads,Targeted ads,True,False,False,True
+com.shapeshift.droid_shapeshift,Facebook,Social networking service,False,False,False,False
+com.shapeshift.droid_shapeshift,Bumptech,Utility,False,False,False,False
+com.shapeshift.droid_shapeshift,Google Ads,Targeted ads,True,False,False,True
+com.silvercoinvaluerpro,Squareup,Payment,False,False,False,False
+com.silvercoinvaluerpro,Google Ads,Targeted ads,True,False,False,True
+com.stocksexchange.android,Wutka,Utility,False,False,False,False
+com.stocksexchange.android,Bumptech,Utility,False,False,False,False
+com.stocksexchange.android,Fasterxml,Utility,False,False,False,False
+com.stocksexchange.android,Github,Utility,False,False,False,False
+com.stocksexchange.android,Squareup,Payment,False,False,False,False
+com.studentcoin,Facebook,Social networking service,False,False,False,False
+com.studentcoin,Adobe,Utility,False,False,False,False
+com.studentcoin,Bumptech,Utility,False,False,False,False
+com.studentcoin,Google Ads,Targeted ads,True,False,False,True
+com.supremexchange,Github,Utility,False,False,False,False
+com.supremexchange,Crashlytics,Utilities,False,False,False,False
+com.supremexchange,Facebook,Social networking service,False,False,False,False
+com.supremexchange,Adobe,Utility,False,False,False,False
+com.viabtc.pool,Github,Utility,False,False,False,False
+com.viabtc.pool,Facebook,Social networking service,False,False,False,False
+com.viabtc.pool,Squareup,Payment,False,False,False,False
+com.viabtc.pool,Umeng,Mobile analytics,False,True,False,True
+com.viabtc.pool,Tencent,Targeted ads,True,False,False,True
+com.viabtc.pool,Bumptech,Utility,False,False,False,False
+com.wallet.ela,Fasterxml,Utility,False,False,False,False
+com.wallet.ela,Github,Utility,False,False,False,False
+com.wallet.ela,Crashlytics,Utilities,False,False,False,False
+com.wallet.ela,Kenai,Development aid,False,False,False,False
+com.wallet.ela,Google Ads,Targeted ads,True,False,False,True
+com.whitebit.android,Squareup,Payment,False,False,False,False
+com.whitebit.android,Bumptech,Utility,False,False,False,False
+com.wrx.wazirx,Github,Utility,False,False,False,False
+com.wrx.wazirx,Facebook,Social networking service,False,False,False,False
+com.wrx.wazirx,Mixpanel,Mobile analytics,False,True,False,True
+com.wrx.wazirx,Appsflyer,Targeted ads,True,False,False,True
+com.wrx.wazirx,Push,Utility,False,False,False,False
+com.wrx.wazirx,Bumptech,Utility,False,False,False,False
+com.wrx.wazirx,Google Ads,Targeted ads,True,False,False,True
+com.wswap.wallet,Fasterxml,Utility,False,False,False,False
+com.wswap.wallet,Github,Utility,False,False,False,False
+com.wswap.wallet,Bumptech,Utility,False,False,False,False
+com.wswap.wallet,Google Ads,Targeted ads,True,False,False,True
+com.wswap.wallet,Kenai,Development aid,False,False,False,False
+com.wswap.wallet,Squareup,Payment,False,False,False,False
+com.wswap.wallet,Mixpanel,Mobile analytics,False,True,False,True
+com.xbond.exchange,Github,Utility,False,False,False,False
+com.xbond.exchange,Intuit,Payment,False,False,False,False
+com.xbond.exchange,Squareup,Payment,False,False,False,False
+com.xbond.exchange,Loopj,Utility,False,False,False,False
+com.xbond.exchange,Bumptech,Utility,False,False,False,False
+com.xbond.exchange,Google Ads,Targeted ads,True,False,False,True
+com.yamishibai.easycryptowallet123,Google Ads,Targeted ads,True,False,False,True
+com.zenafinance,Facebook,Social networking service,False,False,False,False
+crypto.cc.atc,Loopj,Utility,False,False,False,False
+crypto.cc.atc,Google Ads,Targeted ads,True,False,False,True
+crypto.cc.atc,Google Analytics,Mobile analytics,False,True,False,True
+de.schildbach.wallet,Squareup,Payment,False,False,False,False
+i.brains.pandax,Github,Utility,False,False,False,False
+i.brains.pandax,Facebook,Social networking service,False,False,False,False
+i.brains.pandax,Appsflyer,Targeted ads,True,False,False,True
+i.brains.pandax,Bumptech,Utility,False,False,False,False
+i.brains.pandax,Google Ads,Targeted ads,True,False,False,True
+i.brains.pandax,Jakewharton,Ui component,False,False,False,False
+i.brains.pandax,Squareup,Payment,False,False,False,False
+io.bincap.exchange,Fasterxml,Utility,False,False,False,False
+io.bincap.exchange,Github,Utility,False,False,False,False
+io.bincap.exchange,Crashlytics,Utilities,False,False,False,False
+io.bincap.exchange,Squareup,Payment,False,False,False,False
+io.bincap.exchange,Google Ads,Targeted ads,True,False,False,True
+io.bincap.exchange,Google Analytics,Mobile analytics,False,True,False,True
+io.bolt.mibwallet,Kenai,Development aid,False,False,False,False
+io.bolt.mibwallet,Fasterxml,Utility,False,False,False,False
+io.bolt.mibwallet,Github,Utility,False,False,False,False
+io.bolt.mibwallet,Crashlytics,Utilities,False,False,False,False
+io.bolt.mibwallet,Facebook,Social networking service,False,False,False,False
+io.bolt.mibwallet,Google Ads,Targeted ads,True,False,False,True
+io.cex.app.prod,Github,Utility,False,False,False,False
+io.cex.app.prod,Facebook,Social networking service,False,False,False,False
+io.cex.app.prod,Bumptech,Utility,False,False,False,False
+io.cex.app.prod,Google Ads,Targeted ads,True,False,False,True
+io.cex.app.prod,Google Analytics,Mobile analytics,False,True,False,True
+io.cex.app.prod,Intuit,Payment,False,False,False,False
+io.cex.app.prod,Squareup,Payment,False,False,False,False
+io.cex.app.prod,Mixpanel,Mobile analytics,False,True,False,True
+io.cex.app.prod,Twitter,Social networking service,False,False,False,False
+io.exaking.starter,Phonegap,Utility,False,False,False,False
+io.exaking.starter,Google Ads,Targeted ads,True,False,False,True
+io.kriptomat.app,adjust,Mobile analytics,False,True,False,True
+io.kriptomat.app,Facebook,Social networking service,False,False,False,False
+io.kriptomat.app,Google Ads,Targeted ads,True,False,False,True
+io.kriptomat.app,Squareup,Payment,False,False,False,False
+io.metamask,Mixpanel,Mobile analytics,False,True,False,True
+io.metamask,Facebook,Social networking service,False,False,False,False
+io.metamask,Adobe,Utility,False,False,False,False
+io.nash.app,Github,Utility,False,False,False,False
+io.nash.app,Facebook,Social networking service,False,False,False,False
+io.nash.app,Adobe,Utility,False,False,False,False
+io.nash.app,Bumptech,Utility,False,False,False,False
+io.nash.app,Google Ads,Targeted ads,True,False,False,True
+io.nash.app,Google Analytics,Mobile analytics,False,True,False,True
+io.nash.app,Mixpanel,Mobile analytics,False,True,False,True
+io.rscoins.network,Facebook,Social networking service,False,False,False,False
+io.rscoins.network,Bumptech,Utility,False,False,False,False
+io.rscoins.network,Google Ads,Targeted ads,True,False,False,True
+io.rscoins.network,Google Analytics,Mobile analytics,False,True,False,True
+io.uun.clet,Github,Utility,False,False,False,False
+io.uun.clet,Crashlytics,Utilities,False,False,False,False
+io.uun.clet,Facebook,Social networking service,False,False,False,False
+io.uun.clet,Loopj,Utility,False,False,False,False
+io.uun.clet,Bumptech,Utility,False,False,False,False
+io.uun.clet,Google Ads,Targeted ads,True,False,False,True
+io.uun.clet,Google Analytics,Mobile analytics,False,True,False,True
+io.wallet,Umeng,Mobile analytics,False,True,False,True
+io.wallet,Github,Utility,False,False,False,False
+io.wallet,Facebook,Social networking service,False,False,False,False
+io.wallet,Tencent,Targeted ads,True,False,False,True
+io.wallet,Bumptech,Utility,False,False,False,False
+latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx,Squareup,Payment,False,False,False,False
+latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx,Github,Utility,False,False,False,False
+latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx,Facebook,Social networking service,False,False,False,False
+latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx,Bumptech,Utility,False,False,False,False
+latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx,Google Ads,Targeted ads,True,False,False,True
+me.coinpal.app,Google Ads,Targeted ads,True,False,False,True
+me.coinpal.app,Google Analytics,Mobile analytics,False,True,False,True
+me.coinpal.app,Squareup,Payment,False,False,False,False
+me.coinpal.app,Bumptech,Utility,False,False,False,False
+me.cryptopay.android,Facebook,Social networking service,False,False,False,False
+me.cryptopay.android,Appsflyer,Targeted ads,True,False,False,True
+me.cryptopay.android,Bumptech,Utility,False,False,False,False
+net.bitbay.bitcoin,Github,Utility,False,False,False,False
+net.bitbay.bitcoin,Facebook,Social networking service,False,False,False,False
+net.bitbay.bitcoin,Bumptech,Utility,False,False,False,False
+net.bitcoinrevolution.bitcoin.cash.wallet,Squareup,Payment,False,False,False,False
+net.bitcoinrevolution.bitcoin.cash.wallet,Flurry,Analytics,False,False,True,True
+net.bitcoinrevolution.bitcoin.cash.wallet,Bumptech,Utility,False,False,False,False
+net.bitcoinrevolution.bitcoin.cash.wallet,Google Ads,Targeted ads,True,False,False,True
+net.bitstamp.app,Squareup,Payment,False,False,False,False
+net.bitstamp.app,Github,Utility,False,False,False,False
+net.bitstamp.app,Facebook,Social networking service,False,False,False,False
+net.bitstamp.app,Mixpanel,Mobile analytics,False,True,False,True
+net.bitstamp.app,Bumptech,Utility,False,False,False,False
+net.bitstamp.app,Google Ads,Targeted ads,True,False,False,True
+net.iconomi.android,Kochava,Mobile analytics,False,True,False,True
+net.tendancesbitcoin.free.bitcoin.bch.wallet,Squareup,Payment,False,False,False,False
+net.tendancesbitcoin.free.bitcoin.bch.wallet,Flurry,Analytics,False,False,True,True
+net.tendancesbitcoin.free.bitcoin.bch.wallet,Bumptech,Utility,False,False,False,False
+network.xyo.coin,Fasterxml,Utility,False,False,False,False
+network.xyo.coin,Github,Utility,False,False,False,False
+network.xyo.coin,Google Ads,Targeted ads,True,False,False,True
+network.xyo.coin,Chartboost,Targeted ads,True,False,False,True
+network.xyo.coin,Facebook,Social networking service,False,False,False,False
+network.xyo.coin,Appsflyer,Targeted ads,True,False,False,True
+network.xyo.coin,Applovin,Targeted ads,True,False,False,True
+network.xyo.coin,Bumptech,Utility,False,False,False,False
+network.xyo.coin,AppLovin,Targeted ads,True,False,False,True
+network.xyo.coin,Inmobi,Targeted ads,True,False,False,True
+network.xyo.coin,Unity3d,Game engine,False,False,False,False
+network.xyo.coin,Squareup,Payment,False,False,False,False
+network.xyo.coin,Tapjoy,Targeted ads,True,False,False,True
+network.xyo.coin,Vungle,Targeted ads,True,False,False,True
+network.xyo.coin,Unity Ads,Targeted ads,True,False,False,True
+network.xyo.coin,TapJoy,Targeted ads,True,False,False,True
+new.rich.wallet,Squareup,Payment,False,False,False,False
+new.rich.wallet,Jcraft,Utility,False,False,False,False
+new.rich.wallet,Github,Utility,False,False,False,False
+new.rich.wallet,Jakewharton,Ui component,False,False,False,False
+org.coinid.vault,Facebook,Social networking service,False,False,False,False
+org.coinid.vault,Adobe,Utility,False,False,False,False
+org.cryptoblastersltd.bitcoin.wallet.account,Squareup,Payment,False,False,False,False
+org.cryptoblastersltd.bitcoin.wallet.account,Flurry,Analytics,False,False,True,True
+org.cryptoblastersltd.bitcoin.wallet.account,Bumptech,Utility,False,False,False,False
+org.cryptoblastersltd.bitcoin.wallet.account,Google Ads,Targeted ads,True,False,False,True
+org.cryptoforecast.free.bitcoin.cash.wallet.app,Squareup,Payment,False,False,False,False
+org.cryptoforecast.free.bitcoin.cash.wallet.app,Flurry,Analytics,False,False,True,True
+org.cryptoforecast.free.bitcoin.cash.wallet.app,Bumptech,Utility,False,False,False,False
+org.cryptosignals.bitcoin.free.wallet,Squareup,Payment,False,False,False,False
+org.cryptosignals.bitcoin.free.wallet,Flurry,Analytics,False,False,True,True
+org.cryptosignals.bitcoin.free.wallet,Bumptech,Utility,False,False,False,False
+org.cryptosignals.bitcoin.free.wallet1,Squareup,Payment,False,False,False,False
+org.cryptosignals.bitcoin.free.wallet1,Flurry,Analytics,False,False,True,True
+org.cryptosignals.bitcoin.free.wallet1,Bumptech,Utility,False,False,False,False
+org.cryptosignals.free.bitcoin.cash.wallet,Squareup,Payment,False,False,False,False
+org.cryptosignals.free.bitcoin.cash.wallet,Flurry,Analytics,False,False,True,True
+org.cryptosignals.free.bitcoin.cash.wallet,Bumptech,Utility,False,False,False,False
+org.deuscoin.wallet,Adobe,Utility,False,False,False,False
+org.deuscoin.wallet,Google Ads,Targeted ads,True,False,False,True
+org.nativescript.mywallets,Google Ads,Targeted ads,True,False,False,True
+org.strayacoin.bitcoinpos,Squareup,Payment,False,False,False,False
+org.strayacoin.bitcoinpos,Google Ads,Targeted ads,True,False,False,True
+org.strayacoin.litecoinpos,Squareup,Payment,False,False,False,False
+org.strayacoin.litecoinpos,Google Ads,Targeted ads,True,False,False,True
+paydeepp.elegro.io,Phonegap,Utility,False,False,False,False
+paydeepp.elegro.io,Google Ads,Targeted ads,True,False,False,True
+roseon.finance,Github,Utility,False,False,False,False
+roseon.finance,Bumptech,Utility,False,False,False,False
+roseon.finance,Google Ads,Targeted ads,True,False,False,True
+starlab.studios.cryptowallet,Google Ads,Targeted ads,True,False,False,True
+tech.central.ctocoin,Crashlytics,Utilities,False,False,False,False
+tech.central.ctocoin,Facebook,Social networking service,False,False,False,False
+tech.central.ctocoin,Google Ads,Targeted ads,True,False,False,True
+urubit.uwallet.app,Kenai,Development aid,False,False,False,False
+urubit.uwallet.app,Fasterxml,Utility,False,False,False,False
+urubit.uwallet.app,Github,Utility,False,False,False,False
+urubit.uwallet.app,Bumptech,Utility,False,False,False,False
+urubit.uwallet.app,Squareup,Payment,False,False,False,False
+com.hamrasta.hwallet,Google Ads,Targeted ads,True,False,False,True
+hodl.group.xrpio,Facebook,Social networking service,False,False,False,False
+hodl.group.xrpio,Google Ads,Targeted ads,True,False,False,True
+com.magnum.wallet,Crashlytics,Utilities,False,False,False,False
+com.magnum.wallet,Google Ads,Targeted ads,True,False,False,True
+pt.ipleiria.estg.dei.yabw,Phonegap,Utility,False,False,False,False
+de.schildbach.wallet.goldcoin,Squareup,Payment,False,False,False,False
+com.thinkdevs.cryptomarket,Github,Utility,False,False,False,False
+com.thinkdevs.cryptomarket,Squareup,Payment,False,False,False,False
+com.thinkdevs.cryptomarket,Google Ads,Targeted ads,True,False,False,True
+io.crypto.wallet.bitcoin.ethereum.medooza.wallet,Google Ads,Targeted ads,True,False,False,True
+io.crypto.wallet.bitcoin.ethereum.medooza.wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.altcoin.wallet,Squareup,Payment,False,False,False,False
+com.factwallet.crypto.factwallet,Bumptech,Utility,False,False,False,False
+com.simple.crypto.wallet,Google Ads,Targeted ads,True,False,False,True
+info.mysecurewallet.wallet,Intuit,Payment,False,False,False,False
+info.mysecurewallet.wallet,Bumptech,Utility,False,False,False,False
+com.lynengine.beautycryptowallet,Bumptech,Utility,False,False,False,False
+com.lynengine.beautycryptowallet,Google Ads,Targeted ads,True,False,False,True
+com.bitcoin.wallet.cryptopuce,Google Ads,Targeted ads,True,False,False,True
+de.langerhans.wallet,Squareup,Payment,False,False,False,False
+com.cryptowallet.si,Crashlytics,Utilities,False,False,False,False
+com.cryptowallet.si,Squareup,Payment,False,False,False,False
+com.cryptowallet.si,Bumptech,Utility,False,False,False,False
+co.ethv2,Squareup,Payment,False,False,False,False
+com.lightning.walletapp,Github,Utility,False,False,False,False
+net.ethylyte.com,Fasterxml,Utility,False,False,False,False
+net.ethylyte.com,Kenai,Development aid,False,False,False,False
+net.ethylyte.com,Squareup,Payment,False,False,False,False
+com.ankerpay.wallet,Fasterxml,Utility,False,False,False,False
+com.ankerpay.wallet,Github,Utility,False,False,False,False
+com.ankerpay.wallet,Squareup,Payment,False,False,False,False
+com.coinspace.app,Crashlytics,Utilities,False,False,False,False
+com.coinspace.app,Jakewharton,Ui component,False,False,False,False
+com.coinspace.app,Squareup,Payment,False,False,False,False
+com.coinspace.app,Phonegap,Utility,False,False,False,False
+gbbit.app.wallet,Squareup,Payment,False,False,False,False
+com.paytomat,Crashlytics,Utilities,False,False,False,False
+com.paytomat,Appsflyer,Targeted ads,True,False,False,True
+com.paytomat,Bumptech,Utility,False,False,False,False
+com.paytomat,Google Ads,Targeted ads,True,False,False,True
+crypto.stars.wallet,Squareup,Payment,False,False,False,False
+crypto.stars.wallet,Jcraft,Utility,False,False,False,False
+crypto.stars.wallet,Github,Utility,False,False,False,False
+crypto.stars.wallet,Jakewharton,Ui component,False,False,False,False
+eth.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+eth.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+eth.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+eth.org.freewallet.app,Phonegap,Utility,False,False,False,False
+eth.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+eth.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+nxt.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+nxt.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+nxt.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+nxt.org.freewallet.app,Phonegap,Utility,False,False,False,False
+nxt.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+nxt.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+xmr.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+xmr.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+xmr.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+xmr.org.freewallet.app,Phonegap,Utility,False,False,False,False
+xmr.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+xmr.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+btc.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+btc.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+btc.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+btc.org.freewallet.app,Phonegap,Utility,False,False,False,False
+btc.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+btc.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+xrp.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+xrp.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+xrp.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+xrp.org.freewallet.app,Phonegap,Utility,False,False,False,False
+xrp.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+xrp.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+com.luneswallet,Facebook,Social networking service,False,False,False,False
+usdt.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+usdt.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+usdt.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+usdt.org.freewallet.app,Phonegap,Utility,False,False,False,False
+usdt.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+usdt.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+com.caramba.RippleWallet,Push,Utility,False,False,False,False
+com.caramba.RippleWallet,Phonegap,Utility,False,False,False,False
+com.caramba.RippleWallet,Google Ads,Targeted ads,True,False,False,True
+neo.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+neo.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+neo.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+neo.org.freewallet.app,Phonegap,Utility,False,False,False,False
+neo.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+neo.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+trx.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+trx.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+trx.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+trx.org.freewallet.app,Phonegap,Utility,False,False,False,False
+trx.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+trx.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+bcn.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+bcn.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+bcn.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+bcn.org.freewallet.app,Phonegap,Utility,False,False,False,False
+bcn.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+bcn.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+eos.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+eos.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+eos.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+eos.org.freewallet.app,Phonegap,Utility,False,False,False,False
+eos.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+eos.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+ltcc.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+ltcc.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+ltcc.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+ltcc.org.freewallet.app,Phonegap,Utility,False,False,False,False
+ltcc.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+ltcc.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+bcc.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+bcc.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+bcc.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+bcc.org.freewallet.app,Phonegap,Utility,False,False,False,False
+bcc.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+bcc.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+tech.vontech.blockchain.jetoken,Github,Utility,False,False,False,False
+tech.vontech.blockchain.jetoken,Squareup,Payment,False,False,False,False
+tech.vontech.blockchain.jetoken,Bumptech,Utility,False,False,False,False
+tech.vontech.blockchain.jetoken,Google Ads,Targeted ads,True,False,False,True
+com.lkrcoin.wallet,Squareup,Payment,False,False,False,False
+btg.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+btg.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+btg.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+btg.org.freewallet.app,Phonegap,Utility,False,False,False,False
+btg.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+btg.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+app.codecellar.embitwallet,Squareup,Payment,False,False,False,False
+app.codecellar.embitwallet,Github,Utility,False,False,False,False
+doge.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+doge.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+doge.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+doge.org.freewallet.app,Phonegap,Utility,False,False,False,False
+doge.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+doge.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+org.walleth,Jakewharton,Ui component,False,False,False,False
+org.walleth,Squareup,Payment,False,False,False,False
+io.melis.clientwallet,Phonegap,Utility,False,False,False,False
+com.skycoin.wallet,Crashlytics,Utilities,False,False,False,False
+io.deviantcoin.android,Squareup,Payment,False,False,False,False
+com.kipcoinProject.kipcoinwallet,Google Ads,Targeted ads,True,False,False,True
+augstrain.asn,Unity3d,Game engine,False,False,False,False
+augstrain.asn,StartApp,Targeted ads,True,False,False,True
+augstrain.asn,Unity Ads,Targeted ads,True,False,False,True
+augstrain.asn,Facebook,Social networking service,False,False,False,False
+augstrain.asn,Google Ads,Targeted ads,True,False,False,True
+com.cryptonator.android,Fasterxml,Utility,False,False,False,False
+com.cryptonator.android,Github,Utility,False,False,False,False
+com.cryptonator.android,Bumptech,Utility,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Squareup,Payment,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Github,Utility,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Crashlytics,Utilities,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Facebook,Social networking service,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Bumptech,Utility,False,False,False,False
+com.bitcoin.wallet.btc.testnet,Google Ads,Targeted ads,True,False,False,True
+com.bitzhash.wallet.bitcoin,Eclipse,Utility,False,False,False,False
+com.aspanta.emcsec,Jakewharton,Ui component,False,False,False,False
+com.coinorbis.wallet,Facebook,Social networking service,False,False,False,False
+pe.bluemountain419.jungledex,Facebook,Social networking service,False,False,False,False
+pe.bluemountain419.jungledex,Bumptech,Utility,False,False,False,False
+pe.bluemountain419.jungledex,Google Ads,Targeted ads,True,False,False,True
+pe.bluemountain419.jungledex,Google Analytics,Mobile analytics,False,True,False,True
+com.krypto,Facebook,Social networking service,False,False,False,False
+com.cwallet,Facebook,Social networking service,False,False,False,False
+com.cwallet,Appsflyer,Targeted ads,True,False,False,True
+com.delieverme,Facebook,Social networking service,False,False,False,False
+com.delieverme,Google Ads,Targeted ads,True,False,False,True
+com.allcoinwallet.allcoinwallet,Squareup,Payment,False,False,False,False
+com.allcoinwallet.allcoinwallet,Crashlytics,Utilities,False,False,False,False
+com.allcoinwallet.allcoinwallet,Facebook,Social networking service,False,False,False,False
+com.allcoinwallet.allcoinwallet,Adobe,Utility,False,False,False,False
+com.allcoinwallet.allcoinwallet,Google Ads,Targeted ads,True,False,False,True
+io.totalcoin.wallet,Github,Utility,False,False,False,False
+io.totalcoin.wallet,Jakewharton,Ui component,False,False,False,False
+io.totalcoin.wallet,Facebook,Social networking service,False,False,False,False
+io.totalcoin.wallet,Squareup,Payment,False,False,False,False
+io.totalcoin.wallet,Appsflyer,Targeted ads,True,False,False,True
+io.totalcoin.wallet,Tencent,Targeted ads,True,False,False,True
+io.totalcoin.wallet,Bumptech,Utility,False,False,False,False
+com.credtech,Facebook,Social networking service,False,False,False,False
+io.kompasswallet,Crashlytics,Utilities,False,False,False,False
+io.kompasswallet,Bumptech,Utility,False,False,False,False
+io.kompasswallet,Google Ads,Targeted ads,True,False,False,True
+com.bitcoinindia.Btciapp,Phonegap,Utility,False,False,False,False
+com.bitcoinindia.Btciapp,Google Ads,Targeted ads,True,False,False,True
+zapsolutions.zap,Jakewharton,Ui component,False,False,False,False
+zapsolutions.zap,Squareup,Payment,False,False,False,False
+zapsolutions.zap,Github,Utility,False,False,False,False
+com.cryptowallet.deviantx,Squareup,Payment,False,False,False,False
+com.cryptowallet.deviantx,Github,Utility,False,False,False,False
+com.cryptowallet.deviantx,Google Ads,Targeted ads,True,False,False,True
+com.monederoapp,Facebook,Social networking service,False,False,False,False
+com.monederoapp,Adobe,Utility,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Jakewharton,Ui component,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Fasterxml,Utility,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Github,Utility,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Facebook,Social networking service,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Bumptech,Utility,False,False,False,False
+lt.spectrofinance.spectrocoin.android.wallet,Google Ads,Targeted ads,True,False,False,True
+everex.transfer,Crashlytics,Utilities,False,False,False,False
+everex.transfer,Facebook,Social networking service,False,False,False,False
+everex.transfer,Phonegap,Utility,False,False,False,False
+everex.transfer,Google Ads,Targeted ads,True,False,False,True
+everex.transfer,Google Analytics,Mobile analytics,False,True,False,True
+mw.org.freewallet.app,Fasterxml,Utility,False,False,False,False
+mw.org.freewallet.app,Crashlytics,Utilities,False,False,False,False
+mw.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+mw.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+mw.org.freewallet.app,Phonegap,Utility,False,False,False,False
+mw.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+mw.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+com.alpha.wallet,Jakewharton,Ui component,False,False,False,False
+com.alpha.wallet,Squareup,Payment,False,False,False,False
+com.alpha.wallet,Fasterxml,Utility,False,False,False,False
+com.alpha.wallet,Github,Utility,False,False,False,False
+com.alpha.wallet,Crashlytics,Utilities,False,False,False,False
+com.alpha.wallet,Bumptech,Utility,False,False,False,False
+com.leadwallet.io,Kenai,Development aid,False,False,False,False
+com.leadwallet.io,Fasterxml,Utility,False,False,False,False
+com.leadwallet.io,Bumptech,Utility,False,False,False,False
+com.leadwallet.io,Google Ads,Targeted ads,True,False,False,True
+com.lingxi.bexplus,Jakewharton,Ui component,False,False,False,False
+com.lingxi.bexplus,Squareup,Payment,False,False,False,False
+com.lingxi.bexplus,Tencent,Targeted ads,True,False,False,True
+com.lingxi.bexplus,Github,Utility,False,False,False,False
+com.lingxi.bexplus,Facebook,Social networking service,False,False,False,False
+com.lingxi.bexplus,Appsflyer,Targeted ads,True,False,False,True
+com.lingxi.bexplus,Bumptech,Utility,False,False,False,False
+com.lingxi.bexplus,Google Ads,Targeted ads,True,False,False,True
+com.portto.blocto,Fasterxml,Utility,False,False,False,False
+com.portto.blocto,Github,Utility,False,False,False,False
+com.portto.blocto,Google Ads,Targeted ads,True,False,False,True
+com.portto.blocto,Kenai,Development aid,False,False,False,False
+com.portto.blocto,Squareup,Payment,False,False,False,False
+com.elrond.maiar.wallet,Mixpanel,Mobile analytics,False,True,False,True
+com.elrond.maiar.wallet,Fasterxml,Utility,False,False,False,False
+com.elrond.maiar.wallet,Github,Utility,False,False,False,False
+com.elrond.maiar.wallet,Facebook,Social networking service,False,False,False,False
+com.elrond.maiar.wallet,Kenai,Development aid,False,False,False,False
+com.elrond.maiar.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.elrond.maiar.wallet,Bumptech,Utility,False,False,False,False
+com.elrond.maiar.wallet,Google Ads,Targeted ads,True,False,False,True
+com.lumicollect.android,Kenai,Development aid,False,False,False,False
+com.lumicollect.android,Squareup,Payment,False,False,False,False
+com.lumicollect.android,Fasterxml,Utility,False,False,False,False
+com.lumicollect.android,Crashlytics,Utilities,False,False,False,False
+com.lumicollect.android,Appsflyer,Targeted ads,True,False,False,True
+com.lumicollect.android,Bumptech,Utility,False,False,False,False
+com.lumicollect.android,Google Ads,Targeted ads,True,False,False,True
+io.eidoo.wallet.prodnet,Squareup,Payment,False,False,False,False
+io.eidoo.wallet.prodnet,Phonegap,Utility,False,False,False,False
+io.eidoo.wallet.prodnet,Crashlytics,Utilities,False,False,False,False
+io.eidoo.wallet.prodnet,Google Ads,Targeted ads,True,False,False,True
+io.eidoo.wallet.prodnet,Google Analytics,Mobile analytics,False,True,False,True
+com.blocktrail.mywallet,Crashlytics,Utilities,False,False,False,False
+com.blocktrail.mywallet,Facebook,Social networking service,False,False,False,False
+com.blocktrail.mywallet,Appsflyer,Targeted ads,True,False,False,True
+com.blocktrail.mywallet,Phonegap,Utility,False,False,False,False
+com.blocktrail.mywallet,Google Ads,Targeted ads,True,False,False,True
+com.blocktrail.mywallet,Google Analytics,Mobile analytics,False,True,False,True
+com.prizmbit,Squareup,Payment,False,False,False,False
+com.prizmbit,Fasterxml,Utility,False,False,False,False
+com.prizmbit,Github,Utility,False,False,False,False
+com.prizmbit,Crashlytics,Utilities,False,False,False,False
+com.prizmbit,Bumptech,Utility,False,False,False,False
+com.prizmbit,Google Ads,Targeted ads,True,False,False,True
+com.prizmbit,Google Analytics,Mobile analytics,False,True,False,True
+com.sparkpoint,Github,Utility,False,False,False,False
+com.sparkpoint,Facebook,Social networking service,False,False,False,False
+com.xufagroup.cryptowallet,Squareup,Payment,False,False,False,False
+com.xufagroup.cryptowallet,Github,Utility,False,False,False,False
+com.xufagroup.cryptowallet,Facebook,Social networking service,False,False,False,False
+com.xufagroup.cryptowallet,Adobe,Utility,False,False,False,False
+com.xufagroup.cryptowallet,Google Ads,Targeted ads,True,False,False,True
+io.eosnova.wallet.android,Fasterxml,Utility,False,False,False,False
+io.eosnova.wallet.android,Github,Utility,False,False,False,False
+io.eosnova.wallet.android,Jakewharton,Ui component,False,False,False,False
+io.eosnova.wallet.android,Facebook,Social networking service,False,False,False,False
+io.eosnova.wallet.android,Amazonaws,Utility,False,False,False,False
+io.eosnova.wallet.android,Kenai,Development aid,False,False,False,False
+io.eosnova.wallet.android,Squareup,Payment,False,False,False,False
+io.eosnova.wallet.android,Mixpanel,Mobile analytics,False,True,False,True
+io.eosnova.wallet.android,Google Ads,Targeted ads,True,False,False,True
+com.bolowallet,Crashlytics,Utilities,False,False,False,False
+com.bolowallet,Facebook,Social networking service,False,False,False,False
+com.bolowallet,Twitter,Social networking service,False,False,False,False
+com.bolowallet,Bumptech,Utility,False,False,False,False
+com.bolowallet,Google Ads,Targeted ads,True,False,False,True
+mn.godeal.gopay,Google Ads,Targeted ads,True,False,False,True
+com.btcc.mobiwallet,Squareup,Payment,False,False,False,False
+com.btcc.mobiwallet,Tencent,Targeted ads,True,False,False,True
+com.btcc.mobiwallet,Bumptech,Utility,False,False,False,False
+com.zengo.wallet,adjust,Mobile analytics,False,True,False,True
+com.zengo.wallet,Facebook,Social networking service,False,False,False,False
+com.zengo.wallet,Amazonaws,Utility,False,False,False,False
+com.zengo.wallet,Adobe,Utility,False,False,False,False
+com.zengo.wallet,Google Ads,Targeted ads,True,False,False,True
+com.zengo.wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.zengo.wallet,Squareup,Payment,False,False,False,False
+com.zengo.wallet,Bumptech,Utility,False,False,False,False
+com.lumiwallet.android,Fasterxml,Utility,False,False,False,False
+com.lumiwallet.android,Github,Utility,False,False,False,False
+com.lumiwallet.android,Facebook,Social networking service,False,False,False,False
+com.lumiwallet.android,Bumptech,Utility,False,False,False,False
+com.maxxwallet,Squareup,Payment,False,False,False,False
+com.maxxwallet,Crashlytics,Utilities,False,False,False,False
+com.maxxwallet,Google Ads,Targeted ads,True,False,False,True
+io.atomicwallet,Phonegap,Utility,False,False,False,False
+com.masterbitexpress.wallet,Squareup,Payment,False,False,False,False
+com.zixipay.wallet,Facebook,Social networking service,False,False,False,False
+piuk.blockchain.android,Fasterxml,Utility,False,False,False,False
+piuk.blockchain.android,Github,Utility,False,False,False,False
+piuk.blockchain.android,Jakewharton,Ui component,False,False,False,False
+piuk.blockchain.android,Facebook,Social networking service,False,False,False,False
+piuk.blockchain.android,Kenai,Development aid,False,False,False,False
+piuk.blockchain.android,Squareup,Payment,False,False,False,False
+piuk.blockchain.android,Google Ads,Targeted ads,True,False,False,True
+com.quppy,Squareup,Payment,False,False,False,False
+com.quppy,Google Ads,Targeted ads,True,False,False,True
+com.quppy,Google Analytics,Mobile analytics,False,True,False,True
+com.sixwallet,Fasterxml,Utility,False,False,False,False
+com.sixwallet,Crashlytics,Utilities,False,False,False,False
+com.sixwallet,Facebook,Social networking service,False,False,False,False
+com.sixwallet,Amazonaws,Utility,False,False,False,False
+com.sixwallet,Adobe,Utility,False,False,False,False
+com.sixwallet,Google Ads,Targeted ads,True,False,False,True
+de.fuf.bitbucks,Facebook,Social networking service,False,False,False,False
+de.fuf.bitbucks,Bumptech,Utility,False,False,False,False
+com.airwalletofficial.air_wallet,Github,Utility,False,False,False,False
+com.airwalletofficial.air_wallet,Google Ads,Targeted ads,True,False,False,True
+com.airbitz,Squareup,Payment,False,False,False,False
+com.airbitz,Mixpanel,Mobile analytics,False,True,False,True
+com.airbitz,Google Ads,Targeted ads,True,False,False,True
+com.airbitz,Google Analytics,Mobile analytics,False,True,False,True
+com.airbitz,HOCKETAPP,Utility,False,False,False,False
+com.wirex,Squareup,Payment,False,False,False,False
+com.wirex,Push,Utility,False,False,False,False
+com.wirex,Fasterxml,Utility,False,False,False,False
+com.wirex,Github,Utility,False,False,False,False
+com.wirex,Facebook,Social networking service,False,False,False,False
+com.wirex,Appsflyer,Targeted ads,True,False,False,True
+com.wirex,Bumptech,Utility,False,False,False,False
+com.wirex,Appboy,Targeted ads,True,False,False,True
+com.wirex,Google Ads,Targeted ads,True,False,False,True
+com.polehin.android,Github,Utility,False,False,False,False
+com.polehin.android,Facebook,Social networking service,False,False,False,False
+com.polehin.android,Bumptech,Utility,False,False,False,False
+co.busha.android,Crashlytics,Utilities,False,False,False,False
+co.busha.android,Google Ads,Targeted ads,True,False,False,True
+com.liberty.jaxx,adjust,Mobile analytics,False,True,False,True
+com.liberty.jaxx,Google Ads,Targeted ads,True,False,False,True
+com.liberty.jaxx,Google Analytics,Mobile analytics,False,True,False,True
+com.valr.app,Facebook,Social networking service,False,False,False,False
+com.agile.walletapp,Fasterxml,Utility,False,False,False,False
+com.agile.walletapp,Github,Utility,False,False,False,False
+com.agile.walletapp,Crashlytics,Utilities,False,False,False,False
+com.agile.walletapp,Kenai,Development aid,False,False,False,False
+com.agile.walletapp,Google Ads,Targeted ads,True,False,False,True
+com.cyberblock.cyberblockmobile,Squareup,Payment,False,False,False,False
+com.cyberblock.cyberblockmobile,Google Ads,Targeted ads,True,False,False,True
+com.buyucoinApp.buyucoin,Facebook,Social networking service,False,False,False,False
+com.buyucoinApp.buyucoin,Bumptech,Utility,False,False,False,False
+com.buyucoinApp.buyucoin,Google Ads,Targeted ads,True,False,False,True
+com.hotbtc.exchange,Crashlytics,Utilities,False,False,False,False
+com.hotbtc.exchange,Facebook,Social networking service,False,False,False,False
+com.hotbtc.exchange,Bumptech,Utility,False,False,False,False
+com.hotbtc.exchange,Google Ads,Targeted ads,True,False,False,True
+com.hotbtc.exchange,Google Analytics,Mobile analytics,False,True,False,True
+com.ellipal.wallet,Fasterxml,Utility,False,False,False,False
+com.ellipal.wallet,Github,Utility,False,False,False,False
+com.ellipal.wallet,Facebook,Social networking service,False,False,False,False
+com.ellipal.wallet,Nostra13,Utility,False,False,False,False
+com.ellipal.wallet,Squareup,Payment,False,False,False,False
+com.ellipal.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.ellipal.wallet,Umeng,Mobile analytics,False,True,False,True
+com.bitpay.coincloud,Google Ads,Targeted ads,True,False,False,True
+com.bitpay.coincloud,Google Analytics,Mobile analytics,False,True,False,True
+com.sixpencer.simplework,Jakewharton,Ui component,False,False,False,False
+com.sixpencer.simplework,Kenai,Development aid,False,False,False,False
+com.sixpencer.simplework,Fasterxml,Utility,False,False,False,False
+com.sixpencer.simplework,Github,Utility,False,False,False,False
+com.sixpencer.simplework,Bumptech,Utility,False,False,False,False
+com.sixpencer.simplework,Squareup,Payment,False,False,False,False
+com.sixpencer.simplework,Umeng,Mobile analytics,False,True,False,True
+com.sixpencer.simplework,Tencent,Targeted ads,True,False,False,True
+com.dapppocket,Facebook,Social networking service,False,False,False,False
+com.dapppocket,Adobe,Utility,False,False,False,False
+com.dapppocket,Google Ads,Targeted ads,True,False,False,True
+global.bithumb.android,Umeng,Mobile analytics,False,True,False,True
+global.bithumb.android,Tencent,Targeted ads,True,False,False,True
+global.bithumb.android,Github,Utility,False,False,False,False
+global.bithumb.android,Squareup,Payment,False,False,False,False
+global.bithumb.android,Bumptech,Utility,False,False,False,False
+com.BitcoinWalletExchange.org,Unity3d,Game engine,False,False,False,False
+com.loafwallet,Squareup,Payment,False,False,False,False
+com.loafwallet,Fasterxml,Utility,False,False,False,False
+com.loafwallet,Github,Utility,False,False,False,False
+com.loafwallet,Google Ads,Targeted ads,True,False,False,True
+com.ownrwallet.wallet,Github,Utility,False,False,False,False
+com.ownrwallet.wallet,Google Ads,Targeted ads,True,False,False,True
+com.ownrwallet.wallet,Facebook,Social networking service,False,False,False,False
+com.ownrwallet.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.ownrwallet.wallet,Flurry,Analytics,False,False,True,True
+com.ownrwallet.wallet,Adobe,Utility,False,False,False,False
+com.ownrwallet.wallet,Bumptech,Utility,False,False,False,False
+com.ownrwallet.wallet,Squareup,Payment,False,False,False,False
+one.mixin.messenger,Github,Utility,False,False,False,False
+one.mixin.messenger,Jakewharton,Ui component,False,False,False,False
+one.mixin.messenger,Googlecode,Development aid,False,False,False,False
+one.mixin.messenger,Facebook,Social networking service,False,False,False,False
+one.mixin.messenger,COREMEDIA,Utility,False,False,False,False
+one.mixin.messenger,Bumptech,Utility,False,False,False,False
+one.mixin.messenger,Google Ads,Targeted ads,True,False,False,True
+com.latoken.wallet,Jakewharton,Ui component,False,False,False,False
+com.latoken.wallet,Fasterxml,Utility,False,False,False,False
+com.latoken.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.latoken.wallet,Applovin,Targeted ads,True,False,False,True
+com.latoken.wallet,Bumptech,Utility,False,False,False,False
+com.latoken.wallet,Google Ads,Targeted ads,True,False,False,True
+com.latoken.wallet,AppLovin,Targeted ads,True,False,False,True
+com.latoken.wallet,Squareup,Payment,False,False,False,False
+com.savl,Github,Utility,False,False,False,False
+com.savl,Kenai,Development aid,False,False,False,False
+com.savl,Google Ads,Targeted ads,True,False,False,True
+com.savl,Fasterxml,Utility,False,False,False,False
+com.savl,Facebook,Social networking service,False,False,False,False
+com.savl,Appsflyer,Targeted ads,True,False,False,True
+com.savl,Adobe,Utility,False,False,False,False
+com.savl,Bumptech,Utility,False,False,False,False
+app.bankowallet.android,Fasterxml,Utility,False,False,False,False
+app.bankowallet.android,Github,Utility,False,False,False,False
+app.bankowallet.android,Crashlytics,Utilities,False,False,False,False
+app.bankowallet.android,Facebook,Social networking service,False,False,False,False
+app.bankowallet.android,Kenai,Development aid,False,False,False,False
+app.bankowallet.android,Tencent,Targeted ads,True,False,False,True
+app.bankowallet.android,Google Ads,Targeted ads,True,False,False,True
+com.ccwalletapp,Github,Utility,False,False,False,False
+com.ccwalletapp,Crashlytics,Utilities,False,False,False,False
+com.ccwalletapp,Facebook,Social networking service,False,False,False,False
+com.ccwalletapp,Mixpanel,Mobile analytics,False,True,False,True
+com.ccwalletapp,Adobe,Utility,False,False,False,False
+com.ccwalletapp,Google Ads,Targeted ads,True,False,False,True
+com.pint.app,Github,Utility,False,False,False,False
+com.pint.app,Crashlytics,Utilities,False,False,False,False
+com.pint.app,Facebook,Social networking service,False,False,False,False
+com.pint.app,Adobe,Utility,False,False,False,False
+com.pint.app,Bumptech,Utility,False,False,False,False
+com.pint.app,Google Ads,Targeted ads,True,False,False,True
+com.defi.wallet,Fasterxml,Utility,False,False,False,False
+com.defi.wallet,Github,Utility,False,False,False,False
+com.defi.wallet,Mixpanel,Mobile analytics,False,True,False,True
+com.defi.wallet,Facebook,Social networking service,False,False,False,False
+com.defi.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.bitzapp,Google Ads,Targeted ads,True,False,False,True
+com.inigma.wallet,Facebook,Social networking service,False,False,False,False
+com.inigma.wallet,Adobe,Utility,False,False,False,False
+com.mycelium.wallet,Kenai,Development aid,False,False,False,False
+com.mycelium.wallet,Fasterxml,Utility,False,False,False,False
+com.mycelium.wallet,Squareup,Payment,False,False,False,False
+com.mycelium.wallet,Commonsware,Utility,False,False,False,False
+com.mycelium.wallet,Bumptech,Utility,False,False,False,False
+com.mycelium.wallet,Google Ads,Targeted ads,True,False,False,True
+com.stasis.stasiswallet,Squareup,Payment,False,False,False,False
+com.stasis.stasiswallet,Mixpanel,Mobile analytics,False,True,False,True
+com.stasis.stasiswallet,Fasterxml,Utility,False,False,False,False
+com.stasis.stasiswallet,Google Ads,Targeted ads,True,False,False,True
+com.blockchain.bitcoin.wallet,Mopub,Targeted ads,True,False,False,True
+com.blockchain.bitcoin.wallet,MoPub,Targeted ads,True,False,False,True
+com.blockchain.bitcoin.wallet,Github,Utility,False,False,False,False
+com.blockchain.bitcoin.wallet,Facebook,Social networking service,False,False,False,False
+com.blockchain.bitcoin.wallet,Bumptech,Utility,False,False,False,False
+com.blockchain.bitcoin.wallet,Google Ads,Targeted ads,True,False,False,True
+com.bitcoin.wallet.btc,Mopub,Targeted ads,True,False,False,True
+com.bitcoin.wallet.btc,MoPub,Targeted ads,True,False,False,True
+com.bitcoin.wallet.btc,Github,Utility,False,False,False,False
+com.bitcoin.wallet.btc,Facebook,Social networking service,False,False,False,False
+com.bitcoin.wallet.btc,Bumptech,Utility,False,False,False,False
+com.bitcoin.wallet.btc,Google Ads,Targeted ads,True,False,False,True
+com.ptpwallet,Facebook,Social networking service,False,False,False,False
+com.ptpwallet,Adobe,Utility,False,False,False,False
+com.blockchain.wallet.btc,Mopub,Targeted ads,True,False,False,True
+com.blockchain.wallet.btc,ironSource,Targeted ads,True,False,False,True
+com.blockchain.wallet.btc,MoPub,Targeted ads,True,False,False,True
+com.blockchain.wallet.btc,Github,Utility,False,False,False,False
+com.blockchain.wallet.btc,Facebook,Social networking service,False,False,False,False
+com.blockchain.wallet.btc,Bumptech,Utility,False,False,False,False
+com.blockchain.wallet.btc,Google Ads,Targeted ads,True,False,False,True
+org.toshi,Fasterxml,Utility,False,False,False,False
+org.toshi,Facebook,Social networking service,False,False,False,False
+org.toshi,Squareup,Payment,False,False,False,False
+org.toshi,Appsflyer,Targeted ads,True,False,False,True
+org.toshi,Bumptech,Utility,False,False,False,False
+com.silenca.amlsafe,Github,Utility,False,False,False,False
+com.silenca.amlsafe,Crashlytics,Utilities,False,False,False,False
+com.silenca.amlsafe,Facebook,Social networking service,False,False,False,False
+com.silenca.amlsafe,Adobe,Utility,False,False,False,False
+com.silenca.amlsafe,Bumptech,Utility,False,False,False,False
+com.silenca.amlsafe,Google Ads,Targeted ads,True,False,False,True
+com.zipwallet.app,Github,Utility,False,False,False,False
+com.zipwallet.app,Google Ads,Targeted ads,True,False,False,True
+com.zipwallet.app,Google Analytics,Mobile analytics,False,True,False,True
+com.zipwallet.app,Crashlytics,Utilities,False,False,False,False
+com.zipwallet.app,Facebook,Social networking service,False,False,False,False
+com.zipwallet.app,Bumptech,Utility,False,False,False,False
+com.zipwallet.app,Squareup,Payment,False,False,False,False
+com.paxful.wallet,Squareup,Payment,False,False,False,False
+com.paxful.wallet,Tencent,Targeted ads,True,False,False,True
+com.paxful.wallet,Fasterxml,Utility,False,False,False,False
+com.paxful.wallet,Facebook,Social networking service,False,False,False,False
+com.paxful.wallet,Bumptech,Utility,False,False,False,False
+com.paxful.wallet,Appboy,Targeted ads,True,False,False,True
+com.breadwallet,Fasterxml,Utility,False,False,False,False
+com.breadwallet,Google Ads,Targeted ads,True,False,False,True
+com.breadwallet,Squareup,Payment,False,False,False,False
+com.ninjacoin,Fasterxml,Utility,False,False,False,False
+com.ninjacoin,Github,Utility,False,False,False,False
+com.ninjacoin,Facebook,Social networking service,False,False,False,False
+com.ninjacoin,Adobe,Utility,False,False,False,False
+com.signkeys.wallet.portfolio,Crashlytics,Utilities,False,False,False,False
+com.signkeys.wallet.portfolio,Google Ads,Targeted ads,True,False,False,True
+org.bitcoinox.bitcoinoxwallet,Google Ads,Targeted ads,True,False,False,True
+com.Android.Inc.bitwallet,Github,Utility,False,False,False,False
+com.Android.Inc.bitwallet,Intuit,Payment,False,False,False,False
+com.Android.Inc.bitwallet,Bumptech,Utility,False,False,False,False
+org.guapcoin.multiwallet,Google Ads,Targeted ads,True,False,False,True
+com.androidwallet,Squareup,Payment,False,False,False,False
+com.androidwallet,Github,Utility,False,False,False,False
+com.androidwallet,Crashlytics,Utilities,False,False,False,False
+com.androidwallet,Bumptech,Utility,False,False,False,False
+com.androidwallet,Google Ads,Targeted ads,True,False,False,True
+com.coinfalcon.mobile,Crashlytics,Utilities,False,False,False,False
+com.coinfalcon.mobile,Facebook,Social networking service,False,False,False,False
+com.coinfalcon.mobile,Adobe,Utility,False,False,False,False
+com.coinfalcon.mobile,Google Ads,Targeted ads,True,False,False,True
+com.ripio.android,Facebook,Social networking service,False,False,False,False
+com.ripio.android,Appsflyer,Targeted ads,True,False,False,True
+co.bacoor.keyring,Github,Utility,False,False,False,False
+co.bacoor.keyring,Facebook,Social networking service,False,False,False,False
+co.bacoor.keyring,Adobe,Utility,False,False,False,False
+co.bacoor.keyring,Bumptech,Utility,False,False,False,False
+com.bitnovo.app,Facebook,Social networking service,False,False,False,False
+com.bitnovo.app,Bumptech,Utility,False,False,False,False
+com.bitnovo.app,Jakewharton,Ui component,False,False,False,False
+com.bitnovo.app,Squareup,Payment,False,False,False,False
+com.mercuryo.app,Jakewharton,Ui component,False,False,False,False
+com.mercuryo.app,Fasterxml,Utility,False,False,False,False
+com.mercuryo.app,Github,Utility,False,False,False,False
+com.mercuryo.app,Chartboost,Targeted ads,True,False,False,True
+com.mercuryo.app,Facebook,Social networking service,False,False,False,False
+com.mercuryo.app,Appsflyer,Targeted ads,True,False,False,True
+com.mercuryo.app,Bumptech,Utility,False,False,False,False
+com.mercuryo.app,Google Ads,Targeted ads,True,False,False,True
+com.mercuryo.app,Squareup,Payment,False,False,False,False
+kr.co.keypair.keywalletTouch,Facebook,Social networking service,False,False,False,False
+kr.co.keypair.keywalletTouch,Adobe,Utility,False,False,False,False
+com.lobstr.client,Fasterxml,Utility,False,False,False,False
+com.lobstr.client,Github,Utility,False,False,False,False
+com.lobstr.client,Bumptech,Utility,False,False,False,False
+com.lobstr.client,Google Ads,Targeted ads,True,False,False,True
+com.lobstr.client,Squareup,Payment,False,False,False,False
+io.rapids.network.wallet,Github,Utility,False,False,False,False
+io.rapids.network.wallet,Facebook,Social networking service,False,False,False,False
+io.rapids.network.wallet,Adobe,Utility,False,False,False,False
+io.rapids.network.wallet,Google Ads,Targeted ads,True,False,False,True
+com.ethlimited,Facebook,Social networking service,False,False,False,False
+com.ethlimited,Adobe,Utility,False,False,False,False
+com.ethlimited,Bumptech,Utility,False,False,False,False
+com.t7.wether,Crashlytics,Utilities,False,False,False,False
+com.t7.wether,Google Ads,Targeted ads,True,False,False,True
+com.qcan.mobile.bitcoin.wallet,Google Ads,Targeted ads,True,False,False,True
+co.satoshiwallet.app,Squareup,Payment,False,False,False,False
+co.satoshiwallet.app,Github,Utility,False,False,False,False
+co.satoshiwallet.app,Facebook,Social networking service,False,False,False,False
+co.satoshiwallet.app,Adobe,Utility,False,False,False,False
+co.satoshiwallet.app,Google Ads,Targeted ads,True,False,False,True
+com.bit.btcwallet,Unity3d,Game engine,False,False,False,False
+io.safepal.wallet,Github,Utility,False,False,False,False
+com.kesemwalletapp,Google Ads,Targeted ads,True,False,False,True
+com.kesemwalletapp,Crashlytics,Utilities,False,False,False,False
+com.kesemwalletapp,Facebook,Social networking service,False,False,False,False
+com.kesemwalletapp,Adobe,Utility,False,False,False,False
+com.kesemwalletapp,Bumptech,Utility,False,False,False,False
+com.kesemwalletapp,Google Analytics,Mobile analytics,False,True,False,True
+com.kr.iotrust.dcent.wallet,Kenai,Development aid,False,False,False,False
+com.kr.iotrust.dcent.wallet,Squareup,Payment,False,False,False,False
+com.kr.iotrust.dcent.wallet,Fasterxml,Utility,False,False,False,False
+com.kr.iotrust.dcent.wallet,Github,Utility,False,False,False,False
+com.kr.iotrust.dcent.wallet,Facebook,Social networking service,False,False,False,False
+com.kr.iotrust.dcent.wallet,Bumptech,Utility,False,False,False,False
+exchange.einstein.mobile.release,Github,Utility,False,False,False,False
+exchange.einstein.mobile.release,Facebook,Social networking service,False,False,False,False
+exchange.einstein.mobile.release,Adobe,Utility,False,False,False,False
+exchange.einstein.mobile.release,Bumptech,Utility,False,False,False,False
+exchange.einstein.mobile.release,Google Ads,Targeted ads,True,False,False,True
+com.XcelTrip.XcelPay,Fasterxml,Utility,False,False,False,False
+com.XcelTrip.XcelPay,Crashlytics,Utilities,False,False,False,False
+com.XcelTrip.XcelPay,Facebook,Social networking service,False,False,False,False
+com.XcelTrip.XcelPay,Adobe,Utility,False,False,False,False
+com.XcelTrip.XcelPay,Google Ads,Targeted ads,True,False,False,True
+com.XcelTrip.XcelPay,Squareup,Payment,False,False,False,False
+com.enjin.mobile.wallet,Squareup,Payment,False,False,False,False
+com.enjin.mobile.wallet,Push,Utility,False,False,False,False
+tw.org.freewallet.app,Facebook,Social networking service,False,False,False,False
+tw.org.freewallet.app,Appsflyer,Targeted ads,True,False,False,True
+tw.org.freewallet.app,Phonegap,Utility,False,False,False,False
+tw.org.freewallet.app,Adobe,Utility,False,False,False,False
+tw.org.freewallet.app,Google Ads,Targeted ads,True,False,False,True
+tw.org.freewallet.app,Google Analytics,Mobile analytics,False,True,False,True
+com.getchange.wallet.cordova,adjust,Mobile analytics,False,True,False,True
+com.getchange.wallet.cordova,Squareup,Payment,False,False,False,False
+com.getchange.wallet.cordova,Google Ads,Targeted ads,True,False,False,True
+com.getchange.wallet.cordova,Google Analytics,Mobile analytics,False,True,False,True
+com.wallet.crypto.trustapp,Github,Utility,False,False,False,False
+com.wallet.crypto.trustapp,Bumptech,Utility,False,False,False,False
+com.wallet.crypto.trustapp,Google Ads,Targeted ads,True,False,False,True
+com.fox.one,Github,Utility,False,False,False,False
+com.fox.one,Umeng,Mobile analytics,False,True,False,True
+com.fox.one,Tencent,Targeted ads,True,False,False,True
+com.fox.one,Amazonaws,Utility,False,False,False,False
+com.fox.one,Bumptech,Utility,False,False,False,False
+com.dowallet,Crashlytics,Utilities,False,False,False,False
+com.dowallet,Facebook,Social networking service,False,False,False,False
+com.dowallet,Appsflyer,Targeted ads,True,False,False,True
+com.dowallet,Adobe,Utility,False,False,False,False
+com.dowallet,Google Ads,Targeted ads,True,False,False,True
+com.crypto.multiwallet,Phonegap,Utility,False,False,False,False
+com.crypto.multiwallet,Google Ads,Targeted ads,True,False,False,True
+org.topnetwork.hiwallet,Fasterxml,Utility,False,False,False,False
+org.topnetwork.hiwallet,Bumptech,Utility,False,False,False,False
+org.topnetwork.hiwallet,Google Ads,Targeted ads,True,False,False,True
+etherio.wallet.com,Fasterxml,Utility,False,False,False,False
+etherio.wallet.com,Github,Utility,False,False,False,False
+etherio.wallet.com,Bumptech,Utility,False,False,False,False
+etherio.wallet.com,Google Ads,Targeted ads,True,False,False,True
+etherio.wallet.com,Kenai,Development aid,False,False,False,False
+etherio.wallet.com,Squareup,Payment,False,False,False,False
+etherio.wallet.com,Mixpanel,Mobile analytics,False,True,False,True
+com.coinbase.android,Github,Utility,False,False,False,False
+com.coinbase.android,Facebook,Social networking service,False,False,False,False
+com.coinbase.android,Google Ads,Targeted ads,True,False,False,True
+com.coinbase.android,Appsflyer,Targeted ads,True,False,False,True
+com.coinbase.android,Adobe,Utility,False,False,False,False
+com.coinbase.android,Jakewharton,Ui component,False,False,False,False
+com.coinbase.android,Paypal,Payment,False,False,False,False
+fr.acinq.phoenix.mainnet,Fasterxml,Utility,False,False,False,False
+fr.acinq.phoenix.mainnet,Github,Utility,False,False,False,False
+fr.acinq.phoenix.mainnet,Squareup,Payment,False,False,False,False
+org.coinid.wallet.tbtc,Github,Utility,False,False,False,False
+org.coinid.wallet.tbtc,Facebook,Social networking service,False,False,False,False
+org.coinid.wallet.tbtc,Adobe,Utility,False,False,False,False
+org.coinid.wallet.tgrs,Github,Utility,False,False,False,False
+org.coinid.wallet.tgrs,Facebook,Social networking service,False,False,False,False
+org.coinid.wallet.tgrs,Adobe,Utility,False,False,False,False
+org.coinid.wallet.btc,Github,Utility,False,False,False,False
+org.coinid.wallet.btc,Facebook,Social networking service,False,False,False,False
+org.coinid.wallet.btc,Adobe,Utility,False,False,False,False
+org.coinid.wallet.grs,Github,Utility,False,False,False,False
+org.coinid.wallet.grs,Facebook,Social networking service,False,False,False,False
+org.coinid.wallet.grs,Adobe,Utility,False,False,False,False
+org.coinid.wallet.xmy,Github,Utility,False,False,False,False
+org.coinid.wallet.xmy,Facebook,Social networking service,False,False,False,False
+org.coinid.wallet.xmy,Adobe,Utility,False,False,False,False
+com.eofinance,Github,Utility,False,False,False,False
+com.eofinance,Facebook,Social networking service,False,False,False,False
+com.eofinance,Appsflyer,Targeted ads,True,False,False,True
+com.eofinance,Adobe,Utility,False,False,False,False
+com.eofinance,Bumptech,Utility,False,False,False,False
+com.eofinance,Google Ads,Targeted ads,True,False,False,True
+cash.klever.blockchain.wallet,Github,Utility,False,False,False,False
+cash.klever.blockchain.wallet,Crashlytics,Utilities,False,False,False,False
+cash.klever.blockchain.wallet,Facebook,Social networking service,False,False,False,False
+cash.klever.blockchain.wallet,Adobe,Utility,False,False,False,False
+cash.klever.blockchain.wallet,Bumptech,Utility,False,False,False,False
+cash.klever.blockchain.wallet,Google Ads,Targeted ads,True,False,False,True
+io.goldwallet.wallet,Github,Utility,False,False,False,False
+io.goldwallet.wallet,Facebook,Social networking service,False,False,False,False
+io.goldwallet.wallet,Adobe,Utility,False,False,False,False
+io.goldwallet.wallet,Bumptech,Utility,False,False,False,False
+io.goldwallet.wallet,Google Ads,Targeted ads,True,False,False,True
+it.inbitcoin.altana,Fasterxml,Utility,False,False,False,False
+it.inbitcoin.altana,Jakewharton,Ui component,False,False,False,False
+com.bitrue.currency.exchange,Squareup,Payment,False,False,False,False
+com.bitrue.currency.exchange,Twitter,Social networking service,False,False,False,False
+com.bitrue.currency.exchange,Github,Utility,False,False,False,False
+com.bitrue.currency.exchange,Crashlytics,Utilities,False,False,False,False
+com.bitrue.currency.exchange,Facebook,Social networking service,False,False,False,False
+com.bitrue.currency.exchange,Google Ads,Targeted ads,True,False,False,True
+com.bitrue.currency.exchange,Google Analytics,Mobile analytics,False,True,False,True
+com.xcoex.mobile,adjust,Mobile analytics,False,True,False,True
+com.xcoex.mobile,Google Ads,Targeted ads,True,False,False,True
+com.xcoex.mobile,Google Analytics,Mobile analytics,False,True,False,True
+com.xcoex.mobile,Squareup,Payment,False,False,False,False
+com.xcoex.mobile,Phonegap,Utility,False,False,False,False
+jp.coincheck.android,adjust,Mobile analytics,False,True,False,True
+jp.coincheck.android,Github,Utility,False,False,False,False
+jp.coincheck.android,Squareup,Payment,False,False,False,False
+jp.coincheck.android,Google Ads,Targeted ads,True,False,False,True
+jp.coincheck.android,Google Analytics,Mobile analytics,False,True,False,True
+com.counos,Fasterxml,Utility,False,False,False,False
+com.counos,Facebook,Social networking service,False,False,False,False
+com.counos,Adobe,Utility,False,False,False,False
+com.counos,Google Ads,Targeted ads,True,False,False,True
+com.bitcoinofamerica.wallet,Squareup,Payment,False,False,False,False
+com.bitcoinofamerica.wallet,Facebook,Social networking service,False,False,False,False
+com.bitcoinofamerica.wallet,Adobe,Utility,False,False,False,False
+com.bitcoinofamerica.wallet,Google Ads,Targeted ads,True,False,False,True
+com.bixin.bixin_android,Github,Utility,False,False,False,False
+com.bixin.bixin_android,Bumptech,Utility,False,False,False,False
+com.bixin.bixin_android,Weibo,Social networking service,False,False,False,False
+com.bixin.bixin_android,Tencent,Targeted ads,True,False,False,True
+com.coinomi.wallet,Squareup,Payment,False,False,False,False
+com.coinomi.wallet,Fasterxml,Utility,False,False,False,False
+com.coinomi.wallet,Google Ads,Targeted ads,True,False,False,True
+net.walletharcomia.android,Intuit,Payment,False,False,False,False
+net.walletharcomia.android,Squareup,Payment,False,False,False,False
+net.walletharcomia.android,Github,Utility,False,False,False,False
+net.walletharcomia.android,Crashlytics,Utilities,False,False,False,False
+net.walletharcomia.android,Google Ads,Targeted ads,True,False,False,True
+io.muun.apollo,Fasterxml,Utility,False,False,False,False
+io.muun.apollo,Facebook,Social networking service,False,False,False,False
+io.muun.apollo,Bumptech,Utility,False,False,False,False
+com.bitazza.android,adjust,Mobile analytics,False,True,False,True
+com.bitazza.android,Github,Utility,False,False,False,False
+com.bitazza.android,Squareup,Payment,False,False,False,False
+com.bitazza.android,Bumptech,Utility,False,False,False,False
+com.bitazza.android,Google Ads,Targeted ads,True,False,False,True
+capital.spatium.wallet,Github,Utility,False,False,False,False
+capital.spatium.wallet,Phonegap,Utility,False,False,False,False
+capital.spatium.wallet,Google Ads,Targeted ads,True,False,False,True
+com.oracle.wallet,Squareup,Payment,False,False,False,False
+com.oracle.wallet,Fasterxml,Utility,False,False,False,False
+com.oracle.wallet,Bumptech,Utility,False,False,False,False
+com.oracle.wallet,Google Ads,Targeted ads,True,False,False,True
+co.edgesecure.app,Squareup,Payment,False,False,False,False
+co.edgesecure.app,Facebook,Social networking service,False,False,False,False
+co.edgesecure.app,Adobe,Utility,False,False,False,False
+co.edgesecure.app,Google Ads,Targeted ads,True,False,False,True
+com.bitpapa,Facebook,Social networking service,False,False,False,False
+com.bitpapa,Google Ads,Targeted ads,True,False,False,True
+io.hexawallet.hexa,Fasterxml,Utility,False,False,False,False
+io.hexawallet.hexa,Facebook,Social networking service,False,False,False,False
+io.hexawallet.hexa,Adobe,Utility,False,False,False,False
+io.hexawallet.hexa,Bumptech,Utility,False,False,False,False
+io.hexawallet.hexa,Google Ads,Targeted ads,True,False,False,True
+kuna.beta,Squareup,Payment,False,False,False,False
+kuna.beta,Mixpanel,Mobile analytics,False,True,False,True
+kuna.beta,Twitter,Social networking service,False,False,False,False
+kuna.beta,Github,Utility,False,False,False,False
+kuna.beta,Bumptech,Utility,False,False,False,False
+kuna.beta,Appboy,Targeted ads,True,False,False,True
+kuna.beta,Google Ads,Targeted ads,True,False,False,True
+com.callsfreecalls.android,Fasterxml,Utility,False,False,False,False
+com.callsfreecalls.android,Crashlytics,Utilities,False,False,False,False
+com.callsfreecalls.android,Facebook,Social networking service,False,False,False,False
+com.callsfreecalls.android,Applovin,Targeted ads,True,False,False,True
+com.callsfreecalls.android,Google Ads,Targeted ads,True,False,False,True
+com.callsfreecalls.android,AppLovin,Targeted ads,True,False,False,True
+com.callsfreecalls.android,Nostra13,Utility,False,False,False,False
+com.callsfreecalls.android,Kenai,Development aid,False,False,False,False
+com.callsfreecalls.android,Squareup,Payment,False,False,False,False
+com.callsfreecalls.android,Pollfish,Targeted ads,True,False,False,True
+com.callsfreecalls.android,StartApp,Targeted ads,True,False,False,True
+com.callsfreecalls.android,Tapjoy,Targeted ads,True,False,False,True
+com.callsfreecalls.android,Vungle,Targeted ads,True,False,False,True
+com.callsfreecalls.android,ironSource,Targeted ads,True,False,False,True
+com.callsfreecalls.android,TapJoy,Targeted ads,True,False,False,True
+com.beecrypt.beecrypthd,Github,Utility,False,False,False,False
+com.beecrypt.beecrypthd,Jakewharton,Ui component,False,False,False,False
+com.beecrypt.beecrypthd,Googlecode,Development aid,False,False,False,False
+com.beecrypt.beecrypthd,Fasterxml,Utility,False,False,False,False
+com.beecrypt.beecrypthd,Bumptech,Utility,False,False,False,False
+im.token.app99,Crashlytics,Utilities,False,False,False,False
+im.token.app99,Adobe,Utility,False,False,False,False
+im.token.app99,Squareup,Payment,False,False,False,False
+im.token.app99,Bumptech,Utility,False,False,False,False
+im.token.app99,Facebook,Social networking service,False,False,False,False
+im.token.app99,Tencent,Targeted ads,True,False,False,True
+im.token.app99,Fasterxml,Utility,False,False,False,False
+im.token.app99,Github,Utility,False,False,False,False
+com.incognito.wallet,Jcraft,Utility,False,False,False,False
+com.incognito.wallet,Push,Utility,False,False,False,False
+com.incognito.wallet,Fasterxml,Utility,False,False,False,False
+com.incognito.wallet,Crashlytics,Utilities,False,False,False,False
+com.incognito.wallet,Facebook,Social networking service,False,False,False,False
+com.incognito.wallet,Adobe,Utility,False,False,False,False
+com.incognito.wallet,Google Ads,Targeted ads,True,False,False,True
+com.youhodler.youhodler,Mixpanel,Mobile analytics,False,True,False,True
+com.youhodler.youhodler,adjust,Mobile analytics,False,True,False,True
+com.youhodler.youhodler,Github,Utility,False,False,False,False
+com.youhodler.youhodler,Facebook,Social networking service,False,False,False,False
+com.youhodler.youhodler,Bumptech,Utility,False,False,False,False
+com.youhodler.youhodler,Google Ads,Targeted ads,True,False,False,True
+com.youhodler.youhodler,Google Analytics,Mobile analytics,False,True,False,True
+com.youhodler.youhodler,Squareup,Payment,False,False,False,False
+com.neobitcoin.wallet,Facebook,Social networking service,False,False,False,False
+com.neobitcoin.wallet,Bumptech,Utility,False,False,False,False
+com.neobitcoin.wallet,Google Ads,Targeted ads,True,False,False,True
+com.neobitcoin.wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.bitcoin.mwallet,Fasterxml,Utility,False,False,False,False
+com.bitcoin.mwallet,Github,Utility,False,False,False,False
+com.bitcoin.mwallet,Facebook,Social networking service,False,False,False,False
+com.bitcoin.mwallet,Squareup,Payment,False,False,False,False
+com.bitcoin.mwallet,Google Ads,Targeted ads,True,False,False,True
+com.bitcoin.mwallet,Jakewharton,Ui component,False,False,False,False
+com.bitcoin.mwallet,Bumptech,Utility,False,False,False,False
+com.kubi.kucoin,Bumptech,Utility,False,False,False,False
+com.kubi.kucoin,Jakewharton,Ui component,False,False,False,False
+com.kubi.kucoin,Squareup,Payment,False,False,False,False
+com.kubi.kucoin,Tencent,Targeted ads,True,False,False,True
+com.coinhako,Github,Utility,False,False,False,False
+com.coinhako,Bumptech,Utility,False,False,False,False
+com.coinhako,Google Ads,Targeted ads,True,False,False,True
+com.plutus.wallet,Fasterxml,Utility,False,False,False,False
+com.plutus.wallet,Github,Utility,False,False,False,False
+com.plutus.wallet,Crashlytics,Utilities,False,False,False,False
+com.plutus.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.plutus.wallet,Google Ads,Targeted ads,True,False,False,True
+com.medishares.android,Fasterxml,Utility,False,False,False,False
+com.medishares.android,Github,Utility,False,False,False,False
+com.medishares.android,Facebook,Social networking service,False,False,False,False
+com.medishares.android,Bumptech,Utility,False,False,False,False
+com.medishares.android,Google Ads,Targeted ads,True,False,False,True
+com.medishares.android,Kenai,Development aid,False,False,False,False
+com.medishares.android,Squareup,Payment,False,False,False,False
+com.medishares.android,Tencent,Targeted ads,True,False,False,True
+com.trusteewallet,Github,Utility,False,False,False,False
+com.trusteewallet,Crashlytics,Utilities,False,False,False,False
+com.trusteewallet,Facebook,Social networking service,False,False,False,False
+com.trusteewallet,Adobe,Utility,False,False,False,False
+com.trusteewallet,Google Ads,Targeted ads,True,False,False,True
+com.ezdefi,Facebook,Social networking service,False,False,False,False
+com.ezdefi,Adobe,Utility,False,False,False,False
+com.ezdefi,Google Ads,Targeted ads,True,False,False,True
+com.crypterium,Github,Utility,False,False,False,False
+com.crypterium,Facebook,Social networking service,False,False,False,False
+com.crypterium,Flurry,Analytics,False,False,True,True
+com.crypterium,Appsflyer,Targeted ads,True,False,False,True
+com.crypterium,Bumptech,Utility,False,False,False,False
+com.crypterium,Jakewharton,Ui component,False,False,False,False
+com.crypterium,Squareup,Payment,False,False,False,False
+com.crypterium,Google Ads,Targeted ads,True,False,False,True
+co.bacoor.android.hbwallet,Github,Utility,False,False,False,False
+co.bacoor.android.hbwallet,Facebook,Social networking service,False,False,False,False
+co.bacoor.android.hbwallet,Adobe,Utility,False,False,False,False
+co.bacoor.android.hbwallet,Bumptech,Utility,False,False,False,False
+co.bacoor.android.hbwallet,Google Ads,Targeted ads,True,False,False,True
+com.theblockchain.coinus.wallet,Kenai,Development aid,False,False,False,False
+com.theblockchain.coinus.wallet,Fasterxml,Utility,False,False,False,False
+com.theblockchain.coinus.wallet,Github,Utility,False,False,False,False
+com.theblockchain.coinus.wallet,Bumptech,Utility,False,False,False,False
+com.theblockchain.coinus.wallet,Google Ads,Targeted ads,True,False,False,True
+com.bitpie,Fasterxml,Utility,False,False,False,False
+com.bitpie,Squareup,Payment,False,False,False,False
+io.bluewallet.bluewallet,Facebook,Social networking service,False,False,False,False
+io.bluewallet.bluewallet,Adobe,Utility,False,False,False,False
+com.dok.wallet,Fasterxml,Utility,False,False,False,False
+com.dok.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.dok.wallet,Bumptech,Utility,False,False,False,False
+com.dok.wallet,Google Ads,Targeted ads,True,False,False,True
+com.dok.wallet,Jakewharton,Ui component,False,False,False,False
+com.dok.wallet,Kenai,Development aid,False,False,False,False
+com.dok.wallet,Squareup,Payment,False,False,False,False
+com.pumapay.pumawallet,Fasterxml,Utility,False,False,False,False
+com.pumapay.pumawallet,Appsflyer,Targeted ads,True,False,False,True
+com.pumapay.pumawallet,Bumptech,Utility,False,False,False,False
+com.pumapay.pumawallet,Google Ads,Targeted ads,True,False,False,True
+com.pumapay.pumawallet,Jakewharton,Ui component,False,False,False,False
+com.pumapay.pumawallet,Kenai,Development aid,False,False,False,False
+com.pumapay.pumawallet,Squareup,Payment,False,False,False,False
+com.drcrypto.wallet,Fasterxml,Utility,False,False,False,False
+com.drcrypto.wallet,Appsflyer,Targeted ads,True,False,False,True
+com.drcrypto.wallet,Bumptech,Utility,False,False,False,False
+com.drcrypto.wallet,Google Ads,Targeted ads,True,False,False,True
+com.drcrypto.wallet,Jakewharton,Ui component,False,False,False,False
+com.drcrypto.wallet,Kenai,Development aid,False,False,False,False
+com.drcrypto.wallet,Squareup,Payment,False,False,False,False
+com.iMe.android,Fasterxml,Utility,False,False,False,False
+com.iMe.android,Github,Utility,False,False,False,False
+com.iMe.android,COREMEDIA,Utility,False,False,False,False
+com.iMe.android,Bumptech,Utility,False,False,False,False
+com.iMe.android,Google Ads,Targeted ads,True,False,False,True
+com.iMe.android,Googlecode,Development aid,False,False,False,False
+com.iMe.android,Squareup,Payment,False,False,False,False
+coin98.crypto.finance.media,Github,Utility,False,False,False,False
+coin98.crypto.finance.media,Facebook,Social networking service,False,False,False,False
+coin98.crypto.finance.media,Google Ads,Targeted ads,True,False,False,True
+coin98.crypto.finance.media,Adobe,Utility,False,False,False,False
+coin98.crypto.finance.media,Bumptech,Utility,False,False,False,False
+com.aax.exchange,Github,Utility,False,False,False,False
+com.aax.exchange,Crashlytics,Utilities,False,False,False,False
+com.aax.exchange,Facebook,Social networking service,False,False,False,False
+com.aax.exchange,Bumptech,Utility,False,False,False,False
+com.aax.exchange,Baidu,Targeted ads,True,False,False,True
+com.aax.exchange,Google Ads,Targeted ads,True,False,False,True
+com.aax.exchange,Google Analytics,Mobile analytics,False,True,False,True
+com.aax.exchange,Jakewharton,Ui component,False,False,False,False
+com.aax.exchange,Kochava,Mobile analytics,False,True,False,True
+com.aax.exchange,Squareup,Payment,False,False,False,False
+com.aax.exchange,Tencent,Targeted ads,True,False,False,True
+com.aax.exchange,Novell,Development aid,False,False,False,False
+io.infinito.wallet,Jakewharton,Ui component,False,False,False,False
+io.infinito.wallet,Squareup,Payment,False,False,False,False
+io.infinito.wallet,Github,Utility,False,False,False,False
+io.infinito.wallet,Facebook,Social networking service,False,False,False,False
+io.infinito.wallet,Appsflyer,Targeted ads,True,False,False,True
+io.infinito.wallet,Adobe,Utility,False,False,False,False
+io.infinito.wallet,Bumptech,Utility,False,False,False,False
+io.infinito.wallet,Google Ads,Targeted ads,True,False,False,True
+io.infinito.wallet,Google Analytics,Mobile analytics,False,True,False,True
+com.spot.spot,adjust,Mobile analytics,False,True,False,True
+com.spot.spot,Facebook,Social networking service,False,False,False,False
+com.spot.spot,Bumptech,Utility,False,False,False,False
+com.spot.spot,Google Ads,Targeted ads,True,False,False,True
+asia.coins.mobile,Squareup,Payment,False,False,False,False
+asia.coins.mobile,Loopj,Utility,False,False,False,False
+asia.coins.mobile,Github,Utility,False,False,False,False
+asia.coins.mobile,Facebook,Social networking service,False,False,False,False
+asia.coins.mobile,Appsflyer,Targeted ads,True,False,False,True
+asia.coins.mobile,Bumptech,Utility,False,False,False,False
+asia.coins.mobile,Google Ads,Targeted ads,True,False,False,True
+asia.coins.mobile,Google Analytics,Mobile analytics,False,True,False,True
+com.hconline.iso,Fasterxml,Utility,False,False,False,False
+com.hconline.iso,Github,Utility,False,False,False,False
+com.hconline.iso,Facebook,Social networking service,False,False,False,False
+com.hconline.iso,Bumptech,Utility,False,False,False,False
+com.hconline.iso,Nostra13,Utility,False,False,False,False
+com.hconline.iso,Kenai,Development aid,False,False,False,False
+com.hconline.iso,Weibo,Social networking service,False,False,False,False
+com.hconline.iso,Umeng,Mobile analytics,False,True,False,True
+com.hconline.iso,Tencent,Targeted ads,True,False,False,True
+com.midasprotocol.wallet.android,Kenai,Development aid,False,False,False,False
+com.midasprotocol.wallet.android,Fasterxml,Utility,False,False,False,False
+com.midasprotocol.wallet.android,Github,Utility,False,False,False,False
+com.midasprotocol.wallet.android,Facebook,Social networking service,False,False,False,False
+com.midasprotocol.wallet.android,Bumptech,Utility,False,False,False,False
+com.midasprotocol.wallet.android,Google Ads,Targeted ads,True,False,False,True
+com.greenaddress.greenbits_android_wallet,Fasterxml,Utility,False,False,False,False
+com.greenaddress.greenbits_android_wallet,Jakewharton,Ui component,False,False,False,False
+com.mtpelerin.bridge,Fasterxml,Utility,False,False,False,False
+com.mtpelerin.bridge,Github,Utility,False,False,False,False
+com.mtpelerin.bridge,Facebook,Social networking service,False,False,False,False
+com.mtpelerin.bridge,Google Ads,Targeted ads,True,False,False,True
+com.mtpelerin.bridge,Dropbox,Utility,False,False,False,False
+com.mtpelerin.bridge,Adobe,Utility,False,False,False,False
+com.mtpelerin.bridge,Squareup,Payment,False,False,False,False
+im.status.ethereum,Facebook,Social networking service,False,False,False,False
+im.status.ethereum,Adobe,Utility,False,False,False,False
+com.binance.dev,Github,Utility,False,False,False,False
+com.binance.dev,Appsflyer,Targeted ads,True,False,False,True
+com.binance.dev,Bumptech,Utility,False,False,False,False
+com.binance.dev,Eclipse,Utility,False,False,False,False
+com.binance.dev,ThreatMetrix,Utility,False,False,False,False
+com.binance.dev,Squareup,Payment,False,False,False,False
+com.binance.dev,Tencent,Targeted ads,True,False,False,True
+fio.ecoin.wallet,Facebook,Social networking service,False,False,False,False
+fio.ecoin.wallet,Push,Utility,False,False,False,False
+network.celsius.wallet,Jakewharton,Ui component,False,False,False,False
+network.celsius.wallet,Mixpanel,Mobile analytics,False,True,False,True
+network.celsius.wallet,Crashlytics,Utilities,False,False,False,False
+network.celsius.wallet,Facebook,Social networking service,False,False,False,False
+network.celsius.wallet,Appsflyer,Targeted ads,True,False,False,True
+network.celsius.wallet,Adobe,Utility,False,False,False,False
+network.celsius.wallet,Google Ads,Targeted ads,True,False,False,True
+app.elaphant.wallets,Squareup,Payment,False,False,False,False
+app.elaphant.wallets,Tencent,Targeted ads,True,False,False,True
+app.elaphant.wallets,Github,Utility,False,False,False,False
+app.elaphant.wallets,Crashlytics,Utilities,False,False,False,False
+app.elaphant.wallets,Bumptech,Utility,False,False,False,False
+app.elaphant.wallets,Google Ads,Targeted ads,True,False,False,True
+com.eletac.tronwallet,Twitter,Social networking service,False,False,False,False
+com.quarkonium.qpocket,Squareup,Payment,False,False,False,False
+com.quarkonium.qpocket,J256,Utility,False,False,False,False
+com.quarkonium.qpocket,Tencent,Targeted ads,True,False,False,True
+com.quarkonium.qpocket,Fasterxml,Utility,False,False,False,False
+com.quarkonium.qpocket,Github,Utility,False,False,False,False
+com.quarkonium.qpocket,Facebook,Social networking service,False,False,False,False
+com.quarkonium.qpocket,Umeng,Mobile analytics,False,True,False,True
+com.quarkonium.qpocket,Bumptech,Utility,False,False,False,False
+com.quarkonium.qpocket,Google Ads,Targeted ads,True,False,False,True
+jp.co.smartapp.gowallet,Jakewharton,Ui component,False,False,False,False
+jp.co.smartapp.gowallet,Kenai,Development aid,False,False,False,False
+jp.co.smartapp.gowallet,ironSource,Targeted ads,True,False,False,True
+jp.co.smartapp.gowallet,Fasterxml,Utility,False,False,False,False
+jp.co.smartapp.gowallet,Github,Utility,False,False,False,False
+jp.co.smartapp.gowallet,Squareup,Payment,False,False,False,False
+jp.co.smartapp.gowallet,Appsflyer,Targeted ads,True,False,False,True
+jp.co.smartapp.gowallet,Applovin,Targeted ads,True,False,False,True
+jp.co.smartapp.gowallet,Google Ads,Targeted ads,True,False,False,True
+jp.co.smartapp.gowallet,AppLovin,Targeted ads,True,False,False,True

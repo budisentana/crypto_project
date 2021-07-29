@@ -18,12 +18,15 @@ from manifest_extractor import permission_ex
 from manifest_extractor import exported_activity_ex, exported_service_ex, exported_receiver_ex, exported_provider_ex
 from manifest_extractor import activity_ex, service_ex, receiver_ex, provider_ex
 from library_extractor import check_lib
+from vt_work import search_vt_report,vt_upload,vt_find_positive
+import time
 
-selected_app_id = '/home/budi/crypto_project/crypto_code/static_analysis/test.csv'
-# selected_app_id = '/home/budi/crypto_project/crypto_code/apps_screening/wallet_apps_refined_list.csv'
+# selected_app_id = '/home/budi/crypto_project/crypto_code/static_analysis/test.csv'
+selected_app_id = '/home/budi/crypto_project/crypto_code/apps_screening/wallet_apps_refined_list.csv'
 apps_path = '/home/budi/crypto_project/apps_list/'
 report_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/'
 decompiled_path = '/home/budi/crypto_project/decompiled_app/'
+vt_result_path = '/home/budi/crypto_project/vt_result/'
 
 def check_existing_result(result_path):
     file_list=[]
@@ -238,7 +241,7 @@ def exported_component_summarize(apps_list,decompiled_path,apk_path,report_path)
     exp_comp_sum['pct_exp_act'] = round((exp_comp_sum['exp_activity']/exp_comp_sum['activity']),2)
     exp_comp_sum['pct_exp_serv'] = round((exp_comp_sum['exp_service']/exp_comp_sum['service']),2)
     exp_comp_sum['pct_exp_rec'] = round((exp_comp_sum['exp_receiver']/exp_comp_sum['receiver']),2)
-    # exp_comp_sum['pct_exp_prov'] = round((exp_comp_sum['exp_provider']/exp_comp_sum['provider']),2)
+    exp_comp_sum['pct_exp_prov'] = round((exp_comp_sum['exp_provider']/exp_comp_sum['provider']),2)
     exp_comp_sum_path = report_path+'exported_component_sum_per_app_'+file_sufix
     write_to_csv(exp_comp_sum,exp_comp_sum_path)
     print(exp_comp_sum)
@@ -292,6 +295,71 @@ def third_party_lib_summarize(apps_list,decompiled_path,report_path):
     print(lib_per_name)
     return third_party_lib_list
 
+def check_vt_status(item,vt_report_path):
+    for roots,dirs,files in os.walk(vt_report_path):
+        if item in files:
+            return True
+        else:
+            return False
+
+def isFileSizeLessthan32MB(path):
+    if os.path.getsize(path) < 32000000:
+        return True
+    else:
+        return False
+
+def vt_scan(apps_list,vt_report_path,apps_path,report_path):
+    exceed_32mb_list =[]
+    vt_positive_result_list = []
+    with open(apps_list,'r') as app_list:
+        for item in app_list:
+            item = item.strip('\n')
+            vt_status = check_vt_status(item,vt_report_path)
+            vt_result_apk_path = vt_report_path+item
+            if vt_status == False:
+                apk_path = apps_path+item+'.apk'
+                res = search_vt_report(apk_path)
+                # no_result = 'queued or pending'
+                try:
+                    if res['response_code']==0:
+                        if isFileSizeLessthan32MB == True:
+                            upload_res = vt_upload(apk_path)
+                            print(upload_res)
+                        else:
+                            print('The File size is exceeding 32 MB')
+                            exceed_32mb_list.append(item)
+                    else:
+                        print('Write result to disk :'+item)
+                        with open (vt_result_apk_path,'w') as vtj:
+                            try:
+                                json.dump(res,vtj)
+                            except:
+                                print('Cannot decode to json format')
+                except:
+                    print(res)
+            else:
+                vt_positive = vt_find_positive(vt_result_apk_path)
+                for positive in vt_positive:
+                    app_id = {'app_id':item}
+                    item_positive = dict(app_id,**positive)
+                    vt_positive_result_list.append(item_positive)
+            time.sleep(10)
+
+    """ Summarizing detail virus total positive result"""
+    file_sufix = apps_list.split('/')
+    file_sufix=file_sufix[-1]
+    vt_detail_path = report_path+'vt_positive_detail_'+file_sufix
+    # print(vt_detail_path)
+    write_to_csv(vt_positive_result_list,vt_detail_path)
+
+    """ Summarizing positive virus total per apps"""
+    vt_sum_per_app = report_path+'vt_sum_per_app_'+file_sufix
+    df_vt = pd.DataFrame(vt_positive_result_list)
+    vt_per_app = df_vt.groupby(['app_id'])['app_id'].count().reset_index(name='count')
+    print(vt_per_app)
+    write_to_csv(vt_per_app,vt_sum_per_app)
+   
+    return vt_positive_result_list
 def main():
 
     # not_found =[]
@@ -299,8 +367,10 @@ def main():
     #     for item in apps_list:
     #         item = item.strip('\n')
     #         status = check_file(item,apps_path)
+    #         # print(item)
     #         if status == False:
     #             not_found.append(item.strip('\n'))
+    #             print(item)
 
     # not_found_path = report_path+'not_found_app.txt'
     # with open(not_found_path,'w') as nf:
@@ -310,16 +380,14 @@ def main():
     # exp_comp = exported_component_summarize(selected_app_id,decompiled_path,apps_path,report_path)    
     # for x in exp_comp:
     #     print(x)
-    libraries = third_party_lib_summarize(selected_app_id,decompiled_path,report_path)    
+    # libraries = third_party_lib_summarize(selected_app_id,decompiled_path,report_path)    
     # for x in libraries:
     #     print(x)
     # for x in perm_level[0]:
     #     print(x)
     # apkid_sumarize(selected_app_id,apps_path,report_path)    
     # jarsigner_summarize(selected_app_id,apps_path,report_path)
-    # # print(metadata_df)
-    # metadata_df.to_csv(comment_file)
-
-
+    vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path)
+    # print(vt_positive)
 if __name__ == "__main__":
     main()
