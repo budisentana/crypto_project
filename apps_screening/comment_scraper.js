@@ -6,7 +6,7 @@ var gplay = require('google-play-scraper');
 
 var filename = process.argv[2];
 var result_path = process.argv[3];
-console.log(filename)
+console.log(result_path+filename)
 var path = result_path+filename
 
 gplay.reviews({appId: filename,country:'au',num: 99999}) 

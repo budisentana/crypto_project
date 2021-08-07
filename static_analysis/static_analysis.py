@@ -6,7 +6,7 @@
     - exported component extractor
 """
 
-import os
+import os,shutil
 import json
 import pandas as pd
 import csv
@@ -25,8 +25,10 @@ import time
 selected_app_id = '/home/budi/crypto_project/crypto_code/apps_screening/wallet_apps_refined_list.csv'
 apps_path = '/home/budi/crypto_project/apps_list/'
 report_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/'
-decompiled_path = '/home/budi/crypto_project/decompiled_app/'
+# decompiled_path = '/home/budi/crypto_project/decompiled_app/'
+decompiled_path = "/media/budi/Seagate Expansion Drive/crypto_project/decompiled_apps/"
 vt_result_path = '/home/budi/crypto_project/vt_result/'
+temp_path = '/home/budi/crypto_project/temp_path/'
 
 def check_existing_result(result_path):
     file_list=[]
@@ -122,15 +124,29 @@ def jarsigner_summarize(app_list_path,apps_path,report_path):
         for line in key_length:
             fl.write(line)
 
-def extract_apk(apk_path,decompiled_path):
+def extract_apk(apk_path,decompiled_path,temp_path):
     package_name = apk_path.split('/')
     package_name= package_name[-1]
     print('Decompiling '+package_name)
     apk_path = apk_path+'.apk'
-    dec_folder = decompiled_path+package_name
-    os.system('mkdir '+dec_folder)
-    comm  = 'apktool d -f '+apk_path+' -o '+dec_folder
+    os.chdir(temp_path)
+    shutil.copy2(apk_path,temp_path)
+    # dec_folder = decompiled_path+package_name
+    # os.system('mkdir '+dec_folder)
+    comm  = 'apktool d -f '+package_name+'.apk'
     os.system(comm)
+    shutil.move(temp_path+package_name,decompiled_path)
+    os.remove(temp_path+package_name+'.apk')
+
+# def extract_apk(apk_path,decompiled_path):
+#     package_name = apk_path.split('/')
+#     package_name= package_name[-1]
+#     print('Decompiling '+package_name)
+#     apk_path = apk_path+'.apk'
+#     dec_folder = decompiled_path+package_name
+#     os.system('mkdir '+dec_folder)
+#     comm  = 'apktool d -f '+apk_path+' -o '+dec_folder
+#     os.system(comm)
 
 def check_decompiled(item,decompiled_path):
     status = False
@@ -147,7 +163,7 @@ def check_manifest(manifest_path):
             status = True
     return status
 
-def permission_sumarize(apps_list,decompiled_path,apk_path,report_path):
+def permission_sumarize(apps_list,decompiled_path,apk_path,report_path,temp_path):
     no_manifest=[]
     permission_level=[]
     with open(apps_list,'r') as app_list:
@@ -156,7 +172,7 @@ def permission_sumarize(apps_list,decompiled_path,apk_path,report_path):
             decom_status = check_decompiled(item,decompiled_path)
             if decom_status == False:
                 apk_file_path = apk_path+item
-                extract_apk(apk_file_path,decompiled_path)
+                extract_apk(apk_file_path,decompiled_path,temp_path)
             manifest_path = decompiled_path+item+'/AndroidManifest.xml'
             mfs_status = check_manifest(manifest_path)
             if mfs_status == True:
@@ -387,7 +403,7 @@ def main():
     #     print(x)
     # apkid_sumarize(selected_app_id,apps_path,report_path)    
     # jarsigner_summarize(selected_app_id,apps_path,report_path)
-    vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path)
+    vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path,temp_path)
     # print(vt_positive)
 if __name__ == "__main__":
     main()

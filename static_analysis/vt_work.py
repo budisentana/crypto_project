@@ -5,7 +5,8 @@ import requests
 
 
 # apk_path = '/home/budi/crypto_project/apps_list/app.codecellar.embitwallet.apk'
-apk_path = '/home/budi/crypto_project/apps_list/za.co.rockwallet.apk'
+apk_path = '/home/budi/crypto_project/apps_list/cash.usdx.wallet.apk'
+
 result_path = '/home/budi/crypto_project/vt_result/africa.bundle.mobile.app'
 
 def random_key():
@@ -39,6 +40,7 @@ def search_vt_report(apk_path):
         js = response.json
     except:
         print(response)
+        js = response
     
     return js
 

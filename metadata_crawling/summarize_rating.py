@@ -62,7 +62,7 @@ def summarize_negative_comment(comment_file):
     # error_line = df_comment[df_comment['star'].str.contains('error')]
     # print(error_line)
     df_comment = df_comment.drop(df_comment[df_comment.star == 'error'].index)
-    print(df_comment)
+    # print(df_comment)
     df_comment.star = df_comment.star.astype(int)
     df_comment.comment = df_comment.comment.astype(str)
     total = df_comment.groupby(["appId"])['appId'].count().reset_index(name="total")
@@ -92,75 +92,75 @@ def summarize_negative_comment(comment_file):
     sum_negative_review['pct_cust'] = round((sum_negative_review['cust_support']/sum_negative_review['total_negative'])*100,2)
     # fft_pct_neg = sum_negative_review[sum_negative_review['pct_negative']>50]
     # print(len(fft_pct_neg[['appId','pct_negative']]))
-    print(negative_review)
+    # print(negative_review)
     print(sum_negative_review)
     # sum_non_empty = (sum_negative_review==0).sum()
     sum_negative_review_path = '/home/budi/crypto_project/crypto_code/metadata_crawling/sum_negative_review.csv'
     sum_negative_review.to_csv(sum_negative_review_path)
+    # percentiles = np.array([25,50 , 85])
+    # fraud_dt = sum_negative_review['pct_fraud']
+    # fraud_ecdf = sm.distributions.ECDF(fraud_dt)
+    # fraud_x = np.linspace(min(fraud_dt), max(fraud_dt))
+    # fraud_y = fraud_ecdf(fraud_x)
+    # fraud_pct_val = np.percentile(fraud_dt, percentiles)
 
-    percentiles = np.array([25,50 , 85])
-    fraud_dt = sum_negative_review['pct_fraud']
-    fraud_ecdf = sm.distributions.ECDF(fraud_dt)
-    fraud_x = np.linspace(min(fraud_dt), max(fraud_dt))
-    fraud_y = fraud_ecdf(fraud_x)
-    fraud_pct_val = np.percentile(fraud_dt, percentiles)
+    # bugs_dt = sum_negative_review['pct_bugs']
+    # bugs_ecdf = sm.distributions.ECDF(bugs_dt)
+    # bugs_x = np.linspace(min(bugs_dt), max(bugs_dt))
+    # bugs_y = bugs_ecdf(bugs_x)
+    # bugs_pct_val = np.percentile(bugs_dt, percentiles)
 
-    bugs_dt = sum_negative_review['pct_bugs']
-    bugs_ecdf = sm.distributions.ECDF(bugs_dt)
-    bugs_x = np.linspace(min(bugs_dt), max(bugs_dt))
-    bugs_y = bugs_ecdf(bugs_x)
-    bugs_pct_val = np.percentile(bugs_dt, percentiles)
+    # auth_dt = sum_negative_review['pct_auth']
+    # auth_ecdf = sm.distributions.ECDF(auth_dt)
+    # auth_x = np.linspace(min(auth_dt), max(auth_dt))
+    # auth_y = auth_ecdf(auth_x)
+    # auth_pct_val = np.percentile(auth_dt, percentiles)
 
-    auth_dt = sum_negative_review['pct_auth']
-    auth_ecdf = sm.distributions.ECDF(auth_dt)
-    auth_x = np.linspace(min(auth_dt), max(auth_dt))
-    auth_y = auth_ecdf(auth_x)
-    auth_pct_val = np.percentile(auth_dt, percentiles)
+    # sec_dt = sum_negative_review['pct_sec']
+    # sec_ecdf = sm.distributions.ECDF(sec_dt)
+    # sec_x = np.linspace(min(sec_dt), max(sec_dt))
+    # sec_y = sec_ecdf(sec_x)
+    # sec_pct_val = np.percentile(sec_dt, percentiles)
 
-    sec_dt = sum_negative_review['pct_sec']
-    sec_ecdf = sm.distributions.ECDF(sec_dt)
-    sec_x = np.linspace(min(sec_dt), max(sec_dt))
-    sec_y = sec_ecdf(sec_x)
-    sec_pct_val = np.percentile(sec_dt, percentiles)
+    # usa_dt = sum_negative_review['pct_usa']
+    # usa_ecdf = sm.distributions.ECDF(usa_dt)
+    # usa_x = np.linspace(min(usa_dt), max(usa_dt))
+    # usa_y = usa_ecdf(usa_x)
+    # usa_pct_val = np.percentile(usa_dt, percentiles)
 
-    usa_dt = sum_negative_review['pct_usa']
-    usa_ecdf = sm.distributions.ECDF(usa_dt)
-    usa_x = np.linspace(min(usa_dt), max(usa_dt))
-    usa_y = usa_ecdf(usa_x)
-    usa_pct_val = np.percentile(usa_dt, percentiles)
+    # ads_dt = sum_negative_review['pct_ads']
+    # ads_ecdf = sm.distributions.ECDF(ads_dt)
+    # ads_x = np.linspace(min(ads_dt), max(ads_dt))
+    # ads_y = ads_ecdf(ads_x)
+    # ads_pct_val = np.percentile(ads_dt, percentiles)
 
-    ads_dt = sum_negative_review['pct_ads']
-    ads_ecdf = sm.distributions.ECDF(ads_dt)
-    ads_x = np.linspace(min(ads_dt), max(ads_dt))
-    ads_y = ads_ecdf(ads_x)
-    ads_pct_val = np.percentile(ads_dt, percentiles)
+    # negative_dt = sum_negative_review['pct_negative']
+    # negative_ecdf = sm.distributions.ECDF(negative_dt)
+    # negative_x = np.linspace(min(negative_dt), max(negative_dt))
+    # negative_y = negative_ecdf(negative_x)
+    # negative_pct_val = np.percentile(negative_dt, percentiles)
 
-    negative_dt = sum_negative_review['pct_negative']
-    negative_ecdf = sm.distributions.ECDF(negative_dt)
-    negative_x = np.linspace(min(negative_dt), max(negative_dt))
-    negative_y = negative_ecdf(negative_x)
-    negative_pct_val = np.percentile(negative_dt, percentiles)
-
-    fig = plt.figure(figsize=(5,4))
-    plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
-    plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(negative_x, negative_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker","Negative Review"))
-    plt.xlabel('Complaint(%))', size = 10)
-    plt.ylabel('ECDF', size = 10)
-    plt.plot(fraud_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(bugs_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(auth_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(sec_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(usa_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(ads_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(negative_pct_val, percentiles, marker='o', color='red',linestyle='none')
-    fig.savefig('/home/budi/crypto_project/crypto_code/metadata_crawling/user_review_ecdf.pdf')
-    plt.show()
+    # fig = plt.figure(figsize=(5,4))
+    # plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
+    # plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # # plt.plot(negative_x, negative_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker"))
+    # # plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker","Negative Review"))
+    # plt.xlabel('Complaint(%))', size = 10)
+    # plt.ylabel('ECDF', size = 10)
+    # plt.plot(fraud_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(bugs_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(auth_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(sec_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(usa_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(ads_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # # plt.plot(negative_pct_val, percentiles, marker='o', color='red',linestyle='none')
+    # fig.savefig('/home/budi/crypto_project/crypto_code/metadata_crawling/user_review_ecdf.pdf')
+    # plt.show()
 
 
 def main():
