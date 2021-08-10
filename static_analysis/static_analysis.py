@@ -58,7 +58,11 @@ def apkid_sumarize(app_list_path,apps_path,report_path):
             if status == True:
                 # print(apps_path)
                 match_list = apkid_analysis(apk_path)
-                anti_vm = obfuscator=anti_debug=anti_disassembly=manipulator=packer = False
+                anti_vm = False
+                obfuscator= False
+                anti_debug= False
+                anti_disassembly= False
+                manipulator=packer = False
                 for x in match_list:
                     apkid_detail.append(x)
                     if 'anti_vm' in x['types']:
@@ -71,6 +75,8 @@ def apkid_sumarize(app_list_path,apps_path,report_path):
                         anti_disassembly = True
                     elif 'packer' in x['types']:
                         packer = True
+                    elif 'manipulator' in x['types']:
+                        manipulator = True
                 
                 apkid_result.append({'app_name':item,'anti_vm':anti_vm,'obfuscator':obfuscator,'anti_debug':anti_debug,'anti_disassembly':anti_disassembly,
                 'manipulator':manipulator,'packer':packer})
@@ -135,8 +141,11 @@ def extract_apk(apk_path,decompiled_path,temp_path):
     # os.system('mkdir '+dec_folder)
     comm  = 'apktool d -f '+package_name+'.apk'
     os.system(comm)
+    time.sleep(1)
     shutil.move(temp_path+package_name,decompiled_path)
+    time.sleep(1)
     os.remove(temp_path+package_name+'.apk')
+    time.sleep(1)
 
 # def extract_apk(apk_path,decompiled_path):
 #     package_name = apk_path.split('/')
@@ -401,9 +410,9 @@ def main():
     #     print(x)
     # for x in perm_level[0]:
     #     print(x)
-    # apkid_sumarize(selected_app_id,apps_path,report_path)    
+    apkid_sumarize(selected_app_id,apps_path,report_path)    
     # jarsigner_summarize(selected_app_id,apps_path,report_path)
-    vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path,temp_path)
+    # vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path,temp_path)
     # print(vt_positive)
 if __name__ == "__main__":
     main()
