@@ -1,11 +1,12 @@
 from xml.dom.minidom import parseString
 
-base_path = '/home/budi/crypto_project/sandbox/trx.org.freewallet.app/AndroidManifest.xml'
+base_path = '/media/budi/Seagate Expansion Drive/crypto_project/decompiled_apps/ab.cryptocurrency/AndroidManifest.xml'
 # base_path = '/home/budi/crypto_project/sandbox/adblocker.lite.browser/AndroidManifest.xml'
 
 """Find Permission"""
 def permission_ex (manifest_path): 
     perm_list=[]
+    # location=[]
     with open(manifest_path,'r') as f:
         data = f.read()
         dom = parseString(data)
@@ -14,6 +15,7 @@ def permission_ex (manifest_path):
             per_val = per.getAttribute('android:name')
             if per_val not in perm_list and per_val !='':
                 perm_list.append(per_val)
+                # location.append('uses')
             # print(per.getAttribute('android:name'))
 
         activity_perm = dom.getElementsByTagName('activity')
@@ -21,6 +23,7 @@ def permission_ex (manifest_path):
             ap_val = ap.getAttribute('android:permission')
             if ap_val not in perm_list and ap_val !='':
                 perm_list.append(ap_val)
+                # location.append('activity')
 
         services_perm = dom.getElementsByTagName('service')
         for sp in services_perm:

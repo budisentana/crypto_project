@@ -1,11 +1,6 @@
 level,count
-Customized ,3375
-N/A,288
-dangerous,1576
+N/A,110
+customized,3025
+dangerous,1754
 normal,2802
-signature,50
-signature|preinstalled|appop|pre23,228
-signature|preinstalled|appop|pre23|development,86
-signature|privileged,29
-signature|privileged|development,8
-signature|privileged|development|appop|retailDemo,6
+signature,757

@@ -1,0 +1,38 @@
+----Mount File System Permission--------
+com.bityard.us2 & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.burency.app & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.ixx\_android & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.jex.trade & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.matrixport.mark & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.okinc.okex.gp & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.viabtc.pool & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+io.wallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+roseon.finance & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.btcc.mobiwallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.ellipal.wallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+bitmesh.volt.wallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+org.topnetwork.hiwallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.top1.group.international.android & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.bixin.bixin\_android & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+vip.mytokenpocket & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+im.token.app99 & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+cobo.wallet & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.kubi.kucoin & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+im.token.app & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.bitpie & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.mexcpro.client & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.aax.exchange & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.hconline.iso & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.binance.dev & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+com.legendwd.hyperpayW & android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS\\ 
+------------------------------------------------------ 
+----Download Without Notification Permission--------
+com.burency.app & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.nexowallet & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.remitano.remitano & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.viabtc.pool & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+tech.central.ctocoin & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.cryptowallet.deviantx & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.portto.blocto & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+com.polehin.android & android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION\\ 
+------------------------------------------------------ 

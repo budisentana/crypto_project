@@ -1,7 +1,7 @@
 import manifest_extractor
 import os
 
-base_path = '/home/budi/crypto_project/sandbox/trx.org.freewallet.app/AndroidManifest.xml'
+base_path = '/media/budi/Seagate Expansion Drive/crypto_project/decompiled_apps/ab.cryptocurrency/AndroidManifest.xml'
 
 def getPermissionsDictionary():
     dictionary = {'ACCEPT_HANDOVER': 'dangerous', 'ACCESS_BACKGROUND_LOCATION': 'dangerous', 'ACCESS_CALL_AUDIO': 'signature|appop', 'ACCESS_CHECKIN_PROPERTIES': 'N/A',
@@ -42,7 +42,8 @@ def getPermissionsDictionary():
      'USE_BIOMETRIC': 'normal', 'USE_FINGERPRINT': 'normal', 'USE_FULL_SCREEN_INTENT': 'normal', 'USE_SIP':'dangerous', 'VIBRATE': 'normal', 'WAKE_LOCK': 'normal',
      'WRITE_APN_SETTINGS': 'N/A', 'WRITE_CALENDAR': 'dangerous', 'WRITE_CALL_LOG': 'dangerous', 'WRITE_CONTACTS': 'dangerous',
      'WRITE_EXTERNAL_STORAGE': 'dangerous', 'WRITE_GSERVICES': 'N/A', 'WRITE_SECURE_SETTINGS': 'N/A', 'WRITE_SETTINGS': 'signature|preinstalled|appop|pre23',
-     'WRITE_SYNC_SETTINGS': 'normal', 'WRITE_VOICEMAIL': 'signature|privileged'}
+     'WRITE_SYNC_SETTINGS': 'normal', 'WRITE_VOICEMAIL': 'signature|privileged','BIND_JOB_SERVICE' : 'signature','INSTALL_PACKAGES':'dangerous','DUMP':'dangerous',
+     'GET_TASK':'dangerous','READ_INTERNAL_STORAGE':'signature|privileged'}
     return dictionary
 
 def find_permission_level(permission_list):
@@ -56,8 +57,12 @@ def find_permission_level(permission_list):
             new = diction[actualPermission]
             # print(actualPermission,new)
         else:
-            new = "Customized "#| Third-party"
+            new = "customized"#| Third-party"
             # print(actualPermission,new)
+        
+        if 'signature' in new:
+            new = 'signature'
+        
         item = {'permission':perm,'level':new}
         permissionListLevel.append(item)
     return permissionListLevel    

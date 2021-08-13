@@ -180,11 +180,14 @@ def permission_sumarize(apps_list,decompiled_path,apk_path,report_path,temp_path
             item = item.strip('\n')
             decom_status = check_decompiled(item,decompiled_path)
             if decom_status == False:
+                print('Decompiled Folder Not available')
+                print('Decompiling : '+item)
                 apk_file_path = apk_path+item
                 extract_apk(apk_file_path,decompiled_path,temp_path)
             manifest_path = decompiled_path+item+'/AndroidManifest.xml'
-            mfs_status = check_manifest(manifest_path)
+            mfs_status = check_manifest(manifest_path)           
             if mfs_status == True:
+                print('Extracting permission of : '+item)
                 permission_list = permission_ex(manifest_path)
                 permission_level_list = find_permission_level(permission_list) 
                 for perm in permission_level_list:
@@ -192,6 +195,7 @@ def permission_sumarize(apps_list,decompiled_path,apk_path,report_path,temp_path
                     permission_level.append(perm_item)
             else:
                 no_manifest.append(item)
+                print('No Manifest available for :'+item)
                 # perm_item = {'app_id':item,'permission':'not found','level':'not found'}
                 # permission_level.append(perm_item)
     
@@ -224,10 +228,13 @@ def exported_component_summarize(apps_list,decompiled_path,apk_path,report_path)
             item = item.strip('\n')
             decom_status = check_decompiled(item,decompiled_path)
             if decom_status == False:
+                print('Decompiled Folder Not available')
+                print('Decompiling : '+item)
                 apk_file_path = apk_path+item
                 extract_apk(apk_file_path,decompiled_path)
             manifest_path = decompiled_path+item+'/AndroidManifest.xml'
             mfs_status = check_manifest(manifest_path)
+            print('Checking Exported Component : '+item)
             if mfs_status == True:
                 ex_act_list = exported_activity_ex(manifest_path)
                 for e_act in ex_act_list:
@@ -401,7 +408,7 @@ def main():
     # with open(not_found_path,'w') as nf:
     #     for line in not_found:
     #         nf.write(line+'\n')            
-    # perm_level = permission_sumarize(selected_app_id,decompiled_path,apps_path,report_path)    
+    perm_level = permission_sumarize(selected_app_id,decompiled_path,apps_path,report_path,temp_path)    
     # exp_comp = exported_component_summarize(selected_app_id,decompiled_path,apps_path,report_path)    
     # for x in exp_comp:
     #     print(x)
@@ -410,9 +417,9 @@ def main():
     #     print(x)
     # for x in perm_level[0]:
     #     print(x)
-    apkid_sumarize(selected_app_id,apps_path,report_path)    
+    # apkid_sumarize(selected_app_id,apps_path,report_path)    
     # jarsigner_summarize(selected_app_id,apps_path,report_path)
-    # vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path,temp_path)
+    # vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path)
     # print(vt_positive)
 if __name__ == "__main__":
     main()
