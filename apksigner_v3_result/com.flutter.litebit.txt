@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Aleksandar Lugonja, OU=LiteBit, O=LiteBit, L=Novi Sad, ST=Serbia, C=rs
+Signer #1 certificate SHA-256 digest: c65d521f440ed014524636e1d07f47523f6d6098743636402f41ce35d7ce4a92
+Signer #1 certificate SHA-1 digest: e6b97a5affdc40dc2a0951f4030304e79e11ccf4
+Signer #1 certificate MD5 digest: d93d0e3de03b8625b6a647282d7ca518
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 8a486600de50fde7591cc4172ca54a832f9b5366e4845544d848590dc04c0d8e
+Signer #1 public key SHA-1 digest: 949a1d0fdc63a65bbac3cfafbd983fdacb272bcc
+Signer #1 public key MD5 digest: 29346f42081281d3bdfa80ad1fd951f0

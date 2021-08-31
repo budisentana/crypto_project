@@ -1,0 +1,19 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Daniel Scott, OU=Tech, O=CoinCorner, L=Ballasalla, ST=Isle of Man, C=GB
+Signer #1 certificate SHA-256 digest: 965a341b61a686769c4e2e48ac955be18175a7d77d869d8960cd77a520de488a
+Signer #1 certificate SHA-1 digest: 6839499e836ba98cc857c46226095c8d9f6a1526
+Signer #1 certificate MD5 digest: d0a0db90b3eced49caef61936b2a9534
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 3d00471e05ac6cba9541135eda87b8da30e3fe413286e38a1bea7d8a88550f9e
+Signer #1 public key SHA-1 digest: 9e4723831799e063f7f5f09623eb999fd212b21a
+Signer #1 public key MD5 digest: 5f7a7ad21ea3487c9a6c56218ee30f19
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/proguard/androidx-annotations.pro not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.guava/listenablefuture/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.guava/listenablefuture/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

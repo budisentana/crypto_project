@@ -382,14 +382,14 @@ def vt_scan(apps_list,vt_report_path,apps_path,report_path):
     file_sufix=file_sufix[-1]
     vt_detail_path = report_path+'vt_positive_detail_'+file_sufix
     # print(vt_detail_path)
-    write_to_csv(vt_positive_result_list,vt_detail_path)
+    # write_to_csv(vt_positive_result_list,vt_detail_path)
 
     """ Summarizing positive virus total per apps"""
     vt_sum_per_app = report_path+'vt_sum_per_app_'+file_sufix
     df_vt = pd.DataFrame(vt_positive_result_list)
     vt_per_app = df_vt.groupby(['app_id'])['app_id'].count().reset_index(name='count')
     print(vt_per_app)
-    write_to_csv(vt_per_app,vt_sum_per_app)
+    # write_to_csv(vt_per_app,vt_sum_per_app)
    
     return vt_positive_result_list
 def main():
@@ -408,7 +408,7 @@ def main():
     # with open(not_found_path,'w') as nf:
     #     for line in not_found:
     #         nf.write(line+'\n')            
-    perm_level = permission_sumarize(selected_app_id,decompiled_path,apps_path,report_path,temp_path)    
+    # perm_level = permission_sumarize(selected_app_id,decompiled_path,apps_path,report_path,temp_path)    
     # exp_comp = exported_component_summarize(selected_app_id,decompiled_path,apps_path,report_path)    
     # for x in exp_comp:
     #     print(x)
@@ -419,7 +419,7 @@ def main():
     #     print(x)
     # apkid_sumarize(selected_app_id,apps_path,report_path)    
     # jarsigner_summarize(selected_app_id,apps_path,report_path)
-    # vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path)
-    # print(vt_positive)
+    vt_positive = vt_scan(selected_app_id,vt_result_path,apps_path,report_path)
+    print(vt_positive)
 if __name__ == "__main__":
     main()

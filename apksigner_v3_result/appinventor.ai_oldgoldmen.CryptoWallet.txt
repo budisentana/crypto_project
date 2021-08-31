@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=oldgoldmen@gmail.com, O=AppInventor for Android, C=US
+Signer #1 certificate SHA-256 digest: 39a201b9a35f3d96ffabb379104ffbcbff28b3910762bcb9d883dcdb2e9fb7d5
+Signer #1 certificate SHA-1 digest: d5245d2ca3f8cb02edc3948072c510734df7f7e2
+Signer #1 certificate MD5 digest: 15b7a85edf4c30bae99a6ff1673eb30a
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 6031e5495091a5ce480095583e19f9dd09063c204d603766288005cb0cca56c0
+Signer #1 public key SHA-1 digest: ad3595a92652197695766cbc52e0714711cb1654
+Signer #1 public key MD5 digest: 1cea7426a0b8ef667a0530b8b852d3b0

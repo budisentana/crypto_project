@@ -1,0 +1,16 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=ye wen, OU=ym, O=ym, L=xm, ST=fj, C=86
+Signer #1 certificate SHA-256 digest: 72ae6ae2c260e753eaf07f3396178f4943caef6fc2681db2f1f4eebfbe798f63
+Signer #1 certificate SHA-1 digest: 31164d1645234c662945530044202b1dfcfeca5c
+Signer #1 certificate MD5 digest: d1953839091721dbf2ed1844e1d519f4
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: e504d90e2c16d81fef71b96d7849b9d7fe249bf23b4635ec3ce28f35156c268a
+Signer #1 public key SHA-1 digest: 0b8912e555c5790b4000442f46b8910fb8b5b5fa
+Signer #1 public key MD5 digest: f133b039e52e3ba86c82c3bfee3913f0
+WARNING: META-INF/services/com.fasterxml.jackson.core.JsonFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/com.fasterxml.jackson.core.ObjectCodec not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

@@ -17,7 +17,9 @@ def apkid_plot(file,plot_path):
     sum_df_apkid = sum_df_apkid.sort_values(by=['count'])#,ascending=False)
     print(sum_df_apkid)
 
-    parameter = sum_df_apkid['index']
+    # parameter = sum_df_apkid['index'].tolist()
+    parameter = ['Anti Disassembly','Packer','Manipulator','Obfuscator','Anti Debug','Anti VM']
+    print(parameter)
     count = sum_df_apkid['count']
     fig = plt.figure(figsize=(6,4))
     plt.xticks(rotation='vertical',fontsize=12)
@@ -64,7 +66,7 @@ def dexer_plot(file,write_path):
 
 def main():
     plot_path = write_path+'anti_analysis_plot.pdf'
-    # apkid_plot(apkid_path,plot_path)
+    apkid_plot(apkid_path,plot_path)
     compiler_plot_path = write_path+'compiler_type_plot.pdf'
     dexer_plot(apkid_raw_path,compiler_plot_path)
 

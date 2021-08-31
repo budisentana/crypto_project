@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Bitzapp, OU=ApplicationDevelopment, O=OGSoftwareSolutions, L=Chennai, ST=TamilNadu, C=IN
+Signer #1 certificate SHA-256 digest: c20df497567ff9bc710809ef2b438600805ed52917047938e2182579c2c9356f
+Signer #1 certificate SHA-1 digest: 591029b2fe5aeeed6505c2fea863857448f914c8
+Signer #1 certificate MD5 digest: 306ec1702bf0ea51bf63f636814d8484
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 4c75f40d4d56980bf763d3e1095e93b02b335ed5c7decc1643db405d5153ed82
+Signer #1 public key SHA-1 digest: 414285fae30fd76652c0e7466492f20d30c36841
+Signer #1 public key MD5 digest: 95a0c19604efc5f263d70dbb4592bf83
+WARNING: META-INF/proguard/androidx-annotations.pro not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

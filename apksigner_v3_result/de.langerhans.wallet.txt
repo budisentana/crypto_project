@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Maximilian Keller, L=Bad Nauheim, ST=Hessen, C=DE
+Signer #1 certificate SHA-256 digest: 31a16982278ff515df8b3e74e302bfe066255ba2f43273edf2fb8b86ac514d92
+Signer #1 certificate SHA-1 digest: 364749a7df1000da45c270179e266d0017ca5ac7
+Signer #1 certificate MD5 digest: 6535ca0c3fdb4b54f920eefcb21ac062
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 56dfd24dd1617eaa7626a827f224c2d6adeb0f24ca88b71bcc53297324477c64
+Signer #1 public key SHA-1 digest: 3966eee1c1ca2a4a36f89bd56533ea8807fc0611
+Signer #1 public key MD5 digest: 4ed05c79e6b9646774c328c00fed61f6

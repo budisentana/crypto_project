@@ -1,0 +1,16 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown
+Signer #1 certificate SHA-256 digest: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+Signer #1 certificate SHA-1 digest: cde16b40ba9c13dcf698d81274719af66e0869ab
+Signer #1 certificate MD5 digest: 1a48a11bf38bc150bf39bd6635717cc9
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 0fca65fc5a3dd28ffdd8c1f12eeffd98838bf5a8414dbdb2145facd1ad98387d
+Signer #1 public key SHA-1 digest: 7767c8af331454141605f1f4a8c9cced5045e817
+Signer #1 public key MD5 digest: 9fd9d02aeff6d057c5061d1c05cc4098
+WARNING: META-INF/annotation-experimental_release.kotlin_module not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/java.security.Provider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

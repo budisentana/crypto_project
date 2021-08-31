@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: C=US
+Signer #1 certificate SHA-256 digest: 62511fb34e737908be522f52526796eee621bd8cf9addc6e985941294e2e5299
+Signer #1 certificate SHA-1 digest: e973e989370ed341b440b446d9ce799f92e9d566
+Signer #1 certificate MD5 digest: 0035404bd146d60d77c74d103cb6ec93
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 2a7b3c78f10751ffb1b075610e33d78c77644fa503cc7c8836d7a124caffbd2d
+Signer #1 public key SHA-1 digest: 622ca07e618f6a418280f4cdc07d3eae05e144e7
+Signer #1 public key MD5 digest: 9ddae3ce2372629a1b437b70166bfc51
+WARNING: META-INF/services/java.security.Provider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

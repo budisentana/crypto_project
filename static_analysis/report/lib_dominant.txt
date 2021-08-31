@@ -1,0 +1,47 @@
+Analytics Libraries
+----------------------------
+Google Analytics & 61\\ 
+Mixpanel & 20\\ 
+adjust & 15\\ 
+Umeng & 11\\ 
+Flurry & 10\\ 
+Kochava & 2\\ 
+Apptimize & 1\\ 
+New Relic & 1\\ 
+----------------------------
+Payment Libraries
+----------------------------
+Squareup & 166\\ 
+Intuit & 8\\ 
+Paypal & 1\\ 
+Urbanairship & 1\\ 
+----------------------------
+Social Media Libraries
+----------------------------
+Facebook & 198\\ 
+Twitter & 10\\ 
+Weibo & 3\\ 
+----------------------------
+Ads and Tracker Libraries
+----------------------------
+Google Ads & 259\\ 
+Appsflyer & 66\\ 
+Tencent & 25\\ 
+AppLovin & 4\\ 
+Appboy & 4\\ 
+Applovin & 4\\ 
+Unity Ads & 4\\ 
+Mopub & 3\\ 
+StartApp & 3\\ 
+ironSource & 3\\ 
+MoPub & 3\\ 
+TapJoy & 2\\ 
+Tapjoy & 2\\ 
+Chartboost & 2\\ 
+Vungle & 2\\ 
+Pollfish & 1\\ 
+Inmobi & 1\\ 
+Baidu & 1\\ 
+Urban Ariship & 1\\ 
+AdColony (Jirbo) & 1\\ 
+----------------------------

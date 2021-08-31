@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=B Coiner, OU=Security, O=Bcoiner, L=San Francisco, ST=CA, C=US
+Signer #1 certificate SHA-256 digest: fd793b8ab3bbbd42f63899a98c4dacb7d1a981fd81ff6163dbedb2a0421b6af9
+Signer #1 certificate SHA-1 digest: 5c4ffe4f2dc4f09dc18d2304af90521318f3e2a9
+Signer #1 certificate MD5 digest: f184c5173f382477f75e9a9d42739a4b
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 1024
+Signer #1 public key SHA-256 digest: d911f8c78b2ccb1642e0f426ac0b5dfafa8aa75320ad64c648ff3d9bbbc98579
+Signer #1 public key SHA-1 digest: 1d9d17bfa3355a2bd1423dd963df3c23efc8a431
+Signer #1 public key MD5 digest: 7f770fed18808b9ea9ab80c989cc3727

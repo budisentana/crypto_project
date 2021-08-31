@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Disrupt, OU=Disrupt, O=Disrupt, L=Disrupt, ST=Disrupt, C=USA
+Signer #1 certificate SHA-256 digest: c5d95d411b432b889cc295e039160f4133d6b79c76abc6430d1f72ebdcc0193f
+Signer #1 certificate SHA-1 digest: e4431dff31db4a2061130329efae19cb133305b3
+Signer #1 certificate MD5 digest: 8b4a833ce17e0e621211a30332941b22
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 455d4cedfd29ef149135e6e1cbaa42faad81de31cba7c8edaa97b8622b4e2802
+Signer #1 public key SHA-1 digest: 2caa5b02ae1cc30869f59aa2591b980464651da6
+Signer #1 public key MD5 digest: 1e657f9fa4446ac93fb24901260a589a

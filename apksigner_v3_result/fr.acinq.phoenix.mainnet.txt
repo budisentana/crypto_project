@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Unknown, OU=Unknown, O=ACINQ SAS, L=Paris, ST=Unknown, C=FR
+Signer #1 certificate SHA-256 digest: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+Signer #1 certificate SHA-1 digest: e03fd599eb338d40ae2a1a353aa6e5ad50afe82c
+Signer #1 certificate MD5 digest: a614ca3bd1fbf8d0247f5738b4888ff5
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 79c761774a42fcf366f3d7dd59df44f8a22a2ac9922504ce06dc2529df8c18d3
+Signer #1 public key SHA-1 digest: 878bd340a6b732662d3ea7b9a69e11439d3781d8
+Signer #1 public key MD5 digest: c6d0a5260606fc7c73c5d06bd9a3dcf0

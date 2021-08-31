@@ -1,0 +1,19 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Peter Dill, OU=Mobile, O=ANX, L=Hong Kong SAR, ST=Hong Kong SAR, C=hk
+Signer #1 certificate SHA-256 digest: 86167dd3511343f762a1fb26e87c0a575591ef7ac1a9cdb61be218f7dfcf90b5
+Signer #1 certificate SHA-1 digest: 2e49d5a7d5f3689e69f2faf053edf0c4bea603a0
+Signer #1 certificate MD5 digest: b30057ff7471ea14caf22697c3e4a6bd
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 0418f12b8a036682eda09c4b26c88fbf7ac18f5a0c372c83ba20f3c17390268d
+Signer #1 public key SHA-1 digest: 173330e6035312afe8e89ac40bde72bb17d72978
+Signer #1 public key MD5 digest: 980931380a20e8169c9b88f2c2a4f166
+WARNING: META-INF/services/com.fasterxml.jackson.core.JsonFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/LICENSE-FIREBASE_android.txt not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/com.fasterxml.jackson.core.ObjectCodec not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/LICENSE-FIREBASE_jvm.txt not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/javax.annotation.processing.Processor not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

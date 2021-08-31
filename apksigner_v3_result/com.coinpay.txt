@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Alex Postlmayr, O=Coinpay LLC, L=Bloomfield Hills, ST=MI, C=US
+Signer #1 certificate SHA-256 digest: 5571475a122a4118cb305c0399f7391318862399a00d3bfa75ad3dab7b30e8b0
+Signer #1 certificate SHA-1 digest: e238e6ff6d4d2c3524d3e43192b45d773af08163
+Signer #1 certificate MD5 digest: 665b20867c1ea1f6e3c632fe423d5404
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 5b87b3a49196d5dd54cb225dcb2c729fd79cd05d35b74651158288b53453b31d
+Signer #1 public key SHA-1 digest: fc6929508bca4d62c082dfd1c63aa75455586666
+Signer #1 public key MD5 digest: 397e027a69945b9957391e7c8a6ed374

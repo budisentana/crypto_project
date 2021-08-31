@@ -5,7 +5,7 @@ import statsmodels.api as sm # recommended import according to the docs
 import matplotlib.pyplot as plt
 
 
-permission_sum_per_app_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/permission_sum_per_app.csv'
+permission_sum_per_app_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/permission/permission_sum_per_app.csv'
 permission_detail_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/permission_detail_wallet_apps_refined_list.csv'
 write_path = '/home/budi/crypto_project/crypto_code/static_analysis/plot/'
 
@@ -47,10 +47,10 @@ def permission_plot(file,write_path):
     plt.legend(("Dangerous", "Normal","Signature","Customized"))
     plt.xlabel('# of Permission', size = 10)
     plt.ylabel('ECDF', size = 10)
-    plt.plot(dgr_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(nrm_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(sgt_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(cst_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(dgr_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(nrm_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(sgt_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(cst_val, percentiles, marker='o', color='red',linestyle='none')
     fig.savefig(write_path)
     plt.show()
 
@@ -97,10 +97,10 @@ def percentage_plot(file,write_path):
     plt.legend(("Dangerous", "Normal","Signature","Customized"))
     plt.xlabel('Percentage of Permission Level', size = 10)
     plt.ylabel('ECDF', size = 10)
-    plt.plot(pct_dgr_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(pct_nrm_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(pct_sgt_val, percentiles, marker='o', color='red',linestyle='none')
-    plt.plot(pct_cst_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(pct_dgr_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(pct_nrm_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(pct_sgt_val, percentiles, marker='o', color='red',linestyle='none')
+    # plt.plot(pct_cst_val, percentiles, marker='o', color='red',linestyle='none')
     fig.savefig(write_path)
     plt.show()
 

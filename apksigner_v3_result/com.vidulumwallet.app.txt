@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Vidulum Founders, OU=Vidulum, O=Vidulum, L=London, ST=Unknown, C=EU
+Signer #1 certificate SHA-256 digest: 247feecde4a3e6d39d7bb3c16692f5aa76b5111fe87cd3c7eb889274fcf68ea8
+Signer #1 certificate SHA-1 digest: 888fe62d08975d894dedd964a02019af818a9b78
+Signer #1 certificate MD5 digest: c65712ec6adffdc5a468cb30129677b0
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 6173864364cb18fc6d964dd345e70c29a79224b74ee4b291776f999e5f65703f
+Signer #1 public key SHA-1 digest: 65630a1eecc17e55a827f479ef1f8f7ea89023c1
+Signer #1 public key MD5 digest: 6e88c92d278671dc2fd5af28ae8fe05b

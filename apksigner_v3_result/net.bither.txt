@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=wenhao, OU=getcai.com, O=getcai, L=beijing, ST=beijing, C=CN
+Signer #1 certificate SHA-256 digest: 73d7285603dcfde9007c0450ec8b53f9ab38b2b60a9a419802e333a76f8f3972
+Signer #1 certificate SHA-1 digest: 81051b00240d453a083c6728a0acc304667e4240
+Signer #1 certificate MD5 digest: 7dfcd266d39a9d11e8af01d62409d228
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: cafd37eb175d8eb93e4864187daba877257462d5fad057bb325b703ecc42d2ae
+Signer #1 public key SHA-1 digest: c0cbc2c944628e897fe15d3993bb4b9897d2bcd9
+Signer #1 public key MD5 digest: 0cc94b2045973f88e3b6645c35d52d0e

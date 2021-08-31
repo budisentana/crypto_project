@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Unknown, OU=Unknown, O=deuscoin, L=Unknown, ST=Unknown, C=Unknown
+Signer #1 certificate SHA-256 digest: 7630b57399aaac27001445cb3c0457c78b603f98639eb58540068efd15e1075b
+Signer #1 certificate SHA-1 digest: 22e26381a7dceded5d13bdde06ce65f77ed7cda9
+Signer #1 certificate MD5 digest: a166841c10a33718d53655d6780a9c67
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 3e6746b5a84d55fabc1c248586603d0e5afc88a4dfb392d48eb3cf4cfac51c94
+Signer #1 public key SHA-1 digest: ccb27e0fcad8cbd5311ce585e54b05ace1e44989
+Signer #1 public key MD5 digest: bf1f12e6fef9ccca6eda0ab81b1472fb

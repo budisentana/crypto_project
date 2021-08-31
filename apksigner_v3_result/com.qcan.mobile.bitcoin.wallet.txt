@@ -1,0 +1,22 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Kyluke McDougall, OU=Technical, O=Qcan International Limited, L=Cape Town, ST=Western Cape, C=ZA
+Signer #1 certificate SHA-256 digest: 0c8c1caee89661f11acb6c9fe5108225871d3818ecd113f76cc6547757ee8748
+Signer #1 certificate SHA-1 digest: e2fa65e83866761e0d3400e2e12b69a09c8a2bc6
+Signer #1 certificate MD5 digest: afc295ddff1875595bd76ce9847317de
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 16d315a53da8c1ee33efa65a934177fac1295dbfb1f55427c2b97af80318bf7b
+Signer #1 public key SHA-1 digest: 1b2c43423da62a47d181d42c10696452286bc937
+Signer #1 public key MD5 digest: 043e8c218f996d742491c76db8c5b38f
+WARNING: META-INF/maven/com.squareup.okio/okio/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.squareup.okio/okio/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/proguard/okhttp3.pro not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.squareup.okhttp3/okhttp/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.squareup.okhttp3/okhttp/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.xml not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/maven/com.google.auto.value/auto-value-annotations/pom.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/proguard/androidx-annotations.pro not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

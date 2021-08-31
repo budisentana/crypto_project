@@ -1,0 +1,16 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: f4b6e16dd9cc019647a2bb6d1a975b473d70aa67ad9be2bf0a138d604acf9fb7
+Signer #1 certificate SHA-1 digest: 0f29b6463a198361dfcaf48677cd46c54356c328
+Signer #1 certificate MD5 digest: 62bc0c5b17683c7a5af00348f71ae0cc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 5dd2eb80911db05934e3ff9dde12c07e02f28d17dbdb34e8a9ed0d3dcfb7c713
+Signer #1 public key SHA-1 digest: ca0383929a430d68abc84edcdbc7e1e122b21319
+Signer #1 public key MD5 digest: 6c35428c33ac900b8e7f53b7e0a22e7d
+WARNING: META-INF/DEPENDENCIES not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/LICENSE not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

@@ -1,0 +1,22 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Number of signers: 1
+Signer #1 certificate DN: CN=Connelly Antonina, OU=Unknown, O=Unknown, L=Unknown, ST=Rome, C=IT
+Signer #1 certificate SHA-256 digest: a2fbbd151d350041447e9f2fe5ea0ccb447d9334e5b56d7f58cf8ac50d88f7d8
+Signer #1 certificate SHA-1 digest: ebaaddbf6e6b113a82477373f1460dcab90749ae
+Signer #1 certificate MD5 digest: 8d2da37bb61f9f09c73a30efca4cbfee
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 460777aba786b62f583746c01d88b8b0c2f86c551e9ede5bceb94b7371e168cc
+Signer #1 public key SHA-1 digest: 783195d0d23d16520353d37ac92c50978c784598
+Signer #1 public key MD5 digest: 05bd77f405f323c294f2258f53dc767c
+WARNING: META-INF/services/io.grpc.NameResolverProvider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/com.fasterxml.jackson.core.ObjectCodec not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/com.fasterxml.jackson.databind.Module not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/io.grpc.ManagedChannelProvider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/com.fasterxml.jackson.core.JsonFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/org.threeten.bp.zone.ZoneRulesProvider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/java.security.Provider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/io.grpc.LoadBalancerProvider not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.

@@ -1,0 +1,14 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Number of signers: 1
+Signer #1 certificate DN: CN=Thomas Voegtlin, OU=Electrum, O=Electrum Technologies GmbH, L=Berlin, ST=Unknown, C=DE
+Signer #1 certificate SHA-256 digest: e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
+Signer #1 certificate SHA-1 digest: 7bd1108718e5465d9cc092f0a07bf9b843ec5fc6
+Signer #1 certificate MD5 digest: ddb6d39d016b7e15958a1b0c035115f5
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: f15f5b3eaf8d7afb4f690fbe58571ccbc97e34d517534a20cfd9c40339c9972b
+Signer #1 public key SHA-1 digest: 9cc1bd2534f2eba27d78521a53e2db5d4fdaea5a
+Signer #1 public key MD5 digest: 49d9e21d4655b57b7ff4a9a3c2ebe00e
