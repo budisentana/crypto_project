@@ -1,23 +1,19 @@
 '''
 This script is for privacy policy analysis
 '''
-
 import xml.etree.ElementTree as ET
 # from .filepaths import *
 import os
 import shutil
-
 import os, sys, codecs, fnmatch, time, binascii, requests, json, sqlite3, hashlib
 from bs4 import BeautifulSoup
 from subprocess import call
 # from .filepaths import *
-
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 import requests
 import urllib.request
 from urllib.request import Request, urlopen
-
 import pickle
 from sklearn.svm import SVC
 # from .filepaths import *
@@ -150,10 +146,10 @@ def mergeLists(listA, listB):
 
 def getPrivacyPolicyText(link):
     PPAccess = True
-    if link == '' or link == None:
-        print("non existent link")
-        PPAccess = False
-        return "No Privacy Policy", PPAccess
+    # if link == '' or link == None:
+    #     print("non existent link")
+    #     PPAccess = False
+    #     return "No Privacy Policy", PPAccess
     print("link: "+link)
 
     req = Request(link, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.5 (KHTML, like Gecko) '
@@ -254,12 +250,9 @@ if __name__ == "__main__":
 
     count = 0
     for app_id in list_app_id[count:]:
-        print(app_id)
         appID = app_id.split(';')[0]
-        # appID = "com.chess"
-        # try:
-        # appID = app_id
-        print('appID = ', appID)
+        print('--------------------------------------------------->>>>>>>')
+        print('Starting analysis for appID = ', appID)
         
         print("----- Meta Info -----")
 
@@ -289,7 +282,12 @@ if __name__ == "__main__":
             PrivacyPolicyText = PrivacyPolicyResults[0]
             PrivacyPolicyAccess = PrivacyPolicyResults[1]
 
-            if PrivacyPolicyAccess == True:
+            print('this is privacy polycy link :'+privacy_policy_link)
+            if privacy_policy_link=='' or privacy_policy_link== None:
+                print('this is accessed')
+                f_pp.write("{}; {}; {}; {}; {}\n".format(appID, "No Privacy Policy Link", "None", "None", "None"))
+
+            elif PrivacyPolicyAccess == True:
                 try:
                     privacy_policy_text = PrivacyPolicyText
                     privacy_policy_access = PrivacyPolicyAccess
@@ -303,16 +301,17 @@ if __name__ == "__main__":
                     privacy_policy_language = DetectLanguage(PrivacyPolicyText)
                     print('privacy_policy_language: ', privacy_policy_language)
 
-                    f_pp.write("{}; {}; {}\n".format(appID, privacy_policy_link, privacy_policy_classification))
+                    f_pp.write("{}; {}; {}; {}; {}\n".format(appID, privacy_policy_link, privacy_policy_classification, privacy_policy_language,'text fine'))
                 except:    
-                    f_pp.write("{}; {}; {}\n".format(appID, "Invalid Privacy Policy text format/No Privacy Policy Link","None"))
+                    # f_pp.write("{}; {}; {}\n".format(appID, "Invalid Privacy Policy text format/No Privacy Policy Link","None"))
+                    f_pp.write("{}; {}; {}; {}; {}\n".format(appID, privacy_policy_link,"None",privacy_policy_language,privacy_policy_text))
                     pass
             else:
-                f_pp.write("{}; {}; {}\n".format(appID, "Invalid Privacy Policy text format/No Privacy Policy Link", "None"))
+                f_pp.write("{}; {}; {}; {}; {}\n".format(appID, privacy_policy_link, "None", "None", PrivacyPolicyText))
         
         except:
             print("We failed to get metadata")
-            f_pp.write("{}; {}; {}\n".format(appID, "No Meta Data", "None"))        
+            f_pp.write("{}; {}; {}; {}; {}\n".format(appID, "No Meta Data", "None", "None", "None"))        
             pass
         
         '''

@@ -5,509 +5,275 @@
 3,app.goodcrypto,Facebook
 4,app.goodcrypto,Google Ads
 5,app.hodlify,Fasterxml
-6,com.anxbtc.android,Fasterxml
-7,com.anxbtc.android,Jakewharton
-8,com.anxbtc.android,Squareup
-9,com.bcoiner.webviewapp,Google Ads
-10,com.bcoiner.webviewapp,Google Analytics
-11,com.bitso.wallet,Urbanairship
-12,com.bitso.wallet,Urban Ariship
-13,com.bitso.wallet,Facebook
-14,com.bitso.wallet,Appsflyer
-15,com.bitso.wallet,Apptimize
-16,com.bitso.wallet,Google Ads
-17,com.blockfolio.blockfolio,Jakewharton
-18,com.blockfolio.blockfolio,Squareup
-19,com.blockfolio.blockfolio,Github
-20,com.blockfolio.blockfolio,Facebook
-21,com.blockfolio.blockfolio,Appsflyer
-22,com.blockfolio.blockfolio,Adobe
-23,com.blockfolio.blockfolio,Bumptech
-24,com.blockfolio.blockfolio,Google Ads
-25,com.bokucoin.app,Github
-26,com.bokucoin.app,Push
-27,com.bokucoin.app,Bumptech
-28,com.btcontract.wallettest,Github
-29,com.btcturk.pro,Squareup
-30,com.btcturk.pro,adjust
-31,com.btcturk.pro,Github
-32,com.btcturk.pro,Facebook
-33,com.btcturk.pro,Google Ads
-34,com.caramba.StellarWallet,Push
-35,com.caramba.StellarWallet,Phonegap
-36,com.caramba.StellarWallet,Google Ads
-37,com.coinburp.mobile,Mixpanel
-38,com.coinburp.mobile,Github
-39,com.coinburp.mobile,Facebook
-40,com.coinburp.mobile,Appsflyer
-41,com.coinburp.mobile,Adobe
-42,com.coinburp.mobile,Google Ads
-43,com.coindcx,adjust
-44,com.coindcx,Google Ads
-45,com.coindcx.btc,adjust
-46,com.coindcx.btc,Google Ads
-47,com.coindcx.btc,Google Analytics
-48,com.dmaxwallet,Facebook
-49,com.dmaxwallet,Adobe
-50,com.dsdaq.mobiletrader,Github
-51,com.dsdaq.mobiletrader,Squareup
-52,com.dsdaq.mobiletrader,Bumptech
-53,com.dsdaq.mobiletrader,Google Ads
-54,com.farhadmarket.app,Github
-55,com.farhadmarket.app,Bumptech
-56,com.farhadmarket.app,Google Ads
-57,com.fluidcoins.fluidcoins,Facebook
-58,com.fluidcoins.fluidcoins,Adobe
-59,com.fluidcoins.fluidcoins,Google Ads
-60,com.flutter.litebit,Jakewharton
-61,com.flutter.litebit,Squareup
-62,com.flutter.litebit,Push
-63,com.flutter.litebit,Google Ads
-64,com.friendst.strangr,Unity3d
-65,com.friendst.strangr,StartApp
-66,com.friendst.strangr,Unity Ads
-67,com.friendst.strangr,Facebook
-68,com.friendst.strangr,Google Ads
-69,com.g3shanappz.claimerbox,Fasterxml
-70,com.g3shanappz.claimerbox,Phonegap
-71,com.g3shanappz.claimerbox,Adobe
-72,com.g3shanappz.claimerbox,Google Ads
-73,com.idbtec.otppaycrypto,Github
-74,com.idbtec.otppaycrypto,Crashlytics
-75,com.idbtec.otppaycrypto,Google Ads
-76,com.ixx_android,Jakewharton
-77,com.ixx_android,Squareup
-78,com.ixx_android,Twitter
-79,com.ixx_android,Umeng
-80,com.ixx_android,Tencent
-81,com.ixx_android,Github
-82,com.ixx_android,Bumptech
-83,com.kinesis.kinesisapp,Github
-84,com.kinesis.kinesisapp,Facebook
-85,com.kinesis.kinesisapp,Google Ads
-86,com.kinesis.kinesisapp,Appsflyer
-87,com.kinesis.kinesisapp,Bumptech
-88,com.kinesis.kinesisapp,Squareup
-89,com.kinesis.kinesisapp,Mixpanel
-90,com.maicoin.max,Crashlytics
-91,com.maicoin.max,Facebook
-92,com.maicoin.max,Bumptech
-93,com.maicoin.max,Google Ads
-94,com.maicoin.max,Google Analytics
-95,com.matrixport.mark,adjust
-96,com.matrixport.mark,Github
-97,com.matrixport.mark,Bumptech
-98,com.matrixport.mark,Google Ads
-99,com.matrixport.mark,Google Analytics
-100,com.matrixport.mark,Squareup
-101,com.monnos.android,Github
-102,com.monnos.android,Bumptech
-103,com.monnos.android,Google Ads
-104,com.monnos.android,Jakewharton
-105,com.monnos.android,Intuit
-106,com.monnos.android,Squareup
-107,com.mycontainer,Github
-108,com.mycontainer,Facebook
-109,com.mycontainer,Google Ads
-110,com.net_cents.netcents2,Facebook
-111,com.net_cents.netcents2,Bumptech
-112,com.nobillio.coinbaazar,Jakewharton
-113,com.nobillio.coinbaazar,Squareup
-114,com.nobillio.coinbaazar,Facebook
-115,com.nobillio.coinbaazar,Adobe
-116,com.nobillio.coinbaazar,Google Ads
-117,com.nova.dax,Crashlytics
-118,com.nova.dax,Facebook
-119,com.nova.dax,Appsflyer
-120,com.nova.dax,Adobe
-121,com.nova.dax,Google Ads
-122,com.panaeshacapital.pcex,Facebook
-123,com.panaeshacapital.pcex,Bumptech
-124,com.panaeshacapital.pcex,Google Ads
-125,com.panaeshacapital.pcex,Google Analytics
-126,com.payperless.wallet,Squareup
-127,com.payperless.wallet,Appsflyer
-128,com.payperless.wallet,Bumptech
-129,com.pointpay.bank,Facebook
-130,com.pointpay.bank,Squareup
-131,com.pointpay.bank,Bumptech
-132,com.pointpay.bank,Github
-133,com.pointpay.bank,Google Ads
-134,com.qsoft.mybtc,Google Ads
-135,com.sencoinex.android,Github
-136,com.sencoinex.android,Crashlytics
-137,com.sencoinex.android,Squareup
-138,com.sencoinex.android,Google Ads
-139,com.studentcoin,Facebook
-140,com.studentcoin,Adobe
-141,com.studentcoin,Bumptech
-142,com.studentcoin,Google Ads
-143,com.viabtc.pool,Github
-144,com.viabtc.pool,Facebook
-145,com.viabtc.pool,Squareup
-146,com.viabtc.pool,Umeng
-147,com.viabtc.pool,Tencent
-148,com.viabtc.pool,Bumptech
-149,com.whitebit.android,Squareup
-150,com.whitebit.android,Bumptech
-151,com.wrx.wazirx,Github
-152,com.wrx.wazirx,Facebook
-153,com.wrx.wazirx,Mixpanel
-154,com.wrx.wazirx,Appsflyer
-155,com.wrx.wazirx,Push
-156,com.wrx.wazirx,Bumptech
-157,com.wrx.wazirx,Google Ads
-158,com.wswap.wallet,Fasterxml
-159,com.wswap.wallet,Github
-160,com.wswap.wallet,Bumptech
-161,com.wswap.wallet,Google Ads
-162,com.wswap.wallet,Kenai
-163,com.wswap.wallet,Squareup
-164,com.wswap.wallet,Mixpanel
-165,de.schildbach.wallet,Squareup
-166,io.bolt.mibwallet,Kenai
-167,io.bolt.mibwallet,Fasterxml
-168,io.bolt.mibwallet,Github
-169,io.bolt.mibwallet,Crashlytics
-170,io.bolt.mibwallet,Facebook
-171,io.bolt.mibwallet,Google Ads
-172,io.nash.app,Github
-173,io.nash.app,Facebook
-174,io.nash.app,Adobe
-175,io.nash.app,Bumptech
-176,io.nash.app,Google Ads
-177,io.nash.app,Google Analytics
-178,io.nash.app,Mixpanel
-179,io.rscoins.network,Facebook
-180,io.rscoins.network,Bumptech
-181,io.rscoins.network,Google Ads
-182,io.rscoins.network,Google Analytics
-183,io.uun.clet,Github
-184,io.uun.clet,Crashlytics
-185,io.uun.clet,Facebook
-186,io.uun.clet,Loopj
-187,io.uun.clet,Bumptech
-188,io.uun.clet,Google Ads
-189,io.uun.clet,Google Analytics
-190,io.wallet,Umeng
-191,io.wallet,Github
-192,io.wallet,Facebook
-193,io.wallet,Tencent
-194,io.wallet,Bumptech
-195,net.bitstamp.app,Squareup
-196,net.bitstamp.app,Github
-197,net.bitstamp.app,Facebook
-198,net.bitstamp.app,Mixpanel
-199,net.bitstamp.app,Bumptech
-200,net.bitstamp.app,Google Ads
-201,net.iconomi.android,Kochava
-202,network.xyo.coin,Fasterxml
-203,network.xyo.coin,Github
-204,network.xyo.coin,Google Ads
-205,network.xyo.coin,Chartboost
-206,network.xyo.coin,Facebook
-207,network.xyo.coin,Appsflyer
-208,network.xyo.coin,Applovin
-209,network.xyo.coin,Bumptech
-210,network.xyo.coin,AppLovin
-211,network.xyo.coin,Inmobi
-212,network.xyo.coin,Unity3d
-213,network.xyo.coin,Squareup
-214,network.xyo.coin,Tapjoy
-215,network.xyo.coin,Vungle
-216,network.xyo.coin,Unity Ads
-217,network.xyo.coin,TapJoy
-218,org.coinid.vault,Facebook
-219,org.coinid.vault,Adobe
-220,org.cryptosignals.bitcoin.free.wallet,Squareup
-221,org.cryptosignals.bitcoin.free.wallet,Flurry
-222,org.cryptosignals.bitcoin.free.wallet,Bumptech
-223,org.cryptosignals.bitcoin.free.wallet1,Squareup
-224,org.cryptosignals.bitcoin.free.wallet1,Flurry
-225,org.cryptosignals.bitcoin.free.wallet1,Bumptech
-226,org.cryptosignals.free.bitcoin.cash.wallet,Squareup
-227,org.cryptosignals.free.bitcoin.cash.wallet,Flurry
-228,org.cryptosignals.free.bitcoin.cash.wallet,Bumptech
-229,org.strayacoin.bitcoinpos,Squareup
-230,org.strayacoin.bitcoinpos,Google Ads
-231,org.strayacoin.litecoinpos,Squareup
-232,org.strayacoin.litecoinpos,Google Ads
-233,paydeepp.elegro.io,Phonegap
-234,paydeepp.elegro.io,Google Ads
-235,com.magnum.wallet,Crashlytics
-236,com.magnum.wallet,Google Ads
-237,pt.ipleiria.estg.dei.yabw,Phonegap
-238,de.schildbach.wallet.goldcoin,Squareup
-239,io.crypto.wallet.bitcoin.ethereum.medooza.wallet,Google Ads
-240,io.crypto.wallet.bitcoin.ethereum.medooza.wallet,Google Analytics
-241,de.langerhans.wallet,Squareup
-242,com.cryptowallet.si,Crashlytics
-243,com.cryptowallet.si,Squareup
-244,com.cryptowallet.si,Bumptech
-245,com.lightning.walletapp,Github
-246,com.ankerpay.wallet,Fasterxml
-247,com.ankerpay.wallet,Github
-248,com.ankerpay.wallet,Squareup
-249,com.paytomat,Crashlytics
-250,com.paytomat,Appsflyer
-251,com.paytomat,Bumptech
-252,com.paytomat,Google Ads
-253,com.luneswallet,Facebook
-254,com.caramba.RippleWallet,Push
-255,com.caramba.RippleWallet,Phonegap
-256,com.caramba.RippleWallet,Google Ads
-257,com.lkrcoin.wallet,Squareup
-258,app.codecellar.embitwallet,Squareup
-259,app.codecellar.embitwallet,Github
-260,com.bitzhash.wallet.bitcoin,Eclipse
-261,com.coinorbis.wallet,Facebook
-262,com.krypto,Facebook
-263,com.bitcoinindia.Btciapp,Phonegap
-264,com.bitcoinindia.Btciapp,Google Ads
-265,com.lumicollect.android,Kenai
-266,com.lumicollect.android,Squareup
-267,com.lumicollect.android,Fasterxml
-268,com.lumicollect.android,Crashlytics
-269,com.lumicollect.android,Appsflyer
-270,com.lumicollect.android,Bumptech
-271,com.lumicollect.android,Google Ads
-272,com.blocktrail.mywallet,Crashlytics
-273,com.blocktrail.mywallet,Facebook
-274,com.blocktrail.mywallet,Appsflyer
-275,com.blocktrail.mywallet,Phonegap
-276,com.blocktrail.mywallet,Google Ads
-277,com.blocktrail.mywallet,Google Analytics
-278,com.prizmbit,Squareup
-279,com.prizmbit,Fasterxml
-280,com.prizmbit,Github
-281,com.prizmbit,Crashlytics
-282,com.prizmbit,Bumptech
-283,com.prizmbit,Google Ads
-284,com.prizmbit,Google Analytics
-285,com.btcc.mobiwallet,Squareup
-286,com.btcc.mobiwallet,Tencent
-287,com.btcc.mobiwallet,Bumptech
-288,com.lumiwallet.android,Fasterxml
-289,com.lumiwallet.android,Github
-290,com.lumiwallet.android,Facebook
-291,com.lumiwallet.android,Bumptech
-292,com.maxxwallet,Squareup
-293,com.maxxwallet,Crashlytics
-294,com.maxxwallet,Google Ads
-295,com.airwalletofficial.air_wallet,Github
-296,com.airwalletofficial.air_wallet,Google Ads
-297,com.polehin.android,Github
-298,com.polehin.android,Facebook
-299,com.polehin.android,Bumptech
-300,co.busha.android,Crashlytics
-301,co.busha.android,Google Ads
-302,global.bithumb.android,Umeng
-303,global.bithumb.android,Tencent
-304,global.bithumb.android,Github
-305,global.bithumb.android,Squareup
-306,global.bithumb.android,Bumptech
-307,com.loafwallet,Squareup
-308,com.loafwallet,Fasterxml
-309,com.loafwallet,Github
-310,com.loafwallet,Google Ads
-311,one.mixin.messenger,Github
-312,one.mixin.messenger,Jakewharton
-313,one.mixin.messenger,Googlecode
-314,one.mixin.messenger,Facebook
-315,one.mixin.messenger,COREMEDIA
-316,one.mixin.messenger,Bumptech
-317,one.mixin.messenger,Google Ads
-318,com.savl,Github
-319,com.savl,Kenai
-320,com.savl,Google Ads
-321,com.savl,Fasterxml
-322,com.savl,Facebook
-323,com.savl,Appsflyer
-324,com.savl,Adobe
-325,com.savl,Bumptech
-326,app.bankowallet.android,Fasterxml
-327,app.bankowallet.android,Github
-328,app.bankowallet.android,Crashlytics
-329,app.bankowallet.android,Facebook
-330,app.bankowallet.android,Kenai
-331,app.bankowallet.android,Tencent
-332,app.bankowallet.android,Google Ads
-333,com.pint.app,Github
-334,com.pint.app,Crashlytics
-335,com.pint.app,Facebook
-336,com.pint.app,Adobe
-337,com.pint.app,Bumptech
-338,com.pint.app,Google Ads
-339,com.bitzapp,Google Ads
-340,com.mycelium.wallet,Kenai
-341,com.mycelium.wallet,Fasterxml
-342,com.mycelium.wallet,Squareup
-343,com.mycelium.wallet,Commonsware
-344,com.mycelium.wallet,Bumptech
-345,com.mycelium.wallet,Google Ads
-346,com.signkeys.wallet.portfolio,Crashlytics
-347,com.signkeys.wallet.portfolio,Google Ads
-348,org.bitcoinox.bitcoinoxwallet,Google Ads
-349,org.guapcoin.multiwallet,Google Ads
-350,com.coinfalcon.mobile,Crashlytics
-351,com.coinfalcon.mobile,Facebook
-352,com.coinfalcon.mobile,Adobe
-353,com.coinfalcon.mobile,Google Ads
-354,co.bacoor.keyring,Github
-355,co.bacoor.keyring,Facebook
-356,co.bacoor.keyring,Adobe
-357,co.bacoor.keyring,Bumptech
-358,com.bitnovo.app,Facebook
-359,com.bitnovo.app,Bumptech
-360,com.bitnovo.app,Jakewharton
-361,com.bitnovo.app,Squareup
-362,kr.co.keypair.keywalletTouch,Facebook
-363,kr.co.keypair.keywalletTouch,Adobe
-364,com.XcelTrip.XcelPay,Fasterxml
-365,com.XcelTrip.XcelPay,Crashlytics
-366,com.XcelTrip.XcelPay,Facebook
-367,com.XcelTrip.XcelPay,Adobe
-368,com.XcelTrip.XcelPay,Google Ads
-369,com.XcelTrip.XcelPay,Squareup
-370,org.topnetwork.hiwallet,Fasterxml
-371,org.topnetwork.hiwallet,Bumptech
-372,org.topnetwork.hiwallet,Google Ads
-373,org.coinid.wallet.tbtc,Github
-374,org.coinid.wallet.tbtc,Facebook
-375,org.coinid.wallet.tbtc,Adobe
-376,org.coinid.wallet.tgrs,Github
-377,org.coinid.wallet.tgrs,Facebook
-378,org.coinid.wallet.tgrs,Adobe
-379,org.coinid.wallet.btc,Github
-380,org.coinid.wallet.btc,Facebook
-381,org.coinid.wallet.btc,Adobe
-382,org.coinid.wallet.grs,Github
-383,org.coinid.wallet.grs,Facebook
-384,org.coinid.wallet.grs,Adobe
-385,org.coinid.wallet.xmy,Github
-386,org.coinid.wallet.xmy,Facebook
-387,org.coinid.wallet.xmy,Adobe
-388,cash.klever.blockchain.wallet,Github
-389,cash.klever.blockchain.wallet,Crashlytics
-390,cash.klever.blockchain.wallet,Facebook
-391,cash.klever.blockchain.wallet,Adobe
-392,cash.klever.blockchain.wallet,Bumptech
-393,cash.klever.blockchain.wallet,Google Ads
-394,it.inbitcoin.altana,Fasterxml
-395,it.inbitcoin.altana,Jakewharton
-396,com.xcoex.mobile,adjust
-397,com.xcoex.mobile,Google Ads
-398,com.xcoex.mobile,Google Analytics
-399,com.xcoex.mobile,Squareup
-400,com.xcoex.mobile,Phonegap
-401,com.counos,Fasterxml
-402,com.counos,Facebook
-403,com.counos,Adobe
-404,com.counos,Google Ads
-405,com.coinomi.wallet,Squareup
-406,com.coinomi.wallet,Fasterxml
-407,com.coinomi.wallet,Google Ads
-408,capital.spatium.wallet,Github
-409,capital.spatium.wallet,Phonegap
-410,capital.spatium.wallet,Google Ads
-411,com.oracle.wallet,Squareup
-412,com.oracle.wallet,Fasterxml
-413,com.oracle.wallet,Bumptech
-414,com.oracle.wallet,Google Ads
-415,io.hexawallet.hexa,Fasterxml
-416,io.hexawallet.hexa,Facebook
-417,io.hexawallet.hexa,Adobe
-418,io.hexawallet.hexa,Bumptech
-419,io.hexawallet.hexa,Google Ads
-420,kuna.beta,Squareup
-421,kuna.beta,Mixpanel
-422,kuna.beta,Twitter
-423,kuna.beta,Github
-424,kuna.beta,Bumptech
-425,kuna.beta,Appboy
-426,kuna.beta,Google Ads
-427,com.incognito.wallet,Jcraft
-428,com.incognito.wallet,Push
-429,com.incognito.wallet,Fasterxml
-430,com.incognito.wallet,Crashlytics
-431,com.incognito.wallet,Facebook
-432,com.incognito.wallet,Adobe
-433,com.incognito.wallet,Google Ads
-434,com.medishares.android,Fasterxml
-435,com.medishares.android,Github
-436,com.medishares.android,Facebook
-437,com.medishares.android,Bumptech
-438,com.medishares.android,Google Ads
-439,com.medishares.android,Kenai
-440,com.medishares.android,Squareup
-441,com.medishares.android,Tencent
-442,com.trusteewallet,Github
-443,com.trusteewallet,Crashlytics
-444,com.trusteewallet,Facebook
-445,com.trusteewallet,Adobe
-446,com.trusteewallet,Google Ads
-447,com.crypterium,Github
-448,com.crypterium,Facebook
-449,com.crypterium,Flurry
-450,com.crypterium,Appsflyer
-451,com.crypterium,Bumptech
-452,com.crypterium,Jakewharton
-453,com.crypterium,Squareup
-454,com.crypterium,Google Ads
-455,co.bacoor.android.hbwallet,Github
-456,co.bacoor.android.hbwallet,Facebook
-457,co.bacoor.android.hbwallet,Adobe
-458,co.bacoor.android.hbwallet,Bumptech
-459,co.bacoor.android.hbwallet,Google Ads
-460,com.bitpie,Fasterxml
-461,com.bitpie,Squareup
-462,io.bluewallet.bluewallet,Facebook
-463,io.bluewallet.bluewallet,Adobe
-464,com.pumapay.pumawallet,Fasterxml
-465,com.pumapay.pumawallet,Appsflyer
-466,com.pumapay.pumawallet,Bumptech
-467,com.pumapay.pumawallet,Google Ads
-468,com.pumapay.pumawallet,Jakewharton
-469,com.pumapay.pumawallet,Kenai
-470,com.pumapay.pumawallet,Squareup
-471,com.iMe.android,Fasterxml
-472,com.iMe.android,Github
-473,com.iMe.android,COREMEDIA
-474,com.iMe.android,Bumptech
-475,com.iMe.android,Google Ads
-476,com.iMe.android,Googlecode
-477,com.iMe.android,Squareup
-478,coin98.crypto.finance.media,Github
-479,coin98.crypto.finance.media,Facebook
-480,coin98.crypto.finance.media,Google Ads
-481,coin98.crypto.finance.media,Adobe
-482,coin98.crypto.finance.media,Bumptech
-483,com.spot.spot,adjust
-484,com.spot.spot,Facebook
-485,com.spot.spot,Bumptech
-486,com.spot.spot,Google Ads
-487,com.hconline.iso,Fasterxml
-488,com.hconline.iso,Github
-489,com.hconline.iso,Facebook
-490,com.hconline.iso,Bumptech
-491,com.hconline.iso,Nostra13
-492,com.hconline.iso,Kenai
-493,com.hconline.iso,Weibo
-494,com.hconline.iso,Umeng
-495,com.hconline.iso,Tencent
-496,com.midasprotocol.wallet.android,Kenai
-497,com.midasprotocol.wallet.android,Fasterxml
-498,com.midasprotocol.wallet.android,Github
-499,com.midasprotocol.wallet.android,Facebook
-500,com.midasprotocol.wallet.android,Bumptech
-501,com.midasprotocol.wallet.android,Google Ads
-502,im.status.ethereum,Facebook
-503,im.status.ethereum,Adobe
-504,network.celsius.wallet,Jakewharton
-505,network.celsius.wallet,Mixpanel
-506,network.celsius.wallet,Crashlytics
-507,network.celsius.wallet,Facebook
-508,network.celsius.wallet,Appsflyer
-509,network.celsius.wallet,Adobe
-510,network.celsius.wallet,Google Ads
-511,com.eletac.tronwallet,Twitter
+6,com.bcoiner.webviewapp,Google Ads
+7,com.bcoiner.webviewapp,Google Analytics
+8,com.bokucoin.app,Github
+9,com.bokucoin.app,Push
+10,com.bokucoin.app,Bumptech
+11,com.btcontract.wallettest,Github
+12,com.caramba.StellarWallet,Push
+13,com.caramba.StellarWallet,Phonegap
+14,com.caramba.StellarWallet,Google Ads
+15,com.dmaxwallet,Facebook
+16,com.dmaxwallet,Adobe
+17,com.dsdaq.mobiletrader,Github
+18,com.dsdaq.mobiletrader,Squareup
+19,com.dsdaq.mobiletrader,Bumptech
+20,com.dsdaq.mobiletrader,Google Ads
+21,com.farhadmarket.app,Github
+22,com.farhadmarket.app,Bumptech
+23,com.farhadmarket.app,Google Ads
+24,com.flutter.litebit,Jakewharton
+25,com.flutter.litebit,Squareup
+26,com.flutter.litebit,Push
+27,com.flutter.litebit,Google Ads
+28,com.friendst.strangr,Unity3d
+29,com.friendst.strangr,StartApp
+30,com.friendst.strangr,Unity Ads
+31,com.friendst.strangr,Facebook
+32,com.friendst.strangr,Google Ads
+33,com.g3shanappz.claimerbox,Fasterxml
+34,com.g3shanappz.claimerbox,Phonegap
+35,com.g3shanappz.claimerbox,Adobe
+36,com.g3shanappz.claimerbox,Google Ads
+37,com.idbtec.otppaycrypto,Github
+38,com.idbtec.otppaycrypto,Crashlytics
+39,com.idbtec.otppaycrypto,Google Ads
+40,com.mycontainer,Github
+41,com.mycontainer,Facebook
+42,com.mycontainer,Google Ads
+43,com.net_cents.netcents2,Facebook
+44,com.net_cents.netcents2,Bumptech
+45,com.payperless.wallet,Squareup
+46,com.payperless.wallet,Appsflyer
+47,com.payperless.wallet,Bumptech
+48,com.qsoft.mybtc,Google Ads
+49,com.sencoinex.android,Github
+50,com.sencoinex.android,Crashlytics
+51,com.sencoinex.android,Squareup
+52,com.sencoinex.android,Google Ads
+53,com.studentcoin,Facebook
+54,com.studentcoin,Adobe
+55,com.studentcoin,Bumptech
+56,com.studentcoin,Google Ads
+57,com.whitebit.android,Squareup
+58,com.whitebit.android,Bumptech
+59,com.wrx.wazirx,Github
+60,com.wrx.wazirx,Facebook
+61,com.wrx.wazirx,Mixpanel
+62,com.wrx.wazirx,Appsflyer
+63,com.wrx.wazirx,Push
+64,com.wrx.wazirx,Bumptech
+65,com.wrx.wazirx,Google Ads
+66,com.wswap.wallet,Fasterxml
+67,com.wswap.wallet,Github
+68,com.wswap.wallet,Bumptech
+69,com.wswap.wallet,Google Ads
+70,com.wswap.wallet,Kenai
+71,com.wswap.wallet,Squareup
+72,com.wswap.wallet,Mixpanel
+73,de.schildbach.wallet,Squareup
+74,io.rscoins.network,Facebook
+75,io.rscoins.network,Bumptech
+76,io.rscoins.network,Google Ads
+77,io.rscoins.network,Google Analytics
+78,net.iconomi.android,Kochava
+79,network.xyo.coin,Fasterxml
+80,network.xyo.coin,Github
+81,network.xyo.coin,Google Ads
+82,network.xyo.coin,Chartboost
+83,network.xyo.coin,Facebook
+84,network.xyo.coin,Appsflyer
+85,network.xyo.coin,Applovin
+86,network.xyo.coin,Bumptech
+87,network.xyo.coin,AppLovin
+88,network.xyo.coin,Inmobi
+89,network.xyo.coin,Unity3d
+90,network.xyo.coin,Squareup
+91,network.xyo.coin,Tapjoy
+92,network.xyo.coin,Vungle
+93,network.xyo.coin,Unity Ads
+94,network.xyo.coin,TapJoy
+95,org.coinid.vault,Facebook
+96,org.coinid.vault,Adobe
+97,org.cryptosignals.bitcoin.free.wallet,Squareup
+98,org.cryptosignals.bitcoin.free.wallet,Flurry
+99,org.cryptosignals.bitcoin.free.wallet,Bumptech
+100,org.cryptosignals.bitcoin.free.wallet1,Squareup
+101,org.cryptosignals.bitcoin.free.wallet1,Flurry
+102,org.cryptosignals.bitcoin.free.wallet1,Bumptech
+103,org.cryptosignals.free.bitcoin.cash.wallet,Squareup
+104,org.cryptosignals.free.bitcoin.cash.wallet,Flurry
+105,org.cryptosignals.free.bitcoin.cash.wallet,Bumptech
+106,org.strayacoin.bitcoinpos,Squareup
+107,org.strayacoin.bitcoinpos,Google Ads
+108,org.strayacoin.litecoinpos,Squareup
+109,org.strayacoin.litecoinpos,Google Ads
+110,de.langerhans.wallet,Squareup
+111,com.cryptowallet.si,Crashlytics
+112,com.cryptowallet.si,Squareup
+113,com.cryptowallet.si,Bumptech
+114,com.lightning.walletapp,Github
+115,com.ankerpay.wallet,Fasterxml
+116,com.ankerpay.wallet,Github
+117,com.ankerpay.wallet,Squareup
+118,com.luneswallet,Facebook
+119,com.caramba.RippleWallet,Push
+120,com.caramba.RippleWallet,Phonegap
+121,com.caramba.RippleWallet,Google Ads
+122,app.codecellar.embitwallet,Squareup
+123,app.codecellar.embitwallet,Github
+124,com.bitzhash.wallet.bitcoin,Eclipse
+125,com.coinorbis.wallet,Facebook
+126,com.krypto,Facebook
+127,com.lumicollect.android,Kenai
+128,com.lumicollect.android,Squareup
+129,com.lumicollect.android,Fasterxml
+130,com.lumicollect.android,Crashlytics
+131,com.lumicollect.android,Appsflyer
+132,com.lumicollect.android,Bumptech
+133,com.lumicollect.android,Google Ads
+134,com.blocktrail.mywallet,Crashlytics
+135,com.blocktrail.mywallet,Facebook
+136,com.blocktrail.mywallet,Appsflyer
+137,com.blocktrail.mywallet,Phonegap
+138,com.blocktrail.mywallet,Google Ads
+139,com.blocktrail.mywallet,Google Analytics
+140,com.lumiwallet.android,Fasterxml
+141,com.lumiwallet.android,Github
+142,com.lumiwallet.android,Facebook
+143,com.lumiwallet.android,Bumptech
+144,com.airwalletofficial.air_wallet,Github
+145,com.airwalletofficial.air_wallet,Google Ads
+146,co.busha.android,Crashlytics
+147,co.busha.android,Google Ads
+148,global.bithumb.android,Umeng
+149,global.bithumb.android,Tencent
+150,global.bithumb.android,Github
+151,global.bithumb.android,Squareup
+152,global.bithumb.android,Bumptech
+153,com.loafwallet,Squareup
+154,com.loafwallet,Fasterxml
+155,com.loafwallet,Github
+156,com.loafwallet,Google Ads
+157,app.bankowallet.android,Fasterxml
+158,app.bankowallet.android,Github
+159,app.bankowallet.android,Crashlytics
+160,app.bankowallet.android,Facebook
+161,app.bankowallet.android,Kenai
+162,app.bankowallet.android,Tencent
+163,app.bankowallet.android,Google Ads
+164,com.pint.app,Github
+165,com.pint.app,Crashlytics
+166,com.pint.app,Facebook
+167,com.pint.app,Adobe
+168,com.pint.app,Bumptech
+169,com.pint.app,Google Ads
+170,com.bitzapp,Google Ads
+171,com.signkeys.wallet.portfolio,Crashlytics
+172,com.signkeys.wallet.portfolio,Google Ads
+173,org.bitcoinox.bitcoinoxwallet,Google Ads
+174,org.guapcoin.multiwallet,Google Ads
+175,com.coinfalcon.mobile,Crashlytics
+176,com.coinfalcon.mobile,Facebook
+177,com.coinfalcon.mobile,Adobe
+178,com.coinfalcon.mobile,Google Ads
+179,co.bacoor.keyring,Github
+180,co.bacoor.keyring,Facebook
+181,co.bacoor.keyring,Adobe
+182,co.bacoor.keyring,Bumptech
+183,com.XcelTrip.XcelPay,Fasterxml
+184,com.XcelTrip.XcelPay,Crashlytics
+185,com.XcelTrip.XcelPay,Facebook
+186,com.XcelTrip.XcelPay,Adobe
+187,com.XcelTrip.XcelPay,Google Ads
+188,com.XcelTrip.XcelPay,Squareup
+189,org.coinid.wallet.tbtc,Github
+190,org.coinid.wallet.tbtc,Facebook
+191,org.coinid.wallet.tbtc,Adobe
+192,org.coinid.wallet.tgrs,Github
+193,org.coinid.wallet.tgrs,Facebook
+194,org.coinid.wallet.tgrs,Adobe
+195,org.coinid.wallet.btc,Github
+196,org.coinid.wallet.btc,Facebook
+197,org.coinid.wallet.btc,Adobe
+198,org.coinid.wallet.grs,Github
+199,org.coinid.wallet.grs,Facebook
+200,org.coinid.wallet.grs,Adobe
+201,org.coinid.wallet.xmy,Github
+202,org.coinid.wallet.xmy,Facebook
+203,org.coinid.wallet.xmy,Adobe
+204,it.inbitcoin.altana,Fasterxml
+205,it.inbitcoin.altana,Jakewharton
+206,com.xcoex.mobile,adjust
+207,com.xcoex.mobile,Google Ads
+208,com.xcoex.mobile,Google Analytics
+209,com.xcoex.mobile,Squareup
+210,com.xcoex.mobile,Phonegap
+211,com.coinomi.wallet,Squareup
+212,com.coinomi.wallet,Fasterxml
+213,com.coinomi.wallet,Google Ads
+214,capital.spatium.wallet,Github
+215,capital.spatium.wallet,Phonegap
+216,capital.spatium.wallet,Google Ads
+217,io.hexawallet.hexa,Fasterxml
+218,io.hexawallet.hexa,Facebook
+219,io.hexawallet.hexa,Adobe
+220,io.hexawallet.hexa,Bumptech
+221,io.hexawallet.hexa,Google Ads
+222,com.incognito.wallet,Jcraft
+223,com.incognito.wallet,Push
+224,com.incognito.wallet,Fasterxml
+225,com.incognito.wallet,Crashlytics
+226,com.incognito.wallet,Facebook
+227,com.incognito.wallet,Adobe
+228,com.incognito.wallet,Google Ads
+229,com.medishares.android,Fasterxml
+230,com.medishares.android,Github
+231,com.medishares.android,Facebook
+232,com.medishares.android,Bumptech
+233,com.medishares.android,Google Ads
+234,com.medishares.android,Kenai
+235,com.medishares.android,Squareup
+236,com.medishares.android,Tencent
+237,com.trusteewallet,Github
+238,com.trusteewallet,Crashlytics
+239,com.trusteewallet,Facebook
+240,com.trusteewallet,Adobe
+241,com.trusteewallet,Google Ads
+242,co.bacoor.android.hbwallet,Github
+243,co.bacoor.android.hbwallet,Facebook
+244,co.bacoor.android.hbwallet,Adobe
+245,co.bacoor.android.hbwallet,Bumptech
+246,co.bacoor.android.hbwallet,Google Ads
+247,com.bitpie,Fasterxml
+248,com.bitpie,Squareup
+249,com.iMe.android,Fasterxml
+250,com.iMe.android,Github
+251,com.iMe.android,COREMEDIA
+252,com.iMe.android,Bumptech
+253,com.iMe.android,Google Ads
+254,com.iMe.android,Googlecode
+255,com.iMe.android,Squareup
+256,com.spot.spot,adjust
+257,com.spot.spot,Facebook
+258,com.spot.spot,Bumptech
+259,com.spot.spot,Google Ads
+260,com.hconline.iso,Fasterxml
+261,com.hconline.iso,Github
+262,com.hconline.iso,Facebook
+263,com.hconline.iso,Bumptech
+264,com.hconline.iso,Nostra13
+265,com.hconline.iso,Kenai
+266,com.hconline.iso,Weibo
+267,com.hconline.iso,Umeng
+268,com.hconline.iso,Tencent
+269,im.status.ethereum,Facebook
+270,im.status.ethereum,Adobe
+271,network.celsius.wallet,Jakewharton
+272,network.celsius.wallet,Mixpanel
+273,network.celsius.wallet,Crashlytics
+274,network.celsius.wallet,Facebook
+275,network.celsius.wallet,Appsflyer
+276,network.celsius.wallet,Adobe
+277,network.celsius.wallet,Google Ads
