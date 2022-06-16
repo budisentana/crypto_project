@@ -2,3 +2,54 @@ app_id,engine,malware
 africa.bundle.mobile.app,Avira,ANDROID/Obfus.GEN1.Gen
 app.goodcrypto,Jiangmin,Trojan/Banker.AndroidOS.bzd
 com.bitcoinglobal,Tencent,a.gray.Bulimia.a
+com.digifinex.app,Tencent,a.gray.PiggyGoldcoin.a
+com.friendst.strangr,MaxSecure,Android.fyben.a
+com.holacoins.wallet,Tencent,a.gray.Bulimia.a
+com.jex.trade,CAT-QuickHeal,Elf.Trojan.A1679081
+com.jex.trade,K7GW,Adware ( 005321b21 )
+com.jex.trade,Cyren,AndroidOS/Trojan.YTKP-0
+com.jex.trade,SymantecMobileInsight,AppRisk:Generisk
+com.jex.trade,ESET-NOD32,a variant of Android/Packed.Jiagu.D potentially unsafe
+com.jex.trade,Ikarus,PUA.AndroidOS.Jiagu
+com.jex.trade,MaxSecure,Android.WIN32.Robtes.dc
+com.jex.trade,Fortinet,Riskware/Jiagu!Android
+com.quidax.app,Tencent,a.gray.Bulimia.b
+com.remint.app,NANO-Antivirus,Trojan.Android.Obtes.djcfel
+com.remint.app,Tencent,a.gray.Bulimia.a
+com.studentcoin,Tencent,a.gray.Bulimia.b
+com.viabtc.pool,SymantecMobileInsight,AdLibrary:Jpush
+roseon.finance,CAT-QuickHeal,Android.Utilcode.A1ee0 (PUP)
+roseon.finance,ESET-NOD32,a variant of Android/DataCollector.Utilcode.B potentially unsafe
+com.vidulumwallet.app,K7GW,Trojan ( 0053ca141 )
+com.vidulumwallet.app,MaxSecure,Android.WIN32.MobiDash.z
+net.ethylyte.com,CMC,Generic.Win32.1fe353c25f!MD
+io.smartholdem.client,MaxSecure,Android.WIN32.Gustuff.san
+augstrain.asn,MaxSecure,Android.fyben.a
+com.lingxi.bexplus,MaxSecure,Android.Android.WIN32.SpyNote.e
+com.portto.blocto,Sangfor,Virus.Generic-HTML.Save.4d97876b
+com.portto.blocto,Jiangmin,Trojan.Script.Generic1
+one.mixin.messenger,Tencent,a.gray.PiggyGoldcoin.a
+com.enjin.mobile.wallet,Tencent,a.gray.sexpay.m
+com.fox.one,MaxSecure,Android.Android.WIN32.Hqwar.ec
+com.crypto.multiwallet,NANO-Antivirus,Trojan.Script.Heuristic-js.iacgm
+com.top1.group.international.android,Zillya,Trojan.Ewind.Android.782
+com.top1.group.international.android,Cyren,AndroidOS/Trojan.IABN-8
+com.top1.group.international.android,SymantecMobileInsight,AdLibrary:Generisk
+com.top1.group.international.android,ESET-NOD32,a variant of Android/Packed.Jiagu.D potentially unsafe
+com.top1.group.international.android,Jiangmin,Trojan.Generic.gwslx
+com.top1.group.international.android,Yandex,Trojan.Etecer.bUB6gd.23
+com.top1.group.international.android,Ikarus,PUA.AndroidOS.Jiagu
+com.top1.group.international.android,MaxSecure,Android.WIN32.Robtes.dc
+com.top1.group.international.android,Fortinet,Riskware/PackagingUntrustworthyJiagu!Android
+co.edgesecure.app,Tencent,a.gray.PiggyGoldcoin.a
+im.token.app,ESET-NOD32,a variant of Android/Packed.Jiagu.D potentially unsafe
+im.token.app,Ikarus,PUA.AndroidOS.Jiagu
+im.token.app,MaxSecure,Android.WIN32.Robtes.dc
+im.token.app,Fortinet,Riskware/Jiagu!Android
+com.legendwd.hyperpayW,CAT-QuickHeal,Elf.Trojan.A1679081
+com.legendwd.hyperpayW,Cyren,AndroidOS/Trojan.YTKP-0
+com.legendwd.hyperpayW,SymantecMobileInsight,AdLibrary:Generisk
+com.legendwd.hyperpayW,ESET-NOD32,a variant of Android/Packed.Jiagu.D potentially unsafe
+com.legendwd.hyperpayW,Yandex,Trojan.Etecer.bV4DkR.37
+com.legendwd.hyperpayW,Ikarus,PUA.AndroidOS.Jiagu
+com.legendwd.hyperpayW,Fortinet,Riskware/PackagingUntrustworthyJiagu!Android

@@ -1,331 +1,331 @@
 ----Unknown Level Permission--------
 Permission_name & count \\ 
-android.permission.GET\_TASKS & 43\\ 
-android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS & 26\\ 
-android.permission.READ\_LOGS & 15\\ 
-android.permission.MANAGE\_DOCUMENTS & 12\\ 
-android.permission.QUERY\_ALL\_PACKAGES & 5\\ 
-com.android.launcher.permission.UNINSTALL\_SHORTCUT & 3\\ 
-android.permission.RESTART\_PACKAGES & 2\\ 
-Android.permission.WRITE\_APN\_SETTINGS & 1\\ 
-android.permission.BROADCAST\_SMS & 1\\ 
-android.permission.WRITE\_SECURE\_SETTINGS & 1\\ 
+android.permission.GET\_TASKS & 43 (9.4\%)\\ 
+android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS & 26 (5.7\%)\\ 
+android.permission.READ\_LOGS & 15 (3.3\%)\\ 
+android.permission.MANAGE\_DOCUMENTS & 12 (2.6\%)\\ 
+android.permission.QUERY\_ALL\_PACKAGES & 5 (1.1\%)\\ 
+com.android.launcher.permission.UNINSTALL\_SHORTCUT & 3 (0.7\%)\\ 
+android.permission.RESTART\_PACKAGES & 2 (0.4\%)\\ 
+Android.permission.WRITE\_APN\_SETTINGS & 1 (0.2\%)\\ 
+android.permission.BROADCAST\_SMS & 1 (0.2\%)\\ 
+android.permission.WRITE\_SECURE\_SETTINGS & 1 (0.2\%)\\ 
 ------------------------------------------------------ 
 ----Dangerous Level Permission--------
 Permission_name & count \\ 
-android.permission.CAMERA & 399\\ 
-android.permission.WRITE\_EXTERNAL\_STORAGE & 334\\ 
-android.permission.READ\_EXTERNAL\_STORAGE & 268\\ 
-android.permission.INSTALL\_PACKAGES & 146\\ 
-android.permission.READ\_PHONE\_STATE & 97\\ 
-android.permission.ACCESS\_COARSE\_LOCATION & 96\\ 
-android.permission.ACCESS\_FINE\_LOCATION & 96\\ 
-android.permission.RECORD\_AUDIO & 82\\ 
-android.permission.READ\_CONTACTS & 68\\ 
-android.permission.GET\_ACCOUNTS & 54\\ 
-android.permission.DUMP & 32\\ 
-android.permission.READ\_CALENDAR & 17\\ 
-android.permission.WRITE\_CALENDAR & 15\\ 
-android.permission.WRITE\_CONTACTS & 12\\ 
-android.permission.CALL\_PHONE & 11\\ 
-com.google.android.gms.permission.ACTIVITY\_RECOGNITION & 10\\ 
-android.permission.ACCESS\_BACKGROUND\_LOCATION & 8\\ 
-android.permission.ACCESS\_MEDIA\_LOCATION & 4\\ 
-android.permission-group.CAMERA & 2\\ 
-android.permission.READ\_PHONE\_NUMBERS & 1\\ 
-android.permission.READ\_CALL\_LOG & 1\\ 
-android.permission.ACTIVITY\_RECOGNITION & 1\\ 
-Android.permission.ACCESS\_FINE\_LOCATION & 1\\ 
+android.permission.CAMERA & 399 (87.3\%)\\ 
+android.permission.WRITE\_EXTERNAL\_STORAGE & 334 (73.1\%)\\ 
+android.permission.READ\_EXTERNAL\_STORAGE & 268 (58.6\%)\\ 
+android.permission.INSTALL\_PACKAGES & 146 (31.9\%)\\ 
+android.permission.READ\_PHONE\_STATE & 97 (21.2\%)\\ 
+android.permission.ACCESS\_COARSE\_LOCATION & 96 (21.0\%)\\ 
+android.permission.ACCESS\_FINE\_LOCATION & 96 (21.0\%)\\ 
+android.permission.RECORD\_AUDIO & 82 (17.9\%)\\ 
+android.permission.READ\_CONTACTS & 68 (14.9\%)\\ 
+android.permission.GET\_ACCOUNTS & 54 (11.8\%)\\ 
+android.permission.DUMP & 32 (7.0\%)\\ 
+android.permission.READ\_CALENDAR & 17 (3.7\%)\\ 
+android.permission.WRITE\_CALENDAR & 15 (3.3\%)\\ 
+android.permission.WRITE\_CONTACTS & 12 (2.6\%)\\ 
+android.permission.CALL\_PHONE & 11 (2.4\%)\\ 
+com.google.android.gms.permission.ACTIVITY\_RECOGNITION & 10 (2.2\%)\\ 
+android.permission.ACCESS\_BACKGROUND\_LOCATION & 8 (1.8\%)\\ 
+android.permission.ACCESS\_MEDIA\_LOCATION & 4 (0.9\%)\\ 
+android.permission-group.CAMERA & 2 (0.4\%)\\ 
+android.permission.READ\_PHONE\_NUMBERS & 1 (0.2\%)\\ 
+android.permission.READ\_CALL\_LOG & 1 (0.2\%)\\ 
+android.permission.ACTIVITY\_RECOGNITION & 1 (0.2\%)\\ 
+Android.permission.ACCESS\_FINE\_LOCATION & 1 (0.2\%)\\ 
 ------------------------------------------------------ 
 ----Signature Level Permission--------
 Permission_name & count \\ 
-android.permission.BIND\_JOB\_SERVICE & 329\\ 
-android.permission.SYSTEM\_ALERT\_WINDOW & 86\\ 
-android.permission.REQUEST\_INSTALL\_PACKAGES & 47\\ 
-android.permission.WRITE\_SETTINGS & 41\\ 
-android.permission.BIND\_REMOTEVIEWS & 24\\ 
-android.permission.READ\_INTERNAL\_STORAGE & 21\\ 
-android.permission.CHANGE\_CONFIGURATION & 7\\ 
-android.permission.PACKAGE\_USAGE\_STATS & 6\\ 
-android.permission.BIND\_CHOOSER\_TARGET\_SERVICE & 2\\ 
-android.permission.BIND\_TELECOM\_CONNECTION\_SERVICE & 2\\ 
-android.permission.CLEAR\_APP\_CACHE & 2\\ 
-android.permission.BATTERY\_STATS & 1\\ 
-android.permission.BIND\_CONDITION\_PROVIDER\_SERVICE & 1\\ 
-android.permission.DELETE\_CACHE\_FILES & 1\\ 
+android.permission.BIND\_JOB\_SERVICE & 329 (72.0\%)\\ 
+android.permission.SYSTEM\_ALERT\_WINDOW & 86 (18.8\%)\\ 
+android.permission.REQUEST\_INSTALL\_PACKAGES & 47 (10.3\%)\\ 
+android.permission.WRITE\_SETTINGS & 41 (9.0\%)\\ 
+android.permission.BIND\_REMOTEVIEWS & 24 (5.3\%)\\ 
+android.permission.READ\_INTERNAL\_STORAGE & 21 (4.6\%)\\ 
+android.permission.CHANGE\_CONFIGURATION & 7 (1.5\%)\\ 
+android.permission.PACKAGE\_USAGE\_STATS & 6 (1.3\%)\\ 
+android.permission.BIND\_CHOOSER\_TARGET\_SERVICE & 2 (0.4\%)\\ 
+android.permission.BIND\_TELECOM\_CONNECTION\_SERVICE & 2 (0.4\%)\\ 
+android.permission.CLEAR\_APP\_CACHE & 2 (0.4\%)\\ 
+android.permission.BATTERY\_STATS & 1 (0.2\%)\\ 
+android.permission.BIND\_CONDITION\_PROVIDER\_SERVICE & 1 (0.2\%)\\ 
+android.permission.DELETE\_CACHE\_FILES & 1 (0.2\%)\\ 
 ------------------------------------------------------ 
 ----Normal Level Permission--------
 Permission_name & count \\ 
-android.permission.INTERNET & 453\\ 
-android.permission.ACCESS\_NETWORK\_STATE & 404\\ 
-android.permission.WAKE\_LOCK & 362\\ 
-android.permission.VIBRATE & 292\\ 
-android.permission.USE\_FINGERPRINT & 271\\ 
-android.permission.ACCESS\_WIFI\_STATE & 195\\ 
-android.permission.RECEIVE\_BOOT\_COMPLETED & 185\\ 
-android.permission.USE\_BIOMETRIC & 171\\ 
-android.permission.FOREGROUND\_SERVICE & 137\\ 
-android.permission.BLUETOOTH & 65\\ 
-android.permission.NFC & 42\\ 
-android.permission.MODIFY\_AUDIO\_SETTINGS & 35\\ 
-android.permission.CHANGE\_WIFI\_STATE & 34\\ 
-android.permission.BLUETOOTH\_ADMIN & 29\\ 
-android.permission.CHANGE\_NETWORK\_STATE & 26\\ 
-android.permission.CHANGE\_WIFI\_MULTICAST\_STATE & 16\\ 
-android.permission.ACCESS\_LOCATION\_EXTRA\_COMMANDS & 13\\ 
-com.android.launcher.permission.INSTALL\_SHORTCUT & 12\\ 
-android.permission.DISABLE\_KEYGUARD & 11\\ 
-android.permission.USE\_FULL\_SCREEN\_INTENT & 8\\ 
-android.permission.KILL\_BACKGROUND\_PROCESSES & 7\\ 
-android.permission.READ\_SYNC\_SETTINGS & 6\\ 
-android.permission.REORDER\_TASKS & 6\\ 
-android.permission.WRITE\_SYNC\_SETTINGS & 5\\ 
-android.permission.REQUEST\_IGNORE\_BATTERY\_OPTIMIZATIONS & 4\\ 
-android.permission.BROADCAST\_STICKY & 3\\ 
-android.permission.MANAGE\_OWN\_CALLS & 2\\ 
-android.permission.REQUEST\_DELETE\_PACKAGES & 2\\ 
-android.permission.INSTALL\_SHORTCUT & 2\\ 
-android.permission.READ\_SYNC\_STATS & 1\\ 
-android.permission.EXPAND\_STATUS\_BAR & 1\\ 
-com.android.alarm.permission.SET\_ALARM & 1\\ 
-Manifest.permission.FOREGROUND\_SERVICE & 1\\ 
+android.permission.INTERNET & 453 (99.1\%)\\ 
+android.permission.ACCESS\_NETWORK\_STATE & 404 (88.4\%)\\ 
+android.permission.WAKE\_LOCK & 362 (79.2\%)\\ 
+android.permission.VIBRATE & 292 (63.9\%)\\ 
+android.permission.USE\_FINGERPRINT & 271 (59.3\%)\\ 
+android.permission.ACCESS\_WIFI\_STATE & 195 (42.7\%)\\ 
+android.permission.RECEIVE\_BOOT\_COMPLETED & 185 (40.5\%)\\ 
+android.permission.USE\_BIOMETRIC & 171 (37.4\%)\\ 
+android.permission.FOREGROUND\_SERVICE & 137 (30.0\%)\\ 
+android.permission.BLUETOOTH & 65 (14.2\%)\\ 
+android.permission.NFC & 42 (9.2\%)\\ 
+android.permission.MODIFY\_AUDIO\_SETTINGS & 35 (7.7\%)\\ 
+android.permission.CHANGE\_WIFI\_STATE & 34 (7.4\%)\\ 
+android.permission.BLUETOOTH\_ADMIN & 29 (6.3\%)\\ 
+android.permission.CHANGE\_NETWORK\_STATE & 26 (5.7\%)\\ 
+android.permission.CHANGE\_WIFI\_MULTICAST\_STATE & 16 (3.5\%)\\ 
+android.permission.ACCESS\_LOCATION\_EXTRA\_COMMANDS & 13 (2.8\%)\\ 
+com.android.launcher.permission.INSTALL\_SHORTCUT & 12 (2.6\%)\\ 
+android.permission.DISABLE\_KEYGUARD & 11 (2.4\%)\\ 
+android.permission.USE\_FULL\_SCREEN\_INTENT & 8 (1.8\%)\\ 
+android.permission.KILL\_BACKGROUND\_PROCESSES & 7 (1.5\%)\\ 
+android.permission.READ\_SYNC\_SETTINGS & 6 (1.3\%)\\ 
+android.permission.REORDER\_TASKS & 6 (1.3\%)\\ 
+android.permission.WRITE\_SYNC\_SETTINGS & 5 (1.1\%)\\ 
+android.permission.REQUEST\_IGNORE\_BATTERY\_OPTIMIZATIONS & 4 (0.9\%)\\ 
+android.permission.BROADCAST\_STICKY & 3 (0.7\%)\\ 
+android.permission.MANAGE\_OWN\_CALLS & 2 (0.4\%)\\ 
+android.permission.REQUEST\_DELETE\_PACKAGES & 2 (0.4\%)\\ 
+android.permission.INSTALL\_SHORTCUT & 2 (0.4\%)\\ 
+android.permission.READ\_SYNC\_STATS & 1 (0.2\%)\\ 
+android.permission.EXPAND\_STATUS\_BAR & 1 (0.2\%)\\ 
+com.android.alarm.permission.SET\_ALARM & 1 (0.2\%)\\ 
+Manifest.permission.FOREGROUND\_SERVICE & 1 (0.2\%)\\ 
 ------------------------------------------------------ 
 ----Customized Level Permission--------
 Permission_name & count \\ 
-com.google.android.c2dm.permission.RECEIVE & 307\\ 
-com.google.android.c2dm.permission.SEND & 297\\ 
-com.google.android.finsky.permission.BIND\_GET\_INSTALL\_REFERRER\_SERVICE & 290\\ 
-com.google.android.gms.auth.api.signin.permission.REVOCATION\_NOTIFICATION & 113\\ 
-com.huawei.android.launcher.permission.CHANGE\_BADGE & 102\\ 
-com.anddoes.launcher.permission.UPDATE\_COUNT & 101\\ 
-com.sonyericsson.home.permission.BROADCAST\_BADGE & 101\\ 
-com.sec.android.provider.badge.permission.WRITE & 101\\ 
-com.sec.android.provider.badge.permission.READ & 101\\ 
-com.majeur.launcher.permission.UPDATE\_BADGE & 101\\ 
-com.htc.launcher.permission.READ\_SETTINGS & 101\\ 
-com.htc.launcher.permission.UPDATE\_SHORTCUT & 101\\ 
-com.huawei.android.launcher.permission.READ\_SETTINGS & 96\\ 
-com.huawei.android.launcher.permission.WRITE\_SETTINGS & 96\\ 
-com.sonymobile.home.permission.PROVIDER\_INSERT\_BADGE & 96\\ 
-android.permission.READ\_APP\_BADGE & 92\\ 
-com.oppo.launcher.permission.READ\_SETTINGS & 91\\ 
-com.oppo.launcher.permission.WRITE\_SETTINGS & 91\\ 
-me.everything.badger.permission.BADGE\_COUNT\_READ & 90\\ 
-me.everything.badger.permission.BADGE\_COUNT\_WRITE & 90\\ 
-android.permission.FLASHLIGHT & 71\\ 
-com.google.firebase.auth.api.gms.permission.LAUNCH\_FEDERATED\_SIGN\_IN & 51\\ 
-com.google.android.providers.gsf.permission.READ\_GSERVICES & 50\\ 
-com.samsung.android.providers.context.permission.WRITE\_USE\_APP\_FEATURE\_SURVEY & 31\\ 
-com.fingerprints.service.ACCESS\_FINGERPRINT\_MANAGER & 23\\ 
-com.android.vending.BILLING & 22\\ 
-android.permission.RECEIVE\_USER\_PRESENT & 21\\ 
-com.android.vending.CHECK\_LICENSE & 21\\ 
-android.permission.USE\_CREDENTIALS & 20\\ 
-com.google.android.gms.permission.BIND\_NETWORK\_TASK\_SERVICE & 14\\ 
-android.permission.STORAGE & 13\\ 
-android.permission.READ\_PROFILE & 11\\ 
-android.permission.MANAGE\_ACCOUNTS & 10\\ 
-host.exp.exponent.permission.C2D\_MESSAGE & 9\\ 
-android.permission.WRITE\_INTERNAL\_STORAGE & 9\\ 
-android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION & 8\\ 
-android.permission.AUTHENTICATE\_ACCOUNTS & 6\\ 
-com.huawei.appmarket.service.commondata.permission.GET\_COMMON\_DATA & 5\\ 
-android.permission.SYSTEM\_OVERLAY\_WINDOW & 5\\ 
-android.permission.RECORD\_VIDEO & 5\\ 
-com.amazon.device.messaging.permission.RECEIVE & 5\\ 
-android.permission.READ\_SETTINGS & 5\\ 
-com.amazon.device.messaging.permission.SEND & 5\\ 
-com.coloros.mcs.permission.RECIEVE\_MCS\_MESSAGE & 5\\ 
-android.permission.ACCESS\_DOWNLOAD\_MANAGER & 4\\ 
-android.permission.BROADCAST\_PACKAGE\_ADDED & 3\\ 
-android.permission.BROADCAST\_PACKAGE\_REPLACED & 3\\ 
-com.heytap.mcs.permission.RECIEVE\_MCS\_MESSAGE & 3\\ 
-android.permission.BROADCAST\_PACKAGE\_CHANGED & 3\\ 
-com.meizu.c2dm.permission.RECEIVE & 3\\ 
-android.permission.READ\_PRIVILEGED\_PHONE\_STATE & 3\\ 
-com.meizu.flyme.push.permission.RECEIVE & 3\\ 
-android.permission.BROADCAST\_PACKAGE\_INSTALL & 3\\ 
-android.hardware.camera.autofocus & 3\\ 
-com.android.browser.permission.READ\_HISTORY\_BOOKMARKS & 2\\ 
-com.android.launcher.permission.READ\_SETTINGS & 2\\ 
-android.permission.ACCESS\_GPS & 2\\ 
-android.permission.ACCESS\_MOCK\_LOCATION & 2\\ 
-android.permission.GET\_TOP\_ACTIVITY\_INFO & 2\\ 
-MediaStore.Images.Media.INTERNAL\_CONTENT\_URI & 2\\ 
-com.coloros.mcs.permission.SEND\_MCS\_MESSAGE & 2\\ 
-com.heytap.mcs.permission.SEND\_PUSH\_MESSAGE & 2\\ 
-android.hardware.camera & 2\\ 
-MediaStore.Images.Media.EXTERNAL\_CONTENT\_URI & 2\\ 
-android.permission.READ\_MEDIA\_VIDEO & 2\\ 
-android.permission.READ\_MEDIA\_IMAGES & 2\\ 
-android.permission.READ\_MEDIA\_AUDIO & 2\\ 
-android.permission.DEVICE\_POWER & 2\\ 
-android.permission.FLAG\_GRANT\_READ\_URI\_PERMISSION & 2\\ 
-android.permission.INTERACT\_ACROSS\_USERS\_FULL & 2\\ 
-org.deuscoin.wallet.permission.C2D\_MESSAGE & 1\\ 
-com.okinc.okex.gp.permission.MIPUSH\_RECEIVE & 1\\ 
-com.newgo.coincola.permission.MIPUSH\_RECEIVE & 1\\ 
-com.nobillio.coinbaazar.permission.C2D\_MESSAGE & 1\\ 
-com.nova.dax.permission.C2D\_MESSAGE & 1\\ 
-com.okinc.okex.gp.permission.JPUSH\_MESSAGE & 1\\ 
-tech.central.ctocoin.permission.C2D\_MESSAGE & 1\\ 
-com.panaeshacapital.pcex.permission.C2D\_MESSAGE & 1\\ 
-com.phemex.app.permission.JPUSH\_MESSAGE & 1\\ 
-com.phemex.app.permission.MIPUSH\_RECEIVE & 1\\ 
-com.neobitcoin.wallet.permission.C2D\_MESSAGE & 1\\ 
-tw.org.freewallet.app.permission.C2D\_MESSAGE & 1\\ 
-com.mtpelerin.bridge.permission.C2D\_MESSAGE & 1\\ 
-com.mexcpro.client.permission.JPUSH\_MESSAGE & 1\\ 
-com.kubi.kucoin.permission.PUSH\_PROVIDER & 1\\ 
-com.legendwd.hyperpayW.permission.C2D\_MESSAGE & 1\\ 
-vip.mytokenpocket.permission.RECEIVE\_MSG & 1\\ 
-vip.mytokenpocket.permission.JPUSH\_MESSAGE & 1\\ 
-com.legendwd.hyperpayW.permission.JPUSH\_MESSAGE & 1\\ 
-com.legendwd.hyperpayW.permission.RECEIVE\_ADM\_MESSAGE & 1\\ 
-com.lynengine.beautycryptowallet.permission.C2D\_MESSAGE & 1\\ 
-com.magnum.wallet.permission.C2D\_MESSAGE & 1\\ 
-tw.org.freewallet.app.permission.PushHandlerActivity & 1\\ 
-com.phemex.app.permission.PUSH\_PROVIDER & 1\\ 
-com.maicoin.max.permission.C2D\_MESSAGE & 1\\ 
-tech.vontech.blockchain.jetoken.permission.C2D\_MESSAGE & 1\\ 
-com.matrixport.mark.permission.JPUSH\_MESSAGE & 1\\ 
-com.medishares.android.permission.C2D\_MESSAGE & 1\\ 
-com.mexcpro.client.permission.C2D\_MESSAGE & 1\\ 
-com.phemex.app.permission.PROCESS\_PUSH\_MSG & 1\\ 
-com.sculptech.dtrax.permission.RECEIVE\_ADM\_MESSAGE & 1\\ 
-com.plutus.wallet.permission.MAPS\_RECEIVE & 1\\ 
-com.wallet.crypto.trustapp.permission.PUSH\_PROVIDER & 1\\ 
-com.xufagroup.cryptowallet.permission.C2D\_MESSAGE & 1\\ 
-crypto.cc.atc.permission.C2D\_MESSAGE & 1\\ 
-exchange.einstein.mobile.release.permission.C2D\_MESSAGE & 1\\ 
-getui.permission.GetuiService.com.bitmart.bitmarket & 1\\ 
-global.bithumb.android.permission.C2D\_MESSAGE & 1\\ 
-hodl.group.xrpio.permission.C2D\_MESSAGE & 1\\ 
-im.token.app.permission.JPUSH\_MESSAGE & 1\\ 
-im.token.app99.permission.JPUSH\_MESSAGE & 1\\ 
-io.crypto.wallet.bitcoin.ethereum.medooza.wallet.permission.C2D\_MESSAGE & 1\\ 
-io.eidoo.wallet.prodnet.permission.C2D\_MESSAGE & 1\\ 
-io.eidoo.wallet.prodnet.permission.RECEIVE\_ADM\_MESSAGE & 1\\ 
-io.exaking.starter.permission.C2D\_MESSAGE & 1\\ 
-io.hexawallet.hexa.permission.C2D\_MESSAGE & 1\\ 
-io.ionic.starter.permission.RECEIVE\_ADM\_MESSAGE & 1\\ 
-io.rscoins.network.permission.C2D\_MESSAGE & 1\\ 
-io.uun.clet.permission.C2D\_MESSAGE & 1\\ 
-io.wallet.permission.JPUSH\_MESSAGE & 1\\ 
-me.coinpal.app.permission.C2D\_MESSAGE & 1\\ 
-network.celsius.wallet.permission.C2D\_MESSAGE & 1\\ 
-com.wrx.wazirx.permission.C2D\_MESSAGE & 1\\ 
-com.wallet.crypto.trustapp.permission.PROCESS\_PUSH\_MSG & 1\\ 
-com.portto.blocto.permission.C2D\_MESSAGE & 1\\ 
-com.viabtc.pool.permission.JPUSH\_MESSAGE & 1\\ 
-com.procps.proopvi.permission.JPUSH\_MESSAGE & 1\\ 
-com.ptpwallet.permission.C2D\_MESSAGE & 1\\ 
-com.quarkonium.qpocket.permission.C2D\_MESSAGE & 1\\ 
-com.quarkonium.qpocket.permission.MIPUSH\_RECEIVE & 1\\ 
-com.quarkonium.qpocket.push.permission.MESSAGE & 1\\ 
-com.quidax.app.permission.C2D\_MESSAGE & 1\\ 
-com.rider.aracanemap.googlemapsv2.permission.MAPS\_RECEIVE & 1\\ 
-com.samsung.android.bio.face.permission.USE\_FACE & 1\\ 
-com.samsung.android.teelicense & 1\\ 
-com.savl.permission.C2D\_MESSAGE & 1\\ 
-com.sculptech.dtrax.permission.C2D\_MESSAGE & 1\\ 
-com.shapeshift.droid\_shapeshift.permission.C2D\_MESSAGE & 1\\ 
-pe.bluemountain419.jungledex.permission.C2D\_MESSAGE & 1\\ 
-com.sparkpoint.permission.C2D\_MESSAGE & 1\\ 
-com.spot.spot.batch.permission.INTERNAL\_BROADCAST & 1\\ 
-com.kubi.kucoin.permission.MIPUSH\_RECEIVE & 1\\ 
-com.t7.wether.permission.C2D\_MESSAGE & 1\\ 
-com.tencent.mm.plugin.permission.SEND & 1\\ 
-com.top1.group.international.android.permission.JPUSH\_MESSAGE & 1\\ 
-com.kubi.kucoin.permission.PROCESS\_PUSH\_MSG & 1\\ 
-1000 & 1\\ 
-com.kubi.kucoin.permission.JPUSH\_MESSAGE & 1\\ 
-com.beecrypt.beecrypthd.permission.C2D\_MESSAGE & 1\\ 
-app.bankowallet.android.permission.ACCESS\_SVC & 1\\ 
-app.bankowallet.android.permission.C2D\_MESSAGE & 1\\ 
-app.elaphant.wallets.permission.C2D\_MESSAGE & 1\\ 
-app.elaphant.wallets.permission.MIPUSH\_RECEIVE & 1\\ 
-app.elaphant.wallets.push.permission.MESSAGE & 1\\ 
-asia.coins.mobile.permission.LOGOUT\_PERMISSION & 1\\ 
-cash.klever.blockchain.wallet.permission.C2D\_MESSAGE & 1\\ 
-claimerbox\_34.permission.PushHandlerActivity & 1\\ 
-co.bacoor.android.hbwallet.permission.C2D\_MESSAGE & 1\\ 
-co.my.com.zebpay.C2D\_MESSAGE & 1\\ 
-co.satoshiwallet.app.permission.C2D\_MESSAGE & 1\\ 
-cobo.wallet.permission.JPUSH\_MESSAGE & 1\\ 
-coin98.crypto.finance.media.permission.C2D\_MESSAGE & 1\\ 
-com.Bitplicity.Bitplicityapp.permission.C2D\_MESSAGE & 1\\ 
-com.aax.exchange.permission.JPUSH\_MESSAGE & 1\\ 
-com.android.rave.provider.READ\_PERMISSION & 1\\ 
-com.app.asbazar59.permission.C2D\_MESSAGE & 1\\ 
-com.app.belfrics.permission.C2D\_MESSAGE & 1\\ 
-com.application.blocdesk.permission.C2D\_MESSAGE & 1\\ 
-app.banko.android.permission.MIPUSH\_RECEIVE & 1\\ 
-android.webkit.PermissionRequest & 1\\ 
-android.permission.WRITE\_USER\_DICTIONARY & 1\\ 
-android.permission.NOTIFICATIONS & 1\\ 
-MeDiaStore.Images.Media.INTERNAL\_CONTENT\_URI & 1\\ 
-TODO & 1\\ 
-android.hardware.usb.accessory & 1\\ 
-android.permission.ACCESS\_COARSE\_UPDATES & 1\\ 
-android.permission.ACTION\_OPEN\_DOCUMENT & 1\\ 
-android.permission.AUDIO\_CAPTURE & 1\\ 
-android.permission.CAMERA2 & 1\\ 
-android.permission.GET\_CLIPS & 1\\ 
-android.permission.PREVENT\_POWER\_KEY & 1\\ 
-android.permission.WRITE\_SETTING & 1\\ 
-android.permission.READ\_CLIPS & 1\\ 
-android.permission.READ\_OWNER\_DATA & 1\\ 
-android.permission.Read\_EXTERNAL\_STORAGE & 1\\ 
-android.permission.USE\_BIOMETRIC\_INTERNAL & 1\\ 
-android.permission.VIDEO\_CAPTURE & 1\\ 
-android.permission.WRITE\_CLIPS & 1\\ 
-android.permission.WRITE\_MEDIA\_STORAGE & 1\\ 
-android.permission.WRITE\_PROFILE & 1\\ 
-com.asus.msa.SupplementaryDID.ACCESS & 1\\ 
-com.binance.dev.permission.C2D\_MESSAGE & 1\\ 
-com.koinstrap.koinstrap.permission.C2D\_MESSAGE & 1\\ 
-com.binance.dev.permission.JPUSH\_MESSAGE & 1\\ 
-com.cryptocurrency.jtechtrade.permission.C2D\_MESSAGE & 1\\ 
-com.cryptooriented.exchanges.permission.C2D\_MESSAGE & 1\\ 
-com.cyberblock.cyberblockmobile.permission.C2D\_MESSAGE & 1\\ 
-com.dowallet.permission.C2D\_MESSAGE & 1\\ 
-com.ellipal.wallet.permission.JPUSH\_MESSAGE & 1\\ 
-com.enjin.mobile.wallet.permission.C2D\_MESSAGE & 1\\ 
-com.escrowspace.permission.C2D\_MESSAGE & 1\\ 
-com.example.permission.MAPS\_RECEIVE & 1\\ 
-MeDiaStore.Images.Media.EXTERNAL\_CONTENT\_URI & 1\\ 
-com.fox.one.permission.C2D\_MESSAGE & 1\\ 
-com.fox.one.permission.MIPUSH\_RECEIVE & 1\\ 
-com.g3shanappz.claimerbox.permission.C2D\_MESSAGE & 1\\ 
-com.google.android.c2dm.permission.REGISTER & 1\\ 
-com.google.android.finsky.permission.BIND\_GET\_INSTALL\_REFERRER\_SERVICECopy & 1\\ 
-com.google.android.providers.gsf.permission.WRITE\_GSERVICES & 1\\ 
-com.hconline.iso.permission.MIPUSH\_RECEIVE & 1\\ 
-com.holacoins.wallet.permission.C2D\_MESSAGE & 1\\ 
-com.hotbtc.exchange.permission.C2D\_MESSAGE & 1\\ 
-com.iMe.android.permission.MAPS\_RECEIVE & 1\\ 
-com.cog.Dropinn.googlemaps.permission.MAPS\_RECEIVE & 1\\ 
-com.cobinhood.exchange.permission.C2D\_MESSAGE & 1\\ 
-com.ccwalletapp.permission.C2D\_MESSAGE & 1\\ 
-com.bitkub.permission.C2D\_MESSAGE & 1\\ 
-com.binance.dev.permission.MIPUSH\_RECEIVE & 1\\ 
-com.binance.dev.permission.PROCESS\_PUSH\_MSG & 1\\ 
-com.binance.dev.permission.PUSH\_PROVIDER & 1\\ 
-com.binance.dev.push.permission.MESSAGE & 1\\ 
-com.bitcoin.wallet.cryptopuce.permission.C2D\_MESSAGE & 1\\ 
-com.bitcoinindia.Btciapp.permission.C2D\_MESSAGE & 1\\ 
-com.bitcoinindia.Btciapp.permission.RECEIVE\_ADM\_MESSAGE & 1\\ 
-com.bitexuae.permission.C2D\_MESSAGE & 1\\ 
-com.bitmart.bitmarket.permission.MIPUSH\_RECEIVE & 1\\ 
-com.buyucoinApp.buyucoin.permission.C2D\_MESSAGE & 1\\ 
-com.bitpapa.permission.C2D\_MESSAGE & 1\\ 
-com.bixin.bixin\_android.permission.JPUSH\_MESSAGE & 1\\ 
-com.bixin.bixin\_android.permission.MIPUSH\_RECEIVE & 1\\ 
-com.btcc.mobi.permission.JPUSH\_MESSAGE & 1\\ 
-com.btcc.mobiwallet.permission.JPUSH\_MESSAGE & 1\\ 
-com.btuprotocol.btu\_wallet.permission.C2D\_MESSAGE & 1\\ 
-com.burency.app.permission.PROCESS\_PUSH\_MSG & 1\\ 
-com.burency.app.permission.PUSH\_PROVIDER & 1\\ 
-zayhu.permission.ACCESS\_SVC & 1\\ 
+com.google.android.c2dm.permission.RECEIVE & 307 (67.2\%)\\ 
+com.google.android.c2dm.permission.SEND & 297 (65.0\%)\\ 
+com.google.android.finsky.permission.BIND\_GET\_INSTALL\_REFERRER\_SERVICE & 290 (63.5\%)\\ 
+com.google.android.gms.auth.api.signin.permission.REVOCATION\_NOTIFICATION & 113 (24.7\%)\\ 
+com.huawei.android.launcher.permission.CHANGE\_BADGE & 102 (22.3\%)\\ 
+com.anddoes.launcher.permission.UPDATE\_COUNT & 101 (22.1\%)\\ 
+com.sonyericsson.home.permission.BROADCAST\_BADGE & 101 (22.1\%)\\ 
+com.sec.android.provider.badge.permission.WRITE & 101 (22.1\%)\\ 
+com.sec.android.provider.badge.permission.READ & 101 (22.1\%)\\ 
+com.majeur.launcher.permission.UPDATE\_BADGE & 101 (22.1\%)\\ 
+com.htc.launcher.permission.READ\_SETTINGS & 101 (22.1\%)\\ 
+com.htc.launcher.permission.UPDATE\_SHORTCUT & 101 (22.1\%)\\ 
+com.huawei.android.launcher.permission.READ\_SETTINGS & 96 (21.0\%)\\ 
+com.huawei.android.launcher.permission.WRITE\_SETTINGS & 96 (21.0\%)\\ 
+com.sonymobile.home.permission.PROVIDER\_INSERT\_BADGE & 96 (21.0\%)\\ 
+android.permission.READ\_APP\_BADGE & 92 (20.1\%)\\ 
+com.oppo.launcher.permission.READ\_SETTINGS & 91 (19.9\%)\\ 
+com.oppo.launcher.permission.WRITE\_SETTINGS & 91 (19.9\%)\\ 
+me.everything.badger.permission.BADGE\_COUNT\_READ & 90 (19.7\%)\\ 
+me.everything.badger.permission.BADGE\_COUNT\_WRITE & 90 (19.7\%)\\ 
+android.permission.FLASHLIGHT & 71 (15.5\%)\\ 
+com.google.firebase.auth.api.gms.permission.LAUNCH\_FEDERATED\_SIGN\_IN & 51 (11.2\%)\\ 
+com.google.android.providers.gsf.permission.READ\_GSERVICES & 50 (10.9\%)\\ 
+com.samsung.android.providers.context.permission.WRITE\_USE\_APP\_FEATURE\_SURVEY & 31 (6.8\%)\\ 
+com.fingerprints.service.ACCESS\_FINGERPRINT\_MANAGER & 23 (5.0\%)\\ 
+com.android.vending.BILLING & 22 (4.8\%)\\ 
+android.permission.RECEIVE\_USER\_PRESENT & 21 (4.6\%)\\ 
+com.android.vending.CHECK\_LICENSE & 21 (4.6\%)\\ 
+android.permission.USE\_CREDENTIALS & 20 (4.4\%)\\ 
+com.google.android.gms.permission.BIND\_NETWORK\_TASK\_SERVICE & 14 (3.1\%)\\ 
+android.permission.STORAGE & 13 (2.8\%)\\ 
+android.permission.READ\_PROFILE & 11 (2.4\%)\\ 
+android.permission.MANAGE\_ACCOUNTS & 10 (2.2\%)\\ 
+host.exp.exponent.permission.C2D\_MESSAGE & 9 (2.0\%)\\ 
+android.permission.WRITE\_INTERNAL\_STORAGE & 9 (2.0\%)\\ 
+android.permission.DOWNLOAD\_WITHOUT\_NOTIFICATION & 8 (1.8\%)\\ 
+android.permission.AUTHENTICATE\_ACCOUNTS & 6 (1.3\%)\\ 
+com.huawei.appmarket.service.commondata.permission.GET\_COMMON\_DATA & 5 (1.1\%)\\ 
+android.permission.SYSTEM\_OVERLAY\_WINDOW & 5 (1.1\%)\\ 
+android.permission.RECORD\_VIDEO & 5 (1.1\%)\\ 
+com.amazon.device.messaging.permission.RECEIVE & 5 (1.1\%)\\ 
+android.permission.READ\_SETTINGS & 5 (1.1\%)\\ 
+com.amazon.device.messaging.permission.SEND & 5 (1.1\%)\\ 
+com.coloros.mcs.permission.RECIEVE\_MCS\_MESSAGE & 5 (1.1\%)\\ 
+android.permission.ACCESS\_DOWNLOAD\_MANAGER & 4 (0.9\%)\\ 
+android.permission.BROADCAST\_PACKAGE\_ADDED & 3 (0.7\%)\\ 
+android.permission.BROADCAST\_PACKAGE\_REPLACED & 3 (0.7\%)\\ 
+com.heytap.mcs.permission.RECIEVE\_MCS\_MESSAGE & 3 (0.7\%)\\ 
+android.permission.BROADCAST\_PACKAGE\_CHANGED & 3 (0.7\%)\\ 
+com.meizu.c2dm.permission.RECEIVE & 3 (0.7\%)\\ 
+android.permission.READ\_PRIVILEGED\_PHONE\_STATE & 3 (0.7\%)\\ 
+com.meizu.flyme.push.permission.RECEIVE & 3 (0.7\%)\\ 
+android.permission.BROADCAST\_PACKAGE\_INSTALL & 3 (0.7\%)\\ 
+android.hardware.camera.autofocus & 3 (0.7\%)\\ 
+com.android.browser.permission.READ\_HISTORY\_BOOKMARKS & 2 (0.4\%)\\ 
+com.android.launcher.permission.READ\_SETTINGS & 2 (0.4\%)\\ 
+android.permission.ACCESS\_GPS & 2 (0.4\%)\\ 
+android.permission.ACCESS\_MOCK\_LOCATION & 2 (0.4\%)\\ 
+android.permission.GET\_TOP\_ACTIVITY\_INFO & 2 (0.4\%)\\ 
+MediaStore.Images.Media.INTERNAL\_CONTENT\_URI & 2 (0.4\%)\\ 
+com.coloros.mcs.permission.SEND\_MCS\_MESSAGE & 2 (0.4\%)\\ 
+com.heytap.mcs.permission.SEND\_PUSH\_MESSAGE & 2 (0.4\%)\\ 
+android.hardware.camera & 2 (0.4\%)\\ 
+MediaStore.Images.Media.EXTERNAL\_CONTENT\_URI & 2 (0.4\%)\\ 
+android.permission.READ\_MEDIA\_VIDEO & 2 (0.4\%)\\ 
+android.permission.READ\_MEDIA\_IMAGES & 2 (0.4\%)\\ 
+android.permission.READ\_MEDIA\_AUDIO & 2 (0.4\%)\\ 
+android.permission.DEVICE\_POWER & 2 (0.4\%)\\ 
+android.permission.FLAG\_GRANT\_READ\_URI\_PERMISSION & 2 (0.4\%)\\ 
+android.permission.INTERACT\_ACROSS\_USERS\_FULL & 2 (0.4\%)\\ 
+org.deuscoin.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.okinc.okex.gp.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.newgo.coincola.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.nobillio.coinbaazar.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.nova.dax.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.okinc.okex.gp.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+tech.central.ctocoin.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.panaeshacapital.pcex.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.phemex.app.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.phemex.app.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.neobitcoin.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+tw.org.freewallet.app.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.mtpelerin.bridge.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.mexcpro.client.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.kubi.kucoin.permission.PUSH\_PROVIDER & 1 (0.2\%)\\ 
+com.legendwd.hyperpayW.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+vip.mytokenpocket.permission.RECEIVE\_MSG & 1 (0.2\%)\\ 
+vip.mytokenpocket.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.legendwd.hyperpayW.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.legendwd.hyperpayW.permission.RECEIVE\_ADM\_MESSAGE & 1 (0.2\%)\\ 
+com.lynengine.beautycryptowallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.magnum.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+tw.org.freewallet.app.permission.PushHandlerActivity & 1 (0.2\%)\\ 
+com.phemex.app.permission.PUSH\_PROVIDER & 1 (0.2\%)\\ 
+com.maicoin.max.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+tech.vontech.blockchain.jetoken.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.matrixport.mark.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.medishares.android.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.mexcpro.client.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.phemex.app.permission.PROCESS\_PUSH\_MSG & 1 (0.2\%)\\ 
+com.sculptech.dtrax.permission.RECEIVE\_ADM\_MESSAGE & 1 (0.2\%)\\ 
+com.plutus.wallet.permission.MAPS\_RECEIVE & 1 (0.2\%)\\ 
+com.wallet.crypto.trustapp.permission.PUSH\_PROVIDER & 1 (0.2\%)\\ 
+com.xufagroup.cryptowallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+crypto.cc.atc.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+exchange.einstein.mobile.release.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+getui.permission.GetuiService.com.bitmart.bitmarket & 1 (0.2\%)\\ 
+global.bithumb.android.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+hodl.group.xrpio.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+im.token.app.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+im.token.app99.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+io.crypto.wallet.bitcoin.ethereum.medooza.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.eidoo.wallet.prodnet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.eidoo.wallet.prodnet.permission.RECEIVE\_ADM\_MESSAGE & 1 (0.2\%)\\ 
+io.exaking.starter.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.hexawallet.hexa.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.ionic.starter.permission.RECEIVE\_ADM\_MESSAGE & 1 (0.2\%)\\ 
+io.rscoins.network.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.uun.clet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+io.wallet.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+me.coinpal.app.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+network.celsius.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.wrx.wazirx.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.wallet.crypto.trustapp.permission.PROCESS\_PUSH\_MSG & 1 (0.2\%)\\ 
+com.portto.blocto.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.viabtc.pool.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.procps.proopvi.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.ptpwallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.quarkonium.qpocket.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.quarkonium.qpocket.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.quarkonium.qpocket.push.permission.MESSAGE & 1 (0.2\%)\\ 
+com.quidax.app.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.rider.aracanemap.googlemapsv2.permission.MAPS\_RECEIVE & 1 (0.2\%)\\ 
+com.samsung.android.bio.face.permission.USE\_FACE & 1 (0.2\%)\\ 
+com.samsung.android.teelicense & 1 (0.2\%)\\ 
+com.savl.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.sculptech.dtrax.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.shapeshift.droid\_shapeshift.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+pe.bluemountain419.jungledex.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.sparkpoint.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.spot.spot.batch.permission.INTERNAL\_BROADCAST & 1 (0.2\%)\\ 
+com.kubi.kucoin.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.t7.wether.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.tencent.mm.plugin.permission.SEND & 1 (0.2\%)\\ 
+com.top1.group.international.android.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.kubi.kucoin.permission.PROCESS\_PUSH\_MSG & 1 (0.2\%)\\ 
+1000 & 1 (0.2\%)\\ 
+com.kubi.kucoin.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.beecrypt.beecrypthd.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+app.bankowallet.android.permission.ACCESS\_SVC & 1 (0.2\%)\\ 
+app.bankowallet.android.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+app.elaphant.wallets.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+app.elaphant.wallets.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+app.elaphant.wallets.push.permission.MESSAGE & 1 (0.2\%)\\ 
+asia.coins.mobile.permission.LOGOUT\_PERMISSION & 1 (0.2\%)\\ 
+cash.klever.blockchain.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+claimerbox\_34.permission.PushHandlerActivity & 1 (0.2\%)\\ 
+co.bacoor.android.hbwallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+co.my.com.zebpay.C2D\_MESSAGE & 1 (0.2\%)\\ 
+co.satoshiwallet.app.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+cobo.wallet.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+coin98.crypto.finance.media.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.Bitplicity.Bitplicityapp.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.aax.exchange.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.android.rave.provider.READ\_PERMISSION & 1 (0.2\%)\\ 
+com.app.asbazar59.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.app.belfrics.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.application.blocdesk.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+app.banko.android.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+android.webkit.PermissionRequest & 1 (0.2\%)\\ 
+android.permission.WRITE\_USER\_DICTIONARY & 1 (0.2\%)\\ 
+android.permission.NOTIFICATIONS & 1 (0.2\%)\\ 
+MeDiaStore.Images.Media.INTERNAL\_CONTENT\_URI & 1 (0.2\%)\\ 
+TODO & 1 (0.2\%)\\ 
+android.hardware.usb.accessory & 1 (0.2\%)\\ 
+android.permission.ACCESS\_COARSE\_UPDATES & 1 (0.2\%)\\ 
+android.permission.ACTION\_OPEN\_DOCUMENT & 1 (0.2\%)\\ 
+android.permission.AUDIO\_CAPTURE & 1 (0.2\%)\\ 
+android.permission.CAMERA2 & 1 (0.2\%)\\ 
+android.permission.GET\_CLIPS & 1 (0.2\%)\\ 
+android.permission.PREVENT\_POWER\_KEY & 1 (0.2\%)\\ 
+android.permission.WRITE\_SETTING & 1 (0.2\%)\\ 
+android.permission.READ\_CLIPS & 1 (0.2\%)\\ 
+android.permission.READ\_OWNER\_DATA & 1 (0.2\%)\\ 
+android.permission.Read\_EXTERNAL\_STORAGE & 1 (0.2\%)\\ 
+android.permission.USE\_BIOMETRIC\_INTERNAL & 1 (0.2\%)\\ 
+android.permission.VIDEO\_CAPTURE & 1 (0.2\%)\\ 
+android.permission.WRITE\_CLIPS & 1 (0.2\%)\\ 
+android.permission.WRITE\_MEDIA\_STORAGE & 1 (0.2\%)\\ 
+android.permission.WRITE\_PROFILE & 1 (0.2\%)\\ 
+com.asus.msa.SupplementaryDID.ACCESS & 1 (0.2\%)\\ 
+com.binance.dev.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.koinstrap.koinstrap.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.binance.dev.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.cryptocurrency.jtechtrade.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.cryptooriented.exchanges.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.cyberblock.cyberblockmobile.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.dowallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.ellipal.wallet.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.enjin.mobile.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.escrowspace.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.example.permission.MAPS\_RECEIVE & 1 (0.2\%)\\ 
+MeDiaStore.Images.Media.EXTERNAL\_CONTENT\_URI & 1 (0.2\%)\\ 
+com.fox.one.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.fox.one.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.g3shanappz.claimerbox.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.google.android.c2dm.permission.REGISTER & 1 (0.2\%)\\ 
+com.google.android.finsky.permission.BIND\_GET\_INSTALL\_REFERRER\_SERVICECopy & 1 (0.2\%)\\ 
+com.google.android.providers.gsf.permission.WRITE\_GSERVICES & 1 (0.2\%)\\ 
+com.hconline.iso.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.holacoins.wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.hotbtc.exchange.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.iMe.android.permission.MAPS\_RECEIVE & 1 (0.2\%)\\ 
+com.cog.Dropinn.googlemaps.permission.MAPS\_RECEIVE & 1 (0.2\%)\\ 
+com.cobinhood.exchange.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.ccwalletapp.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bitkub.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.binance.dev.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.binance.dev.permission.PROCESS\_PUSH\_MSG & 1 (0.2\%)\\ 
+com.binance.dev.permission.PUSH\_PROVIDER & 1 (0.2\%)\\ 
+com.binance.dev.push.permission.MESSAGE & 1 (0.2\%)\\ 
+com.bitcoin.wallet.cryptopuce.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bitcoinindia.Btciapp.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bitcoinindia.Btciapp.permission.RECEIVE\_ADM\_MESSAGE & 1 (0.2\%)\\ 
+com.bitexuae.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bitmart.bitmarket.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.buyucoinApp.buyucoin.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bitpapa.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.bixin.bixin\_android.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.bixin.bixin\_android.permission.MIPUSH\_RECEIVE & 1 (0.2\%)\\ 
+com.btcc.mobi.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.btcc.mobiwallet.permission.JPUSH\_MESSAGE & 1 (0.2\%)\\ 
+com.btuprotocol.btu\_wallet.permission.C2D\_MESSAGE & 1 (0.2\%)\\ 
+com.burency.app.permission.PROCESS\_PUSH\_MSG & 1 (0.2\%)\\ 
+com.burency.app.permission.PUSH\_PROVIDER & 1 (0.2\%)\\ 
+zayhu.permission.ACCESS\_SVC & 1 (0.2\%)\\ 
 ------------------------------------------------------ 

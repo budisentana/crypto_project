@@ -131,13 +131,17 @@ def exported_plot(file,write_path):
     exp_prov_val = np.percentile(exp_prov, percentiles)
 
     fig = plt.figure(figsize=(5,4))
-    plt.plot(exp_act_x, exp_act_y*100, linestyle='--', lw = 2)
-    plt.plot(exp_ser_x, exp_ser_y*100, linestyle='--', lw = 2)
-    plt.plot(exp_rec_x, exp_rec_y*100, linestyle='--', lw = 2)
-    plt.plot(exp_prov_x, exp_prov_y*100, linestyle='--', lw = 2)
+    plt.plot(exp_act_x, exp_act_y*100, marker='o', lw = 2)
+    plt.plot(exp_ser_x, exp_ser_y*100, marker='^', lw = 2)
+    plt.plot(exp_rec_x, exp_rec_y*100, marker='s', lw = 2)
+    plt.plot(exp_prov_x, exp_prov_y*100, marker='X', lw = 2)
     plt.legend(("Activity", "Service","Receiver","Provider"))
-    plt.xlabel('# of Exported Component', size = 10)
-    plt.ylabel('ECDF', size = 10)
+    plt.xlabel('# of Exported Component', size = 14)
+    plt.ylabel('ECDF', size = 14)
+    plt.xlim(0,max(exp_act_x))
+    # plt.ylim(0,max(exp_act_y)*100)
+
+
     # plt.plot(exp_act_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(exp_ser_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(exp_rec_val, percentiles, marker='o', color='red',linestyle='none')
@@ -146,14 +150,14 @@ def exported_plot(file,write_path):
     plt.show()
 
 def main():
-    comp_plot = write_path+'component.pdf'
-    component_plot(exported_path,comp_plot)
+    # comp_plot = write_path+'component.pdf'
+    # component_plot(exported_path,comp_plot)
 
     exp_plot = write_path+'exported_component.pdf'
     exported_plot(exported_path,exp_plot)
 
-    pct_exp_plot = write_path+'percentage_exp_comp.pdf'
-    percentage_plot(exported_path,pct_exp_plot)
+    # pct_exp_plot = write_path+'percentage_exp_comp.pdf'
+    # percentage_plot(exported_path,pct_exp_plot)
 
 if __name__=='__main__':
     main()

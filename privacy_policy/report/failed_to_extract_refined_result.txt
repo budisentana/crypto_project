@@ -1,0 +1,23 @@
+1 & HTTP Error 404: Not Found  & 31 (6.8\%) \\ 
+2 & HTTP Error 403: Forbidden  & 19 (4.2\%) \\ 
+3 & No Privacy policy link  & 17 (3.7\%) \\ 
+4 & HTTP Error 3: Temporary failure in name resolution  & 14 (3.1\%) \\ 
+5 & HTTP Error 2: Name or service not known  & 10 (2.2\%) \\ 
+6 & No Metadata Found (Apps remove from Market)  & 9 (2.0\%) \\ 
+7 & HTTP Error 503: Service Temporarily Unavailable  & 7 (1.5\%) \\ 
+8 & HTTP Error 110: Connection timed out  & 3 (0.7\%) \\ 
+9 & SSL: CERTIFICATE\_VERIFY\_FAILED  & 3 (0.7\%) \\ 
+10 & HTTP Error 522: Cloudflare times out contacting the origin web server   & 3 (0.7\%) \\ 
+11 & Error code: SSL\_ERROR\_BAD\_CERT\_DOMAIN  & 2 (0.4\%) \\ 
+12 & HTTP Error 502: Bad Gateway  & 1 (0.2\%) \\ 
+13 & HTTP Error 104: Connection reset by peer  & 1 (0.2\%) \\ 
+14 & HTTP Error 526: Origin SSL Certificate Error  & 1 (0.2\%) \\ 
+15 & HTTP Error 403: Ip Forbidden  & 1 (0.2\%) \\ 
+16 & HTTP Error 500: Internal Server Error  & 1 (0.2\%) \\ 
+17 & HTTP Error 400: Bad Request  & 1 (0.2\%) \\ 
+18 & HTTP Error 308: Permanent Redirect  & 1 (0.2\%) \\ 
+19 & HTTP Error 307: The HTTP server returned infinite loop  & 1 (0.2\%) \\ 
+20 & HTTP Error 111: Connection refused  & 1 (0.2\%) \\ 
+21 & HTTP Error 0: Error  & 1 (0.2\%) \\ 
+22 & HTTP Error 5: No address associated with hostname  & 1 (0.2\%) \\ 
+23 & SSL\_ERROR\_UNRECOGNIZED\_NAME\_ALERT & 1 (0.2\%) \\ 

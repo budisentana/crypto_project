@@ -32,21 +32,21 @@ def main():
                 # print('VT result not found for : '+item)
                 no_found_list.append(item)
 
+    df_vt = pd.DataFrame(vt_positive_result_list)
+
     """ Summarizing detail virus total positive result"""
     file_sufix = apps_list.split('/')
     file_sufix=file_sufix[-1]
     vt_detail_path = report_path+'vt_positive_detail_'+file_sufix
     for vt in vt_positive_result_list:
         print(vt)
-    # write_to_csv(vt_positive_result_list,vt_detail_path)
+    df_vt.to_csv(vt_detail_path,index=None)    
 
     """ Summarizing positive virus total per apps"""
     vt_sum_per_app = report_path+'vt_sum_per_app_'+file_sufix
-    df_vt = pd.DataFrame(vt_positive_result_list)
-    vt_per_app = df_vt.groupby(['app_id'])['app_id'].count().reset_index(name='count')
+    vt_per_app = df_vt.groupby(['app_id'])['app_id'].count().reset_index(name='vt_positive')
     print(vt_per_app)
-    # write_to_csv(vt_per_app,vt_sum_per_app)
-
+    vt_per_app.to_csv(vt_sum_per_app,index=None)
 
 if __name__ == "__main__":
     main()

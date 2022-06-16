@@ -18,6 +18,7 @@ def permission_plot(file,write_path):
     dangerous = perm['dangerous']
     dgr_ecdf = sm.distributions.ECDF(dangerous) 
     dgr_x = np.linspace(min(dangerous), max(dangerous))
+    print(dgr_x)
     dgr_y = dgr_ecdf(dgr_x)
     dgr_val = np.percentile(dangerous, percentiles)
 
@@ -40,13 +41,22 @@ def permission_plot(file,write_path):
     cst_val = np.percentile(customized, percentiles)
 
     fig = plt.figure(figsize=(5,4))
-    plt.plot(dgr_x, dgr_y*100, linestyle='--', lw = 2, color='red')
-    plt.plot(nrm_x, nrm_y*100, linestyle='--', lw = 2, color='green')
-    plt.plot(sgt_x, sgt_y*100, linestyle='--', lw = 2, color='blue')
-    plt.plot(cst_x, cst_y*100, linestyle='--', lw = 2, color='orange')
+    # plt.plot(dgr_x, dgr_y*100, linestyle='--', lw = 2, color='red')
+    # plt.plot(nrm_x, nrm_y*100, linestyle='--', lw = 2, color='green')
+    # plt.plot(sgt_x, sgt_y*100, linestyle='--', lw = 2, color='blue')
+    # plt.plot(cst_x, cst_y*100, linestyle='--', lw = 2, color='orange')
+    plt.plot(dgr_x, dgr_y*100, marker='o', lw = 2, color='red')
+    plt.plot(nrm_x, nrm_y*100, marker='^', lw = 2, color='green')
+    plt.plot(sgt_x, sgt_y*100, marker='s', lw = 2, color='blue')
+    plt.plot(cst_x, cst_y*100, marker='X', lw = 2, color='orange')
+    plt.xlim(0,max(cst_x))
+    plt.ylim(0,max(cst_y)*100)
     plt.legend(("Dangerous", "Normal","Signature","Customized"))
-    plt.xlabel('# of Permission', size = 10)
-    plt.ylabel('ECDF', size = 10)
+    # plt.rc('axes', labelsize=18)
+    # plt.rc('legend', fontsize=18) 
+    plt.xlabel('# of Permission', size = 14)
+    plt.ylabel('ECDF', size = 14)
+    plt.tight_layout()
     # plt.plot(dgr_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(nrm_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(sgt_val, percentiles, marker='o', color='red',linestyle='none')
@@ -150,8 +160,8 @@ def main():
     perm_plot = write_path+'permission.pdf'
     permission_plot(permission_sum_per_app_path,perm_plot)
 
-    pct_plot = write_path+'permission_percentage.pdf'
-    percentage_plot(permission_sum_per_app_path,pct_plot)
+    # pct_plot = write_path+'permission_percentage.pdf'
+    # percentage_plot(permission_sum_per_app_path,pct_plot)
 
 
 if __name__=='__main__':

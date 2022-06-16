@@ -1,4 +1,5 @@
 import pandas as pd
+from pandas.core.reshape.merge import merge
 from pandas.io.parsers import read_csv 
 import numpy as np
 import statsmodels.api as sm # recommended import according to the docs
@@ -9,7 +10,15 @@ sum_negative_review_path = '/home/budi/crypto_project/crypto_code/metadata_crawl
 total_write_path = '/home/budi/crypto_project/crypto_code/metadata_crawling/total_review.txt'
 
 def plot_negative_review(file):
+
+    ori_path = '/home/budi/crypto_project/crypto_code/apps_screening/wallet_apps_refined_list.csv'
+    ori_df = pd.read_csv(ori_path,names =['appId'] ,header=None)
+    # print(ori_df)
+
     sum_negative_review = read_csv(file)
+    sum_negative_review = merge(sum_negative_review,ori_df,left_on='appId',right_on='appId',how='right')
+    sum_negative_review =sum_negative_review.fillna(0)
+    print(sum_negative_review)
 
     percentiles = np.array([25,50 , 85])
     fraud_dt = sum_negative_review['pct_fraud']
@@ -55,17 +64,25 @@ def plot_negative_review(file):
     negative_pct_val = np.percentile(negative_dt, percentiles)
 
     fig = plt.figure(figsize=(5,4))
-    plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
-    plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    plt.plot(fraud_x, fraud_y*100, marker='^', lw = 2)
+    plt.plot(bugs_x, bugs_y*100, marker='o', lw = 2)# Label axes and show plot
+    plt.plot(auth_x, auth_y*100, marker='s', lw = 2)# Label axes and show plot
+    plt.plot(sec_x, sec_y*100, marker='X', lw = 2)# Label axes and show plot
+    plt.plot(usa_x, usa_y*100, marker='D', lw = 2)# Label axes and show plot
+    plt.plot(ads_x, ads_y*100, marker='v', lw = 2)# Label axes and show plot
+     # plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
+    # plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
     # plt.plot(negative_x, negative_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker"))
-    # plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker","Negative Review"))
-    plt.xlabel('Complaint(%)', size = 10)
+    # plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker"))
+    plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker","Negative Review"))
+    plt.xlabel('Complaint Ratio (%)', size = 10)
     plt.ylabel('ECDF', size = 10)
+    plt.xlim(0,max(negative_x))
+    # plt.ylim(0,max(negative_y)*100)
     # plt.plot(fraud_pct_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(bugs_pct_val, percentiles, marker='o', color='red',linestyle='none')
     # plt.plot(auth_pct_val, percentiles, marker='o', color='red',linestyle='none')
@@ -136,12 +153,18 @@ def plot_total_negative_review(file):
 
 
     fig = plt.figure(figsize=(5,4))
-    plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
-    plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
-    plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    plt.plot(fraud_x, fraud_y*100, marker='o', lw = 2)
+    plt.plot(bugs_x, bugs_y*100, marker='^', lw = 2)# Label axes and show plot
+    plt.plot(auth_x, auth_y*100, marker='s', lw = 2)# Label axes and show plot
+    plt.plot(sec_x, sec_y*100, marker='X', lw = 2)# Label axes and show plot
+    plt.plot(usa_x, usa_y*100, marker='D', lw = 2)# Label axes and show plot
+    plt.plot(ads_x, ads_y*100, marker='v', lw = 2)# Label axes and show plot
+    # plt.plot(fraud_x, fraud_y*100, linestyle='--', lw = 2)
+    # plt.plot(bugs_x, bugs_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(auth_x, auth_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(sec_x, sec_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(usa_x, usa_y*100, linestyle='--', lw = 2)# Label axes and show plot
+    # plt.plot(ads_x, ads_y*100, linestyle='--', lw = 2)# Label axes and show plot
     plt.legend(("Fraud", "Bugs","Authentication","Security","Usability", "Ads and Tracker"))
     plt.xlabel('Complaint(%)', size = 10)
     plt.ylabel('ECDF', size = 10)

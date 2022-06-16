@@ -5,7 +5,7 @@ import statsmodels.api as sm # recommended import according to the docs
 import matplotlib.pyplot as plt
 
 
-permission_detail_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/permission_detail_fixing.csv'
+permission_detail_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/permission/permission_detail_fixing.csv'
 write_path = '/home/budi/crypto_project/crypto_code/static_analysis/plot/'
 report_path = '/home/budi/crypto_project/crypto_code/static_analysis/report/'
 
@@ -45,7 +45,11 @@ def worth_noting(file,write_path):
             ufile.write(str(down_app_id[x]).replace('_','\_')+ ' & ' + str(down_perm[x]).replace('_','\_')+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
+def pct(x):
+    n = 457
+    res = round((x/n)*100,1)
 
+    return res
 
 
 def count_per_level(detail_path,report_path):
@@ -61,7 +65,9 @@ def count_per_level(detail_path,report_path):
         ufile.write('----Unknown Level Permission--------\n')
         ufile.write('Permission_name & count \\\ \n')
         for x,u_item in enumerate(perm_name):
-            ufile.write(str(perm_name[x]).replace('_','\_')+ ' & ' + str(perm_count[x])+'\\\ \n')
+            # print(perm_count[x])
+            pct_x = pct(int(perm_count[x]))
+            ufile.write(str(perm_name[x]).replace('_','\_')+ ' & ' + str(perm_count[x])+ ' (' + str(pct_x)+'\%)'+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
     danger_perm = perm[perm['level']=='dangerous'].groupby(['permission'])['permission'].count().reset_index(name='count').sort_values(by=('count'),ascending=False)
@@ -71,7 +77,8 @@ def count_per_level(detail_path,report_path):
         ufile.write('----Dangerous Level Permission--------\n')
         ufile.write('Permission_name & count \\\ \n')
         for x,u_item in enumerate(danger_name):
-            ufile.write(str(danger_name[x]).replace('_','\_')+ ' & ' + str(danger_count[x])+'\\\ \n')
+            pct_x = pct(int(danger_count[x]))
+            ufile.write(str(danger_name[x]).replace('_','\_')+ ' & ' + str(danger_count[x])+ ' (' + str(pct_x)+'\%)'+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
     sig_perm = perm[perm['level']=='signature'].groupby(['permission'])['permission'].count().reset_index(name='count').sort_values(by=('count'),ascending=False)
@@ -81,7 +88,8 @@ def count_per_level(detail_path,report_path):
         ufile.write('----Signature Level Permission--------\n')
         ufile.write('Permission_name & count \\\ \n')
         for x,u_item in enumerate(sig_name):
-            ufile.write(str(sig_name[x]).replace('_','\_')+ ' & ' + str(sig_count[x])+'\\\ \n')
+            pct_x = pct(int(sig_count[x]))
+            ufile.write(str(sig_name[x]).replace('_','\_')+ ' & ' + str(sig_count[x])+ ' (' + str(pct_x)+'\%)'+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
     norm_perm = perm[perm['level']=='normal'].groupby(['permission'])['permission'].count().reset_index(name='count').sort_values(by=('count'),ascending=False)
@@ -91,7 +99,8 @@ def count_per_level(detail_path,report_path):
         ufile.write('----Normal Level Permission--------\n')
         ufile.write('Permission_name & count \\\ \n')
         for x,u_item in enumerate(norm_name):
-            ufile.write(str(norm_name[x]).replace('_','\_')+ ' & ' + str(norm_count[x])+'\\\ \n')
+            pct_x = pct(int(norm_count[x]))
+            ufile.write(str(norm_name[x]).replace('_','\_')+ ' & ' + str(norm_count[x])+ ' (' + str(pct_x)+'\%)'+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
     custom_perm = perm[perm['level']=='customized'].groupby(['permission'])['permission'].count().reset_index(name='count').sort_values(by=('count'),ascending=False)
@@ -101,7 +110,8 @@ def count_per_level(detail_path,report_path):
         ufile.write('----Customized Level Permission--------\n')
         ufile.write('Permission_name & count \\\ \n')
         for x,u_item in enumerate(custom_name):
-            ufile.write(str(custom_name[x]).replace('_','\_')+ ' & ' + str(custom_count[x])+'\\\ \n')
+            pct_x = pct(int(custom_count[x]))
+            ufile.write(str(custom_name[x]).replace('_','\_')+ ' & ' + str(custom_count[x])+ ' (' + str(pct_x)+'\%)'+'\\\ \n')
         ufile.write('------------------------------------------------------ \n')
 
 def fixing_dict():

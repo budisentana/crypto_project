@@ -21,11 +21,12 @@ def apkid_plot(file,plot_path):
     parameter = ['Anti Disassembly','Packer','Manipulator','Obfuscator','Anti Debug','Anti VM']
     print(parameter)
     count = sum_df_apkid['count']
+    
     fig = plt.figure(figsize=(6,4))
-    plt.xticks(rotation='vertical',fontsize=12)
+    plt.xticks(rotation='horizontal',fontsize=12)
     plt.barh(parameter, count)
-    plt.ylabel('Parameter',fontsize=12)
-    plt.xlabel('# of Apps',fontsize=12)
+    plt.ylabel('Parameter',fontsize=14)
+    plt.xlabel('# of Apps',fontsize=14)
     plt.tight_layout()
     fig.savefig(plot_path)
     plt.show()

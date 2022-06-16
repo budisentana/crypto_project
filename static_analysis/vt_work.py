@@ -78,10 +78,35 @@ def vt_find_positive(result_path):
             pass
     return vt_positive
 
+def search_vt_domain(domain):
+    vt_url = 'https://www.virustotal.com/vtapi/v2/domain/report'
+    vt_key = random_key()
+    params = {'apikey': vt_key, 'domain':domain}
+    print('Find VT report for '+domain)
+    print('VT key '+vt_key)
+
+    try:
+        response = requests.get(vt_url, params=params)
+        print('this is response '+response)
+    except :
+        print("Couldn't get response from virustotal")
+    # print(response)
+    try:
+        js = response.json()
+    except:
+        print('Failed to convert respon to json')
+        js = 'error'
+    
+    return js
+
+
 def main():
     
-    vt_result = search_vt_report(apk_path)
-    print(vt_result)
+    domain = 'www.pullcf.com'
+    vt_domain_res = search_vt_domain(domain)
+    print(vt_domain_res)
+    # vt_result = search_vt_report(apk_path)
+    # print(vt_result)
     # with open ()
     # print(vt_result['response_code'])
     # vt_upload_res = vt_upload(apk_path)
